@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kontrast
+  description: Fedora org.kde.kontrast flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kontrast

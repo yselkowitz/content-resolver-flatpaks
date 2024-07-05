@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xsane
+  description: Fedora org.sane_project.xsane flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - xsane
+    - libsane-airscan
+    - sane-backends-drivers-cameras
+    - sane-backends-drivers-scanners

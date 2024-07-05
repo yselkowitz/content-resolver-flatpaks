@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kclock
+  description: Fedora org.kde.kclock flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kclock
+    - kf6-kirigami-addons

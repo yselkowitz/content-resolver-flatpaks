@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnome-2048
+  description: Fedora org.gnome.TwentyFortyEight flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gnome-2048

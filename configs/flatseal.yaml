@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: flatseal
+  description: Fedora com.github.tchx84.Flatseal flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - flatseal

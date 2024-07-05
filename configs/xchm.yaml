@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xchm
+  description: Fedora com.github.xchm flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - xchm

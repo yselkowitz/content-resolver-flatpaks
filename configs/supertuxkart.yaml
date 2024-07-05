@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: supertuxkart
+  description: Fedora net.supertuxkart.SuperTuxKart flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - supertuxkart

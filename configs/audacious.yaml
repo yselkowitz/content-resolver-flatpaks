@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: audacious
+  description: Fedora org.atheme.audacious flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - audacious
+    - audacious-plugins
+    - audacious-plugins-exotic
+    - audacious-plugins-ffaudio
+    - audacious-plugins-jack

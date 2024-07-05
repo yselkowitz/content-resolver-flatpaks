@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kmines
+  description: Fedora org.kde.kmines flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kmines

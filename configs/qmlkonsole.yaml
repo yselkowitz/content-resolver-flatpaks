@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qmlkonsole
+  description: Fedora org.kde.qmlkonsole flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qmlkonsole
+    - host-spawn

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kmidimon
+  description: Fedora net.sourceforge.kmidimon flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kmidimon

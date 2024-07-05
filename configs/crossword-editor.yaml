@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: crossword-editor
+  description: Fedora org.gnome.Crosswords.Editor flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - crossword-editor
+    - ipuz-convertor

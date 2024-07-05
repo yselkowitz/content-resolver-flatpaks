@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: darktable
+  description: Fedora org.darktable.Darktable flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - darktable

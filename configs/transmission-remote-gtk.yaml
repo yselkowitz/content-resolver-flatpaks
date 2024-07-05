@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: transmission-remote-gtk
+  description: Fedora io.github.TransmissionRemoteGtk flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - transmission-remote-gtk

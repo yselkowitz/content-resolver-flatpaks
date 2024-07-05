@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnome-dictionary
+  description: Fedora org.gnome.Dictionary flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gnome-dictionary

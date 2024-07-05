@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kid3
+  description: Fedora org.kde.kid3 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kid3

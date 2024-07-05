@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gaupol
+  description: Fedora io.otsaloma.gaupol flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gaupol
+    # weak dependencies
+    - gspell
+    - mpv
+    - python3-chardet

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kxstitch
+  description: Fedora org.kde.kxstitch flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kxstitch

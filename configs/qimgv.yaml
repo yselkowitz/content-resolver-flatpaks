@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qimgv
+  description: Fedora com.github.easymodo.qimgv flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qimgv
+    # cleanup-commands (part of runtime)
+    - libappstream-glib

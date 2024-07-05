@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: filelight
+  description: Fedora org.kde.filelight flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - filelight

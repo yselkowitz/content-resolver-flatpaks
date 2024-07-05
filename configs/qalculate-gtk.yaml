@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qalculate-gtk
+  description: Fedora io.github.Qalculate flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qalculate-gtk
+    - gnuplot-wx

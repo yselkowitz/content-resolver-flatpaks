@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gst-debug-viewer
+  description: Fedora org.freedesktop.GstDebugViewer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gst-debug-viewer

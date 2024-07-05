@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: exfalso
+  description: Fedora io.github.quodlibet.ExFalso flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - exfalso
+    # soft dependencies
+    - kakasi
+    - python3-inotify
+    - python3-paho-mqtt
+    - python3-sgmllib3k

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gchemcalc
+  description: Fedora org.gnome.gchemutils.calc flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gchemcalc

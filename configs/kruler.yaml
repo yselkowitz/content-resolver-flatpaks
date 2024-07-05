@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kruler
+  description: Fedora org.kde.kruler flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kruler

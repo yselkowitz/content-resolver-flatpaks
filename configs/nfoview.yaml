@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nfoview
+  description: Fedora io.otsaloma.nfoview flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - nfoview

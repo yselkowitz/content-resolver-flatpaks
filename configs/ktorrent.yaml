@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ktorrent
+  description: Fedora org.kde.ktorrent flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - ktorrent
+    aarch64:
+      - ktorrent

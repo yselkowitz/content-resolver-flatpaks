@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: quodlibet
+  description: Fedora io.github.quodlibet.QuodLibet flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - quodlibet
+    # soft dependencies
+    - gtksourceview3
+    - kakasi
+    - keybinder3
+    - libappindicator-gtk3
+    - python3-inotify
+    - python3-paho-mqtt
+    - python3-sgmllib3k

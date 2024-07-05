@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: howl
+  description: Fedora io.howl.Editor flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    aarch64:
+      - howl
+      - fontawesome4-fonts
+    x86_64:
+      - howl
+      - fontawesome4-fonts

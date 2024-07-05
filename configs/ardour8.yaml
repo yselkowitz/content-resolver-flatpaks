@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ardour8
+  description: Fedora org.ardour.Ardour flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ardour8

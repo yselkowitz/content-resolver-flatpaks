@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pinta
+  description: Fedora com.github.PintaProject.Pinta flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - pinta

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: loupe
+  description: Fedora org.gnome.Loupe flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - loupe

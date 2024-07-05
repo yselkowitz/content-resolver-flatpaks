@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnome-connections
+  description: Fedora org.gnome.Connections flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gnome-connections

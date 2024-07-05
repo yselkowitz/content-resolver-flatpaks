@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: blackbox-terminal
+  description: Fedora com.raggesilver.BlackBox flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - blackbox-terminal

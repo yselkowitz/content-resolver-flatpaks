@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: evince
+  description: Fedora org.gnome.Evince flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - evince
+    - evince-djvu

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnome-feeds
+  description: Fedora org.gabmus.gfeeds flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gnome-feeds
+    # missing dependencies
+    - python3-dateutil

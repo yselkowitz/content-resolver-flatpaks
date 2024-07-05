@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: electrum
+  description: Fedora org.electrum.electrum flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - electrum
+    # soft dependencies
+    - python3-btchip
+    - python3-trezor
+    - zbar-libs

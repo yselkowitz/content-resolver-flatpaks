@@ -1,0 +1,22 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Fedora Flatpaks
+  description: Packages used to build Fedora Flatpaks. More info https://docs.fedoraproject.org/en-US/flatpak/
+  maintainer: flatpak-sig
+  labels:
+  - flatpak
+  repository: repository-fedora-flatpaks
+
+  buildroot_strategy: root_logs
+
+  # Packages to be flagged as unwanted  on specific architectures
+  #unwanted_arch_packages:
+  #  x86_64:
+  #  - arch-specific-package
+  #  aarch64:
+  #  - another-one
+
+  # SRPMs (components) to be flagged as unwanted
+  unwanted_source_packages: []

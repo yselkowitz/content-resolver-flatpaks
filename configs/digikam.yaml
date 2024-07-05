@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: digikam
+  description: Fedora org.kde.digikam flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - digikam
+      # soft dependencies
+      - hugin-base
+      - perl-Image-ExifTool
+    aarch64:
+      - digikam
+      # soft dependencies
+      - hugin-base
+      - perl-Image-ExifTool

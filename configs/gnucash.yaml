@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnucash
+  description: Fedora org.gnucash.GnuCash flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gnucash
+    - libdbi-dbd-mysql
+    - libdbi-dbd-pgsql
+    - libdbi-dbd-sqlite

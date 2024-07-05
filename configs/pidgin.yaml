@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pidgin
+  description: Fedora im.pidgin.Pidgin flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - pidgin
+    - pidgin-birthday-reminder
+    #- pidgin-chime
+    - pidgin-guifications
+    - pidgin-indicator
+    - pidgin-libnotify
+    - pidgin-otr
+    #- pidgin-sipe
+    - pidgin-window-merge
+    - purple-facebook
+    - purple-mm-sms
+    - purple-telegram

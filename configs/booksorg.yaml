@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: booksorg
+  description: Fedora org.elokab.books flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - booksorg

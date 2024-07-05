@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xournalpp
+  description: Fedora com.github.xournalpp.xournalpp flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - xournalpp
+    - xournalpp-plugins

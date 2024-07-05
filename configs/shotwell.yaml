@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: shotwell
+  description: Fedora org.gnome.Shotwell flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - shotwell

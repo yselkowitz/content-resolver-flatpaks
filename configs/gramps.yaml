@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gramps
+  description: Fedora org.gramps_project.Gramps flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gramps

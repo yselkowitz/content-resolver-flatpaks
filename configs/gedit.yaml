@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gedit
+  description: Fedora org.gnome.gedit flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gedit
+    - gedit-plugins

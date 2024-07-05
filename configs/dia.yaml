@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dia
+  description: Fedora org.gnome.dia flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - dia
+    # additional shapes
+    - dia-CMOS
+    - dia-Digital
+    - dia-electric2
+    - dia-electronic
+    - dia-gnomeDIAicons
+    - dia-optics

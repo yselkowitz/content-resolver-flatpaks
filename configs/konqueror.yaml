@@ -1,0 +1,50 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: konqueror
+  description: Fedora org.kde.konqueror flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - konqueror
+      # KParts
+      - ark-libs
+      - dolphin-libs
+      - dolphin-plugins
+      - gwenview-libs
+      #        - kompare-libs
+      - konsole-part
+      - kuiviewer
+      - kwebenginepart
+      - markdownpart
+      #        - okteta-libs
+      - okular-part
+      - svgpart
+      # soft transitive dependencies
+      - arj
+      - p7zip-plugins
+      - unrar
+      - unar
+    aarch64:
+      - konqueror
+      # KParts
+      - ark-libs
+      - dolphin-libs
+      - dolphin-plugins
+      - gwenview-libs
+      #        - kompare-libs
+      - konsole-part
+      - kuiviewer
+      - kwebenginepart
+      - markdownpart
+      #        - okteta-libs
+      - okular-part
+      - svgpart
+      # soft transitive dependencies
+      - arj
+      - p7zip-plugins
+      - unrar
+      - unar

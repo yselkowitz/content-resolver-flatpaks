@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: khangman
+  description: Fedora org.kde.khangman flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - khangman

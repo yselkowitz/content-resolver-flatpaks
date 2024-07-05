@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: siril
+  description: Fedora org.free_astro.siril flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - siril

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hugin
+  description: Fedora net.sourceforge.Hugin flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - hugin
+    # cleanup-commands (part of runtime)
+    - desktop-file-utils

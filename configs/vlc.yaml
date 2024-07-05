@@ -1,0 +1,36 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: vlc
+  description: Fedora org.videolan.VLC flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - vlc
+    - vlc-gui-qt
+    - vlc-gui-skins2
+    - vlc-plugins-base
+    - vlc-plugins-video-out
+    - vlc-plugin-ffmpeg
+    - vlc-plugin-lua
+    - vlc-plugin-pulseaudio
+    - vlc-plugin-visualization
+    # optional plugins
+
+    #    - vlc-plugin-crystalhd
+    - vlc-plugin-fluidsynth
+    - fluid-soundfont-gm
+    - vlc-plugin-gnome
+    - vlc-plugin-gstreamer
+    - vlc-plugin-ieee1394
+    - vlc-plugin-jack
+    - vlc-plugin-kde
+    - vlc-plugin-notify
+    - vlc-plugin-samba
+    - vlc-plugin-svg
+    - vlc-plugin-vnc
+    # additional plugin packages
+    - vlc-plugin-bittorrent
+    - vlc-plugin-pause-click
+    - vlc-plugin-pipewire

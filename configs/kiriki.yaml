@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kiriki
+  description: Fedora org.kde.kiriki flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kiriki

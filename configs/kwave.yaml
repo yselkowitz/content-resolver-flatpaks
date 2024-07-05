@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kwave
+  description: Fedora org.kde.kwave flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kwave
+    - lame
+    - twolame

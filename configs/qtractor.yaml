@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qtractor
+  description: Fedora org.rncbc.qtractor flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qtractor

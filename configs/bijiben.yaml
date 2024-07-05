@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bijiben
+  description: Fedora org.gnome.Notes flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - bijiben

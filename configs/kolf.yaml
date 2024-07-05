@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kolf
+  description: Fedora org.kde.kolf flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kolf

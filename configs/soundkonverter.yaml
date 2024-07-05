@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: soundkonverter
+  description: Fedora org.kde.soundkonverter flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - soundkonverter
+    # optional dependencies
+    - ffmpeg-free
+    - lame
+    - mac
+    - mp3gain
+    - mppenc
+    - opus-tools
+    - sox
+    - twolame
+    - vorbisgain

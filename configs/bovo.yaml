@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bovo
+  description: Fedora org.kde.bovo flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - bovo

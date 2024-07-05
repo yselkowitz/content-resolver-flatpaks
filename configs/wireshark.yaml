@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wireshark
+  description: Fedora org.wireshark.Wireshark flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - wireshark

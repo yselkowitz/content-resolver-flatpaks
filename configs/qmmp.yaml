@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qmmp
+  description: Fedora com.ylsoftware.qmmp.Qmmp flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qmmp
+    # weak dependencies
+    - qmmp-plugin-pack
+    - opus-tools
+    - vorbis-tools
+    - yt-dlp

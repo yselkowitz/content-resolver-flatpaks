@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: calindori
+  description: Fedora org.kde.calindori flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - calindori
+    - kf6-kirigami-addons
+    - kf6-kpeople

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnumeric
+  description: Fedora org.gnumeric.Gnumeric flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gnumeric
+    - gnumeric-plugins-extras

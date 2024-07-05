@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kalgebra
+  description: Fedora org.kde.kalgebra flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - kalgebra
+    aarch64:
+      - kalgebra

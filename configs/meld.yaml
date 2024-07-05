@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meld
+  description: Fedora org.gnome.Meld flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - meld
+    - git-core

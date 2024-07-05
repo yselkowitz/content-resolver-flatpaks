@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: vim-X11
+  description: Fedora org.vim.Vim flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - vim-X11
+    - perl-interpreter

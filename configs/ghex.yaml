@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ghex
+  description: Fedora org.gnome.GHex flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ghex

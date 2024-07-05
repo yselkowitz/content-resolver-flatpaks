@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: free42
+  description: Fedora com.thomasokken.free42 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - free42

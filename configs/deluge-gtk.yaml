@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: deluge-gtk
+  description: Fedora org.deluge_torrent.deluge flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - deluge-gtk
+    # soft dependencies
+    - python3-dbus
+    - python3-pygame

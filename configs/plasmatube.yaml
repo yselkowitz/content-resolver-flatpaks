@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: plasmatube
+  description: Fedora org.kde.plasmatube flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - plasmatube
+    - kf6-kirigami-addons
+    - yt-dlp

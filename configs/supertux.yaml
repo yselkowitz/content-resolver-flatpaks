@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: supertux
+  description: Fedora org.supertuxproject.SuperTux flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - supertux

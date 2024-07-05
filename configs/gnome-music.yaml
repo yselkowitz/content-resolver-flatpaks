@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gnome-music
+  description: Fedora org.gnome.Music flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gnome-music
+    - grilo-plugins
+    - tracker-miners

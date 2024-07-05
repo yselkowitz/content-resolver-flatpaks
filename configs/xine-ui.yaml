@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xine-ui
+  description: Fedora net.sourceforge.xine flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - xine-ui
+    - xine-ui-skins

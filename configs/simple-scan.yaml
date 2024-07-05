@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: simple-scan
+  description: Fedora org.gnome.SimpleScan flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - simple-scan
+    - sane-airscan
+    - sane-backends-drivers-cameras
+    - sane-backends-drivers-scanners

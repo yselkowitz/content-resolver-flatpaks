@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jpilot
+  description: Fedora org.jpilot.JPilot flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - jpilot
+    - jpilot-backup

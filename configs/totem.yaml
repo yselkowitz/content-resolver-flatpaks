@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: totem
+  description: Fedora org.gnome.Totem flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - totem
+    - grilo-plugins
+    - tracker-miners

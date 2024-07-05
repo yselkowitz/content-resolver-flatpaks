@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: audiotube
+  description: Fedora org.kde.audiotube flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - audiotube
+    - kf6-kirigami-addons

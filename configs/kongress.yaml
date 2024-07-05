@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kongress
+  description: Fedora org.kde.kongress flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kongress

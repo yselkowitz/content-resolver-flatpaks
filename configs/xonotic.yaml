@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xonotic
+  description: Fedora org.xonotic.Xonotic flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - xonotic

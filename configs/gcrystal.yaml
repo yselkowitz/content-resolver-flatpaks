@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gcrystal
+  description: Fedora org.gnome.gchemutils.crystal flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gcrystal

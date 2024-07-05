@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kbrickbuster
+  description: Fedora org.kde.kbrickbuster flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kbrickbuster

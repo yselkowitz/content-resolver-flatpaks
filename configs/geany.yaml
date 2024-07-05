@@ -1,0 +1,53 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: geany
+  description: Fedora org.geany.Geany flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - geany
+    - geany-plugins-addons
+    - geany-plugins-autoclose
+    - geany-plugins-automark
+    - geany-plugins-codenav
+    - geany-plugins-commander
+    - geany-plugins-common
+    - geany-plugins-debugger
+    - geany-plugins-defineformat
+    - geany-plugins-geanyctags
+    - geany-plugins-geanydoc
+    - geany-plugins-geanyextrasel
+    #        - geany-plugins-geanygendoc  # ctpl, /usr/bin/rst2html
+    - geany-plugins-geanyinsertnum
+    - geany-plugins-geanymacro
+    - geany-plugins-geanyminiscript
+    - geany-plugins-geanynumberedbookmarks
+    - geany-plugins-geanypg
+    - geany-plugins-geanyprj
+    - geany-plugins-geanyvc
+    - geany-plugins-geniuspaste
+    - geany-plugins-git-changebar
+    - geany-plugins-keyrecord
+    #        - geany-plugins-latex   # texlive
+    - geany-plugins-lineoperations
+    - geany-plugins-lipsum
+    - geany-plugins-markdown
+    - geany-plugins-overview
+    - geany-plugins-pairtaghighlighter
+    - geany-plugins-pohelper
+    - geany-plugins-pretty-printer
+    - geany-plugins-projectorganizer
+    #        - geany-plugins-scope  # gdb
+    - geany-plugins-sendmail
+    - geany-plugins-shiftcolumn
+    - geany-plugins-spellcheck
+    - geany-plugins-tableconvert
+    - geany-plugins-treebrowser
+    #        - geany-plugins-updatechecker  # doesn't make sense for distro package
+    - geany-plugins-vimode
+    - geany-plugins-webhelper
+    - geany-plugins-workbench
+    - geany-plugins-xmlsnippets
+    - git-core # for geanyvc

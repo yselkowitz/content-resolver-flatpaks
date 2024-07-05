@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dconf-editor
+  description: Fedora ca.desrt.dconf-editor flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - dconf-editor

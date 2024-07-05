@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lollypop
+  description: Fedora org.gnome.Lollypop flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - lollypop

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: haruna
+  description: Fedora org.kde.haruna flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - haruna
+    - yt-dlp

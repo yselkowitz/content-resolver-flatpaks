@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kgoldrunner
+  description: Fedora org.kde.kgoldrunner flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kgoldrunner

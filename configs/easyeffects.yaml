@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: easyeffects
+  description: Fedora com.github.wwmm.easyeffects flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - easyeffects
+    # weak dependencies
+    - zam-plugins
+    - lv2-zam-plugins
+    - ladspa-zam-plugins
+    - rubberband

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: knavalbattle
+  description: Fedora org.kde.knavalbattle flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - knavalbattle

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: rhythmbox
+  description: Fedora org.gnome.Rhythmbox3 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - rhythmbox
+    - rhythmbox-alternative-toolbar
+    - rhythmbox-ampache
+    - grilo-plugins

@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: brasero
+  description: Fedora org.gnome.Brasero flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - brasero
+    # optional plugins
+    - dvdauthor
+    - icedax
+    - wodim
+    - vcdimager

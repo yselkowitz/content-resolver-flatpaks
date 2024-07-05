@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: foliate
+  description: Fedora com.github.johnfactotum.Foliate flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - foliate
+    - dictd
+    - espeak-ng

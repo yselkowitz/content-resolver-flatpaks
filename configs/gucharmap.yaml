@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gucharmap
+  description: Fedora org.gnome.Charmap flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gucharmap

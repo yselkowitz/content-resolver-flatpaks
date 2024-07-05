@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: clementine
+  description: Fedora org.clementine_player.Clementine flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - clementine

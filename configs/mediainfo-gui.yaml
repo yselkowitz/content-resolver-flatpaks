@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mediainfo-gui
+  description: Fedora net.mediaarea.MediaInfo flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - mediainfo-gui

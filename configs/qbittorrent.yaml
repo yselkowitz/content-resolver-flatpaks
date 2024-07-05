@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qbittorrent
+  description: Fedora org.qbittorrent.qBittorrent flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qbittorrent

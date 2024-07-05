@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wesnoth
+  description: Fedora org.wesnoth.Wesnoth flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - wesnoth

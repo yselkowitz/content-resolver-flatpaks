@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hydrogen
+  description: Fedora org.hydrogenmusic.Hydrogen flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - hydrogen

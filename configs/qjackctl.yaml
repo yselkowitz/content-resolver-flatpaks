@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qjackctl
+  description: Fedora org.rncbc.qjackctl flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qjackctl

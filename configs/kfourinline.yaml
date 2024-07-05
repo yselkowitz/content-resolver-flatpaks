@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kfourinline
+  description: Fedora org.kde.kfourinline flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kfourinline

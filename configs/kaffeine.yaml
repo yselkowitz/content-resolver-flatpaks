@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kaffeine
+  description: Fedora org.kde.kaffeine flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kaffeine
+    - vlc-plugin-ffmpeg
+    - vlc-plugin-pulseaudio
+    - vlc-plugin-gstreamer
+    - vlc-plugin-ieee1394
+    - vlc-plugin-jack
+    - vlc-plugin-kde
+    - vlc-plugin-pulseaudio
+    - vlc-plugin-samba
+    - vlc-plugin-svg
+    # additional plugin packages
+    - vlc-plugin-pipewire

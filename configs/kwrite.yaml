@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kwrite
+  description: Fedora org.kde.kwrite flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kwrite
+    # for "Highlight changed and unsaved lines"
+    - git-core

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: granatier
+  description: Fedora org.kde.granatier flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - granatier

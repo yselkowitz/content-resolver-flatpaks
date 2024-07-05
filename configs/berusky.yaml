@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: berusky
+  description: Fedora org.anakreon.Berusky flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - berusky

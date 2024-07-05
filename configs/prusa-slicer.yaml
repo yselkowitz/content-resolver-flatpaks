@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: prusa-slicer
+  description: Fedora com.prusa3d.PrusaSlicer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - prusa-slicer

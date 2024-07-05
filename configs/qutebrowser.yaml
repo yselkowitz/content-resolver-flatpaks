@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qutebrowser
+  description: Fedora org.qutebrowser.qutebrowser flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    aarch64:
+      - qutebrowser
+      # soft dependencies
+      - python3-pygments
+    x86_64:
+      - qutebrowser
+      # soft dependencies
+      - python3-pygments

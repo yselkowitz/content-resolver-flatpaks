@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ktouch
+  description: Fedora org.kde.ktouch flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ktouch

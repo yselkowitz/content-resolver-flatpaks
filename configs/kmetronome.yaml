@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kmetronome
+  description: Fedora net.sourceforge.kmetronome flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kmetronome

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cozy
+  description: Fedora com.github.geigi.cozy flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - cozy

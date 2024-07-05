@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: evolution
+  description: Fedora org.gnome.Evolution flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - evolution
+    - evolution-ews

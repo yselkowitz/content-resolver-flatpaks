@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kcolorchooser
+  description: Fedora org.kde.kcolorchooser flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kcolorchooser
+    # cleanup-commands (part of runtime)
+    - breeze-icon-theme

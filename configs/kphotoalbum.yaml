@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kphotoalbum
+  description: Fedora org.kde.kphotoalbum flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kphotoalbum

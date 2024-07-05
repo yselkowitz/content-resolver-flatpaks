@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kig
+  description: Fedora org.kde.kig flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kig

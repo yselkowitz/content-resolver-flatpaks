@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: vmpk
+  description: Fedora net.sourceforge.VMPK flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - vmpk

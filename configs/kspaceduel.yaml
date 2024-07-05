@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kspaceduel
+  description: Fedora org.kde.kspaceduel flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kspaceduel

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kwordquiz
+  description: Fedora org.kde.kwordquiz flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kwordquiz

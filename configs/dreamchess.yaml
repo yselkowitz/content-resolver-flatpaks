@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dreamchess
+  description: Fedora org.dreamchess.dreamchess flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - dreamchess
+    - dreamchess-data
+    - dreamchess-engine
+    - gnuchess

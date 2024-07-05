@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qmplay2
+  description: Fedora io.github.zaps166.QMPlay2 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qmplay2

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: skladnik
+  description: Fedora org.kde.skladnik flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - skladnik

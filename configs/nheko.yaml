@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nheko
+  description: Fedora io.github.NhekoReborn.Nheko flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - nheko

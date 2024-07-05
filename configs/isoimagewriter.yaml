@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: isoimagewriter
+  description: Fedora org.kde.isoimagewriter flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - isoimagewriter

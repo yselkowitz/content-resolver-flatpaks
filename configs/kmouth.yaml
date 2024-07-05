@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kmouth
+  description: Fedora org.kde.kmouth flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kmouth
+    #    - espeak
+    - espeak-ng

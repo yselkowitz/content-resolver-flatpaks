@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: g4music
+  description: Fedora com.github.neithern.g4music flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - g4music

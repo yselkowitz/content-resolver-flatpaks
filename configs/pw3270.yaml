@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pw3270
+  description: Fedora br.app.pw3270.terminal flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - pw3270
+    - rbanffy-3270-fonts

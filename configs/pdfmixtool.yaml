@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pdfmixtool
+  description: Fedora eu.scarpetta.PDFMixTool flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - pdfmixtool

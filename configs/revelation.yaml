@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: revelation
+  description: Fedora info.olasagasti.revelation flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - revelation

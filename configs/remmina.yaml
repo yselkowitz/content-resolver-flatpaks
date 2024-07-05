@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: remmina
+  description: Fedora org.remmina.Remmina flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - remmina
+    - remmina-plugins-exec
+    - remmina-plugins-python
+    - remmina-plugins-rdp
+    - remmina-plugins-secret
+    - remmina-plugins-spice
+    - remmina-plugins-vnc
+    - remmina-plugins-www

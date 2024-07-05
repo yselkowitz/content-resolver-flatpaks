@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: scribus
+  description: Fedora net.scribus.Scribus flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - scribus
+    #- scribus-generator # requires tkinter, tcl/tk

@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bluefish
+  description: Fedora nl.openoffice.bluefish flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - bluefish
+    # Tools->Filters
+
+    #    - dos2unix
+    #    - lynx
+    - perltidy
+    - tidy

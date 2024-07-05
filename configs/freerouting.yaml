@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: freerouting
+  description: Fedora org.freerouting.freerouting flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - freerouting

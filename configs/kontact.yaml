@@ -1,0 +1,48 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kontact
+  description: Fedora org.kde.kontact flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - kontact
+      - akonadiconsole
+      - akonadi-import-wizard
+      - akregator
+      - kaddressbook
+      - kalarm
+      - kdepim-addons
+      - kgpg
+      - kjots
+      - kleopatra
+      - kmail
+      - knotes
+      - korganizer
+      - mbox-importer
+      - merkuro
+      - pim-data-exporter
+      - pim-sieve-editor
+      - zanshin
+    aarch64:
+      - kontact
+      - akonadiconsole
+      - akonadi-import-wizard
+      - akregator
+      - kaddressbook
+      - kalarm
+      - kdepim-addons
+      - kgpg
+      - kjots
+      - kleopatra
+      - kmail
+      - knotes
+      - korganizer
+      - mbox-importer
+      - merkuro
+      - pim-data-exporter
+      - pim-sieve-editor
+      - zanshin

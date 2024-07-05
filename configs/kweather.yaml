@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kweather
+  description: Fedora org.kde.kweather flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kweather

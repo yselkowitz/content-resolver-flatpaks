@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ghostwriter
+  description: Fedora org.kde.ghostwriter flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    aarch64:
+      - ghostwriter
+      # soft dependencies
+      - cmark
+      - multimarkdown
+      - pandoc
+    x86_64:
+      - ghostwriter
+      # soft dependencies
+      - cmark
+      - multimarkdown
+      - pandoc

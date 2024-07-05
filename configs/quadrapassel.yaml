@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: quadrapassel
+  description: Fedora org.gnome.Quadrapassel flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - quadrapassel

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kolourpaint
+  description: Fedora org.kde.kolourpaint flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kolourpaint
+    - libsane-airscan
+    - sane-backends-drivers-cameras
+    - sane-backends-drivers-scanners

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kamoso
+  description: Fedora org.kde.kamoso flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kamoso

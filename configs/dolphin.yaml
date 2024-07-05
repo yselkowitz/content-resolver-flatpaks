@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dolphin
+  description: Fedora org.kde.dolphin flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - dolphin
+    - dolphin-plugins
+    # KParts and plugins
+    - ark-libs
+    - konsole-part
+    - markdownpart
+    # ark dependencies
+    - arj
+    - p7zip-plugins
+    - unrar
+    - unar

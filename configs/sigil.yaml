@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sigil
+  description: Fedora com.sigil_ebook.Sigil flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - sigil
+      - FlightCrew-sigil-plugin
+    aarch64:
+      - sigil
+      - FlightCrew-sigil-plugin

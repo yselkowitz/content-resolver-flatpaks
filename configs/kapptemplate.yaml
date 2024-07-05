@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kapptemplate
+  description: Fedora org.kde.kapptemplate flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kapptemplate

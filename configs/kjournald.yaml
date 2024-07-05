@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kjournald
+  description: Fedora org.kde.kjournaldbrowser flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kjournald
+    # cleanup-commands (part of runtime)
+    - breeze-icon-theme

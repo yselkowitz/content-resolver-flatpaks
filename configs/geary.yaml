@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: geary
+  description: Fedora org.gnome.Geary flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - geary

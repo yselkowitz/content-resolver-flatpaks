@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hitori
+  description: Fedora org.gnome.Hitori flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - hitori

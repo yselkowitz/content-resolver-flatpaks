@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kbounce
+  description: Fedora org.kde.kbounce flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kbounce

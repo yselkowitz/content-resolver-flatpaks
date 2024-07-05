@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ark
+  description: Fedora org.kde.ark flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ark
+    # KParts (preview panes)
+    - markdownpart
+    - svgpart
+    # soft dependencies
+    - arj
+    - p7zip-plugins
+    - unrar
+    - unar

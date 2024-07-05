@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: crosswords
+  description: Fedora org.gnome.Crosswords flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - crosswords
+    - crosswords-puzzle-sets-cats-and-dogs
+    - crosswords-puzzle-sets-gnome
+    - crosswords-puzzle-sets-internal
+    - crosswords-puzzle-sets-keesing
+    - crosswords-puzzle-sets-nienteperniente
+    - crosswords-puzzle-sets-oedipus
+    - crosswords-puzzle-sets-pzzl
+    - crosswords-puzzle-sets-xword-dl
+    - ipuz-convertor

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gspectrum
+  description: Fedora org.gnome.gchemutils.spectra flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gspectrum

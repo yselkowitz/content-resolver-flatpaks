@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gpodder
+  description: Fedora org.gpodder.gpodder flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gpodder
+    # recommends
+    - python3-html5lib

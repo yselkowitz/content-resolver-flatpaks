@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pychess
+  description: Fedora io.github.pychess.pychess flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - pychess
+    #    - pychess-doc
+    - python3-pexpect
+    # chess engines
+    - dreamchess-engine
+    - fruit
+    - fruit-books
+    - gnuchess
+    - stockfish
+    - toga2
+    # additional components
+    - chess_db
+    - scoutfish

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: koko
+  description: Fedora org.kde.koko flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - koko

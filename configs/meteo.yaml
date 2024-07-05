@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: meteo
+  description: Fedora com.gitlab.bitseater.meteo flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - meteo

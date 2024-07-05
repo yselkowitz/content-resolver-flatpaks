@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: git-cola
+  description: Fedora com.github.git_cola.git-cola flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - git-cola
+    # external tools
+    - gitk
+    - meld
+    - vim-X11
+    # soft dependencies
+    - python3-send2trash

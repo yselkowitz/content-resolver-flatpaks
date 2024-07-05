@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: firewall-config
+  description: Fedora org.fedoraproject.FirewallConfig flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - firewall-config

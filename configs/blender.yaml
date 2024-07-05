@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: blender
+  description: Fedora org.blender.Blender flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - blender
+    # python addons requirements
+    - python3-numpy
+    - python3-openimageio
+    - python3-requests
+    - python3-zombie-imp
+    - python3-zstandard
+    # external addons
+  arch_packages:
+    x86_64:
+    # - name: blender-luxcorerender
+    - YafaRay-blender

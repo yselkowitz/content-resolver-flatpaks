@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kbackup
+  description: Fedora org.kde.kbackup flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kbackup

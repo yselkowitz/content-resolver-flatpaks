@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: polari
+  description: Fedora org.gnome.Polari flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - polari

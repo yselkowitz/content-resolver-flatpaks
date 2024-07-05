@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: blinken
+  description: Fedora org.kde.blinken flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - blinken

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: keysmith
+  description: Fedora org.kde.keysmith flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - keysmith
+    # missing dependencies
+    - kf6-kirigami-addons

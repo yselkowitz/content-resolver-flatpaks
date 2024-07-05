@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gitg
+  description: Fedora org.gnome.gitg flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gitg

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bino
+  description: Fedora org.bino3d.bino flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - bino

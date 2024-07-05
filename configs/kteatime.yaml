@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kteatime
+  description: Fedora org.kde.kteatime flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kteatime
+    - oxygen-sounds

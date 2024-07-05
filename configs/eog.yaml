@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: eog
+  description: Fedora org.gnome.eog flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - eog
+    - eog-plugins
+    # optional GdkPixbuf loaders
+    - libopenraw-pixbuf-loader
+    - libwmf

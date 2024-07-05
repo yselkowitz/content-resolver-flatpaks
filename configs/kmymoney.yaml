@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kmymoney
+  description: Fedora org.kde.kmymoney flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kmymoney

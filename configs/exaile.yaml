@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: exaile
+  description: Fedora org.exaile.Exaile flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - exaile
+    # soft dependencies
+    - keybinder3
+    - libudisks2
+    - python3-beautifulsoup4
+    - python3-feedparser
+    - python3-musicbrainzngs
+    - python3-pylast
+    - python3-sgmllib3k

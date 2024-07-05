@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gmult
+  description: Fedora app.drey.MultiplicationPuzzle flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gmult

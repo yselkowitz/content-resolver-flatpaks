@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ktrip
+  description: Fedora org.kde.ktrip flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ktrip

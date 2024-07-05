@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wxMaxima
+  description: Fedora io.github.wxmaxima_developers.wxMaxima flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - wxMaxima
+    aarch64:
+      - wxMaxima

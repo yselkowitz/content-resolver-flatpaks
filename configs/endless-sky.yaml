@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: endless-sky
+  description: Fedora io.github.endless_sky.endless_sky flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - endless-sky

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: paraview
+  description: Fedora org.paraview.ParaView flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - paraview

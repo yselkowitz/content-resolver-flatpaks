@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kdenlive
+  description: Fedora org.kde.kdenlive flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kdenlive
+    # soft dependencies
+    - mediainfo

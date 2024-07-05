@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gajim
+  description: Fedora org.gajim.Gajim flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gajim
+    # soft dependencies
+    - farstream02
+    - gsound
+    - gspell
+    - python3-axolotl
+    - python3-dbus
+    - python3-gnupg
+    - python3-protobuf
+    - python3-qrcode

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lazpaint
+  description: Fedora io.github.lazpaint flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - lazpaint

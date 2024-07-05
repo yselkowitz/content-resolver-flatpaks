@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: itinerary
+  description: Fedora org.kde.itinerary flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - itinerary
+    - kf6-kirigami-addons

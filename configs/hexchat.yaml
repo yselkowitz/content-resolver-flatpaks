@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hexchat
+  description: Fedora io.github.Hexchat flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - hexchat
+    # optional plugins
+    - hexchat-autoaway
+    # for lua extension scripts
+    - lua-lgi

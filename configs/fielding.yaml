@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fielding
+  description: Fedora org.kde.fielding flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - fielding
+    # missing dependencies
+    - kf6-kirigami-addons

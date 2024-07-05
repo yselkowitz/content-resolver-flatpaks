@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sequeler
+  description: Fedora com.github.alecaddd.sequeler flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - sequeler
+    - libgda5-mysql
+    - libgda5-postgres
+    - libgda5-sqlite

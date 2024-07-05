@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: umbrello
+  description: Fedora org.kde.umbrello flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - umbrello

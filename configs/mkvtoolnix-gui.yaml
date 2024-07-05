@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mkvtoolnix-gui
+  description: Fedora org.bunkus.mkvtoolnix-gui flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - mkvtoolnix-gui

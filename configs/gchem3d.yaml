@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gchem3d
+  description: Fedora org.gnome.gchemutils._3d flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gchem3d
+    - gchempaint
+    - gchemcalc

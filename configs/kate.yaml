@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kate
+  description: Fedora org.kde.kate flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kate
+    - kate-plugins
+    - konsole-part
+    - markdownpart
+    - svgpart

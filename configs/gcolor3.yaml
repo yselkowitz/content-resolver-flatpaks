@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gcolor3
+  description: Fedora nl.hjdskes.gcolor3 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gcolor3

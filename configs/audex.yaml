@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: audex
+  description: Fedora org.kde.audex flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - audex
+    - vorbis-tools

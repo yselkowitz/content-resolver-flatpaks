@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: minuet
+  description: Fedora org.kde.minuet flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - minuet

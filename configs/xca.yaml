@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xca
+  description: Fedora de.hohnstaedt.xca flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - xca

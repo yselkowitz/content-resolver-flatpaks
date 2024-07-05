@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qpdfview-qt6
+  description: Fedora net.launchpad.qpdfview flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qpdfview-qt6

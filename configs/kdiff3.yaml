@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kdiff3
+  description: Fedora org.kde.kdiff3 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kdiff3

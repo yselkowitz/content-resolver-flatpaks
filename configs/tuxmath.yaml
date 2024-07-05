@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tuxmath
+  description: Fedora com.tux4kids.tuxmath flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - tuxmath

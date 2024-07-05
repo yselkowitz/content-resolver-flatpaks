@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kcharselect
+  description: Fedora org.kde.kcharselect flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kcharselect
+    # cleanup-commands (part of runtime)
+    - breeze-icon-theme

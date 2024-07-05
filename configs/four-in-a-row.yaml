@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: four-in-a-row
+  description: Fedora org.gnome.Four-in-a-row flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - four-in-a-row

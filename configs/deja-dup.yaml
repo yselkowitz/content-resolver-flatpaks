@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: deja-dup
+  description: Fedora org.gnome.DejaDup flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - deja-dup

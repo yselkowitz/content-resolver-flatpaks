@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: file-roller
+  description: Fedora org.gnome.FileRoller flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - file-roller
+    - arj
+    - genisoimage
+    - lzop
+    - p7zip-plugins
+    - rzip
+    - unar
+    - unrar
+    # libraries in runtime, programs missing: brotli
+    # programs in runtime: bzip2, cpio, gzip, lz4, lzip, lzma, ncompress, tar, unzip, xz, zip, zstd
+    # not availble in Fedora: lha, lrzip, rar, unace, unalz, unsquashfs, unstuff, zoo

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: aisleriot
+  description: Fedora org.gnome.Aisleriot flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - aisleriot

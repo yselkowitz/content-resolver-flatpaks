@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mediawriter
+  description: Fedora org.fedoraproject.MediaWriter flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - mediawriter

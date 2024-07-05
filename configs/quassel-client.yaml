@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: quassel-client
+  description: Fedora org.quassel_irc.QuasselClient flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - quassel-client

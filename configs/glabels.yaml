@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: glabels
+  description: Fedora org.gnome.glabels-3 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - glabels

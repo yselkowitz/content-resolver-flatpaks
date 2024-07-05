@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qalculate-qt
+  description: Fedora io.github.Qalculate.qalculate-qt flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qalculate-qt

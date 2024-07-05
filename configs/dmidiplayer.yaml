@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dmidiplayer
+  description: Fedora net.sourceforge.dmidiplayer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - dmidiplayer
+    - fluid-soundfont-gs

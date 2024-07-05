@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: speedcrunch
+  description: Fedora org.speedcrunch.SpeedCrunch flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - speedcrunch

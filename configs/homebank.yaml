@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: homebank
+  description: Fedora fr.free.Homebank flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - homebank
+    # cleanup-commands (part of runtime)
+    - libappstream-glib

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: armacycles-ad
+  description: Fedora net.sourceforge.armacycles-ad flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - armacycles-ad

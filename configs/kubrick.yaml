@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kubrick
+  description: Fedora org.kde.kubrick flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kubrick

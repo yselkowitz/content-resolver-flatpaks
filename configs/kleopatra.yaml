@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kleopatra
+  description: Fedora org.kde.kleopatra flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kleopatra

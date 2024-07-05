@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: five-or-more
+  description: Fedora org.gnome.five-or-more flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - five-or-more

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: klavaro
+  description: Fedora net.sourceforge.Klavaro flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - klavaro
+    # soft dependencies
+    - espeak

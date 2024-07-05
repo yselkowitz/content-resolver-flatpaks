@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fontforge
+  description: Fedora org.fontforge.FontForge flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - fontforge
+    - potrace

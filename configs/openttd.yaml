@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: openttd
+  description: Fedora org.openttd.OpenTTD flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - openttd
+    - openttd-opengfx
+    - fluid-soundfont-gm

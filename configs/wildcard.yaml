@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wildcard
+  description: Fedora com.felipekinoshita.Wildcard flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - wildcard

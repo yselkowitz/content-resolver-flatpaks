@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: massif-visualizer
+  description: Fedora org.kde.massif-visualizer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - massif-visualizer
+    # optional dependency
+    - kgraphviewer

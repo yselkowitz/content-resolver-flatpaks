@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: converseen
+  description: Fedora net.fasterland.converseen flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - converseen

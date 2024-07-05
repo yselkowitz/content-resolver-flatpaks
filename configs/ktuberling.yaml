@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ktuberling
+  description: Fedora org.kde.ktuberling flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ktuberling

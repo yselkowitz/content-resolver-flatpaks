@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: knights
+  description: Fedora org.kde.knights flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - knights

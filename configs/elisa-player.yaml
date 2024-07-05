@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: elisa-player
+  description: Fedora org.kde.elisa flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - elisa-player

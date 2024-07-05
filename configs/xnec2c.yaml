@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xnec2c
+  description: Fedora org.xnec2c.Xnec2c flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - xnec2c
+    # soft dependencies
+    - lapack
+    - openblas-openmp
+    - openblas-serial
+    - openblas-threads

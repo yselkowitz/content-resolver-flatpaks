@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pipewalker
+  description: Fedora io.sourceforge.pipewalker.PipeWalker flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - pipewalker

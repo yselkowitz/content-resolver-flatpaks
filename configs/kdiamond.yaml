@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kdiamond
+  description: Fedora org.kde.kdiamond flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kdiamond

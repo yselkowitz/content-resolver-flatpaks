@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: foobillard
+  description: Fedora dk.sunsite.foobillard flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - foobillard

@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: skanlite
+  description: Fedora org.kde.skanlite flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - skanlite
+    - libsane-airscan
+    - sane-backends-drivers-cameras
+    - sane-backends-drivers-scanners

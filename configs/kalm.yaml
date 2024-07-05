@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kalm
+  description: Fedora org.kde.kalm flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kalm

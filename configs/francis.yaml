@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: francis
+  description: Fedora org.kde.francis flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - francis
+    # missing dependencies
+    - kf6-kirigami-addons
