@@ -6,8 +6,15 @@ data:
   maintainer: flatpak-sig
   labels:
     - flatpak
-  packages:
-    - skanpage
-    - libsane-airscan
-    - sane-backends-drivers-cameras
-    - sane-backends-drivers-scanners
+  packages: []
+  arch_packages:
+    aarch64:
+      - skanpage
+      - libsane-airscan
+      - sane-backends-drivers-cameras
+      - sane-backends-drivers-scanners
+    x86_64:
+      - skanpage
+      - libsane-airscan
+      - sane-backends-drivers-cameras
+      - sane-backends-drivers-scanners
