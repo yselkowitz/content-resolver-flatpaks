@@ -27,6 +27,7 @@ data:
     - vlc-plugin-jack
     - vlc-plugin-kde
     - vlc-plugin-notify
+    - vlc-plugin-rdp
     - vlc-plugin-samba
     - vlc-plugin-svg
     - vlc-plugin-vnc

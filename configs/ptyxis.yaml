@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ptyxis
+  description: Fedora org.gnome.Ptyxis flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ptyxis

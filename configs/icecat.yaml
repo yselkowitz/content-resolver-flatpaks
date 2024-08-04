@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: icecat
+  description: Fedora org.gnu.icecat flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - icecat

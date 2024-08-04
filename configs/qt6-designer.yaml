@@ -1,0 +1,42 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qt6-qthttpserver
+  description: Fedora io.qt.Designer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    # from SDK
+    - qt6-designer
+    # KF6 designer plugins (already in SDK)
+    - kf6-kcompletion-devel
+    - kf6-kconfigwidgets-devel
+    - kf6-kiconthemes-devel
+    - kf6-kio-devel
+    - kf6-kitemviews-devel
+    - kf6-knewstuff-devel
+    - kf6-kplotting-devel
+    - kf6-ktextwidgets-devel
+    - kf6-kwidgetsaddons-devel
+    - kf6-kxmlgui-devel
+    - kf6-sonnet-devel
+    # KPim6 designer plugins
+    - akonadi-server-devel
+    - ktextaddons-qt6-devel
+    - libkdepim-devel
+    - pimcommon-devel
+    # Other widgets designer plugins
+    - phonon-qt6-devel
+    # - pyside6-tools
+    - python3-pyqt6-base
+    - qscintilla-qt6
+    ## mistaken qt5 deps (qwt#6)
+    # - qwt-qt6-devel
+  arch_packages:
+    x86_64:
+      - mailcommon-devel
+      - qt6-qtwebengine-devel
+    aarch64:
+      - mailcommon-devel
+      - qt6-qtwebengine-devel
