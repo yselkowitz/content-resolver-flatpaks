@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fotocx
+  description: Fedora net.kornelix.fotocx flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - fotocx
+    # soft dependencies
+    - ImageMagick
+    - libheif-tools
+    - libwebp-tools
+    - vlc-cli
+    - vlc-plugins-video-out
+    - vlc-plugin-ffmpeg
+    - vlc-plugin-pulseaudio

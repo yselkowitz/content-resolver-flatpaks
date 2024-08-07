@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: LabPlot
+  description: Fedora org.kde.labplot2 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - LabPlot
+  arch_packages:
+    x86_64:
+      - cantor
+      # soft dependencies
+      - gnuplot
+      - maxima
+      - python3-numpy
+      - python3-plotly
+      - qalculate
+    aarch64:
+      - cantor
+      # soft dependencies
+      - gnuplot
+      - maxima
+      - python3-numpy
+      - python3-plotly
+      - qalculate
