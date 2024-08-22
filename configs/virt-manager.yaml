@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: virt-manager
+  description: Fedora org.virt_manager.virt-manager flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - virt-manager
+    # optional dependency
+    - libayatana-appindicator-gtk3

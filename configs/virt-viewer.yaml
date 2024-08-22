@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: virt-viewer
+  description: Fedora org.virt_manager.virt-viewer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - virt-viewer
