@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kexi
+  description: Fedora org.kde.kexi flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kexi
+    - kdb-driver-mysql

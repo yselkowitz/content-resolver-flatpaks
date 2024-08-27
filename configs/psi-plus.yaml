@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: psi-plus
+  description: Fedora com.psi_plus.Psi_plus flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - psi-plus
+    - psi-plus-plugins

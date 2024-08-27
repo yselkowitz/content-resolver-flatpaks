@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sweeper
+  description: Fedora org.kde.sweeper flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - sweeper
