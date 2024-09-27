@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: crow-translate
+  description: Fedora org.kde.CrowTranslate flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - crow-translate
