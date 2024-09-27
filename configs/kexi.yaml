@@ -9,3 +9,4 @@ data:
   packages:
     - kexi
     - kdb-driver-mysql
+    - kdb-driver-postgresql
