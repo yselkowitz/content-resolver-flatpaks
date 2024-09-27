@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: qt6-qthttpserver
+  name: qt6-linguist
   description: Fedora io.qt.Linguist flatpak
   maintainer: flatpak-sig
   labels:

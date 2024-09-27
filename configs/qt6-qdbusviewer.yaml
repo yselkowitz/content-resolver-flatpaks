@@ -1,7 +1,7 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: qt6-qthttpserver
+  name: qt6-qdbusviewer
   description: Fedora io.qt.qdbusviewer flatpak
   maintainer: flatpak-sig
   labels:
