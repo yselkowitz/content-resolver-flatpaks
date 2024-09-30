@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: extremetuxracer
+  description: Fedora net.sourceforge.ExtremeTuxRacer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - extremetuxracer

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wike
+  description: Fedora com.github.hugolabe.Wike flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - wike
