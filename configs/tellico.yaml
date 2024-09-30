@@ -6,8 +6,15 @@ data:
   maintainer: flatpak-sig
   labels:
     - flatpak
-  packages:
-    - tellico
-    - libsane-airscan
-    - sane-backends-drivers-cameras
-    - sane-backends-drivers-scanners
+  packages: []
+  arch_packages:
+    x86_64:
+      - tellico
+      - libsane-airscan
+      - sane-backends-drivers-cameras
+      - sane-backends-drivers-scanners
+    aarch64:
+      - tellico
+      - libsane-airscan
+      - sane-backends-drivers-cameras
+      - sane-backends-drivers-scanners
