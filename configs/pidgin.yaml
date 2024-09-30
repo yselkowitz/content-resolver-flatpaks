@@ -10,7 +10,6 @@ data:
     - pidgin
     - pidgin-birthday-reminder
     #- pidgin-chime
-    - pidgin-guifications
     - pidgin-indicator
     - pidgin-libnotify
     - pidgin-otr
@@ -18,4 +17,3 @@ data:
     - pidgin-window-merge
     - purple-facebook
     - purple-mm-sms
-    - purple-telegram
