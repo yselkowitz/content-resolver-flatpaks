@@ -54,14 +54,11 @@ data:
     - alternatives
     - appstream
     - appstream-data
-    - aspell
     - at-spi2-atk
     - at-spi2-core
     - atk
     - attr
     - audit-libs
-    - authselect
-    - authselect-libs
     - avahi-glib
     - avahi-libs
     - basesystem
@@ -83,7 +80,6 @@ data:
     - cracklib
     - cracklib-dicts
     - crypto-policies
-    - crypto-policies-scripts
     - cups-client
     - cups-libs
     - curl
@@ -144,8 +140,6 @@ data:
     - gawk
     - gcr
     - gcr-libs
-    - gcr3
-    - gcr3-base
     - gdbm
     - gdbm-libs
     - gdk-pixbuf2
@@ -156,6 +150,7 @@ data:
     - gettext-libs
     - gettext-runtime
     - giflib
+    - gjs
     - glib-networking
     - glib2
     - glibc
@@ -194,8 +189,11 @@ data:
     - gsm
     - gssdp
     - gstreamer1
+    - gstreamer1-plugin-gif
+    - gstreamer1-plugin-gtk4
     - gstreamer1-plugin-libav
     - gstreamer1-plugin-openh264
+    - gstreamer1-plugin-reqwest
     - gstreamer1-plugins-bad-free
     - gstreamer1-plugins-bad-free-libs
     - gstreamer1-plugins-base
@@ -339,22 +337,20 @@ data:
     - ibus-gtk4
     - ibus-libs
     - ilbc
+    - imath
     - iso-codes
     - jansson
-    - jasper-libs
     - javascriptcoregtk4.1
     - javascriptcoregtk6.0
     - jbigkit-libs
     - json-c
     - json-glib
     - keyutils-libs
-    - kmod-libs
     - krb5-libs
     - ladspa
     - lame
     - lame-libs
     - lcms2
-    - lcms2-utils
     - leptonica
     - less
     - liba52
@@ -397,6 +393,7 @@ data:
     - libdav1d
     - libdc1394
     - libdecor
+    - libdeflate
     - libdex
     - libdovi
     - libdrm
@@ -406,15 +403,12 @@ data:
     - libeconf
     - libedit
     - libei
-    - libei-utils
     - libeis
     - libepoxy
-    - liberation-fonts-common
     - liberation-mono-fonts
     - liberation-sans-fonts
     - liberation-serif-fonts
     - libevdev
-    - libevdev-utils
     - libevent
     - libexif
     - libfdisk
@@ -437,6 +431,8 @@ data:
     - libgudev
     - libgusb
     - libhandy
+    - libheif
+    - libheif-tools
     - libICE
     - libicu
     - libidn2
@@ -453,7 +449,6 @@ data:
     - liblerc
     - liblsan
     - libmanette
-    - libmng
     - libmodplug
     - libmount
     - libmpeg2
@@ -461,7 +456,6 @@ data:
     - libnghttp2
     - libnice
     - libnice-gstreamer1
-    - libnsl
     - libnsl2
     - libobjc
     - liboeffis
@@ -479,16 +473,13 @@ data:
     - libraw1394
     - librist
     - librsvg2
-    - librsvg2-tools
     - libsamplerate
     - libsbc
     - libseccomp
     - libsecret
     - libselinux
-    - libselinux-utils
     - libsemanage
     - libsepol
-    - libsepol-utils
     - libshaderc
     - libshout
     - libSM
@@ -555,17 +546,16 @@ data:
     - libXi
     - libXinerama
     - libxkbcommon
-    - libxkbcommon-utils
     - libxkbcommon-x11
     - libxkbfile
     - libxml2
+    - libxmlb
     - libXpm
     - libXrandr
     - libXrender
     - libXScrnSaver
     - libxshmfence
     - libxslt
-    - libXt
     - libXtst
     - libXv
     - libXxf86vm
@@ -576,6 +566,7 @@ data:
     - lm_sensors-libs
     - lmdb-libs
     - lpcnetfreedv
+    - lua
     - lua-libs
     - lv2
     - lz4
@@ -593,12 +584,11 @@ data:
     - mesa-va-drivers
     - mesa-vdpau-drivers
     - mesa-vulkan-drivers
-    - mlocate
+    - mozjs128
     - mpdecimal
     - mpfr
     - mpg123-libs
     - mtdev
-    - mythes
     - nano
     - ncompress
     - ncurses
@@ -616,17 +606,17 @@ data:
     - nss-util
     - nss_db
     - nss_hesiod
-    - nuspell
     - ocl-icd
     - openal-soft
     - opencore-amr
-    - openjpeg2
+    - openexr-libs
+    - openjpeg
+    - openjpeg-tools
     - openldap
     - openpgm
     - openssh
     - openssh-clients
     - openssl-libs
-    - openssl-pkcs11
     - opus
     - opusfile
     - orc
@@ -636,9 +626,7 @@ data:
     - pam
     - pam-libs
     - pango
-    - pciutils
     - pciutils-libs
-    - pcre
     - pcre2
     - pcre2-syntax
     - pcre2-utf16
@@ -650,15 +638,14 @@ data:
     - pipewire-jack-audio-connection-kit
     - pipewire-jack-audio-connection-kit-libs
     - pipewire-libs
-    - pipewire-v4l2
     - pixman
+    - pkcs11-provider
     - pkgconf
     - pkgconf-m4
     - pkgconf-pkg-config
     - popt
     - procps-ng
     - protobuf-c
-    - psl
     - publicsuffix-list-dafsa
     - pulseaudio-libs
     - pulseaudio-libs-glib2
@@ -670,6 +657,7 @@ data:
     - python3-dbus
     - python3-gobject
     - python3-gobject-base
+    - python3-gstreamer1
     - python3-libs
     - python3-libxml2
     - python3-libxslt
@@ -679,6 +667,7 @@ data:
     - python3-packaging
     - python3-setuptools
     - python3-six
+    - python3-tkinter
     - rav1e-libs
     - readline
     - rpm
@@ -717,9 +706,11 @@ data:
     - systemd-standalone-tmpfiles
     - taglib
     - tar
+    - tcl
     - tesseract
     - tesseract-langpack-eng
     - tesseract-tessdata-doc
+    - tk
     - tpm2-tss
     - turbojpeg
     - twolame-libs
@@ -743,7 +734,6 @@ data:
     - wget2-wget
     - which
     - woff2
-    - xcb-proto
     - xcb-util
     - xcb-util-cursor
     - xcb-util-image
