@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bookworm
+  description: Fedora com.github.babluboy.bookworm flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - bookworm
+    - poppler-utils
+    - unar
+    - unzip
