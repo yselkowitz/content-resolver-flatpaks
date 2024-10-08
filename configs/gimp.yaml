@@ -9,3 +9,4 @@ data:
   packages:
     - gimp
     - mypaint-brushes
+    - gimp-fourier-plugin
