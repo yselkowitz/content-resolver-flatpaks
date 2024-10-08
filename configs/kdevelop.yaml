@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kdevelop
+  description: Fedora org.kde.kdevelop flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - kdevelop
+      - kdevelop-php
+    aarch64:
+      - kdevelop
+      - kdevelop-php

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qt-creator
+  description: Fedora io.qt.QtCreator flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qt-creator
+    - git-gui
+    - gitk

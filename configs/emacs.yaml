@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: emacs
+  description: Fedora org.gnu.emacs flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - emacs
+    - emacs-gtk+x11
