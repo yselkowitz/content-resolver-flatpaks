@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lbrickbuster2
+  description: Fedora net.sourceforge.lgames.LBrickBuster2 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - lbrickbuster2

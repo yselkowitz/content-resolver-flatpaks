@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: clinfo
+  description: Fedora org.fedoraproject.Platform.ClInfo flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - clinfo

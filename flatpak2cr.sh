@@ -8,7 +8,8 @@ do
    id=$(yq -e '.flatpak.id' $f)
    name=$(yq -e '.flatpak.packages[0]' $f)
    pkgs=$(yq -e '.flatpak.packages' $f)
-   arches=$(yq -e '.platforms.only[]' $f 2>/dev/null || true)
+   arches=$(yq '.platforms.only[]' $f)
+   runtime=$(yq '.flatpak | has("build-runtime")' $f)
 
    cat > ${name}.yaml <<_EOF
 document: feedback-pipeline-workload

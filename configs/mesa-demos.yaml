@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mesa-demos
+  description: Fedora org.fedoraproject.Platform.GlxInfo flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - mesa-demos
+    - glx-utils
+    - egl-utils

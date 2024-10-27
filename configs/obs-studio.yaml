@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: obs-studio
+  description: Fedora com.obsproject.Studio flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - obs-studio
+    - obs-studio-plugin-vkcapture
+    - obs-studio-plugin-vlc-video
+    #- obs-studio-plugin-webkitgtk
+    - vlc-plugins-base

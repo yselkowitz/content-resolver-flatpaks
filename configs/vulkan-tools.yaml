@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: vulkan-tools
+  description: Fedora org.fedoraproject.Platform.VulkanInfo flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - vulkan-tools

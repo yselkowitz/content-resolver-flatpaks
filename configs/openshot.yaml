@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: openshot
+  description: Fedora org.openshot.OpenShot flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - openshot
+    aarch64:
+      - openshot
