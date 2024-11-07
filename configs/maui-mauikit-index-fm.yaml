@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: maui-mauikit-index-fm
+  description: Fedora org.kde.index flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - maui-mauikit-index-fm
+    # previewer dependencies
+    - maui-mauikit-archiver
+    - maui-mauikit-documents
+    - maui-mauikit-filebrowsing
+    - maui-mauikit-terminal
+    - maui-mauikit-texteditor

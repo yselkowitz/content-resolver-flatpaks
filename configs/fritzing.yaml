@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fritzing
+  description: Fedora org.fritzing.Fritzing flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - fritzing

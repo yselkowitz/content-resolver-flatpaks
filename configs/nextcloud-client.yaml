@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nextcloud-client
+  description: Fedora com.nextcloud.desktopclient.nextcloud flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - nextcloud-client
+    aarch64:
+      - nextcloud-client
