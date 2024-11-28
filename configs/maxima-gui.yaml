@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: maxima-gui
+  description: Fedora net.sourceforge.maxima.xmaxima flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - maxima-gui
+      - gnuplot-wx
+    aarch64:
+      - maxima-gui
+      - gnuplot-wx

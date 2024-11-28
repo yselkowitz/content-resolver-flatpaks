@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: karp
+  description: Fedora org.kde.karp flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - karp
+    aarch64:
+      - karp

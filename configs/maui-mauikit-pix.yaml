@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: maui-mauikit-pix
+  description: Fedora org.kde.pix flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - maui-mauikit-pix
+    # missing QML dependencies
+    - kquickimageeditor-qt6
+    - maui-mauikit-filebrowsing
+    - maui-mauikit-imagetools

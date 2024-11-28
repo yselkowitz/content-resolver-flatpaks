@@ -1,0 +1,22 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: klevernotes
+  description: Fedora org.kde.klevernotes flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - klevernotes
+      # plugin dependencies
+      - golang-github-alecthomas-chroma
+      - python3-pygments
+      - plantuml
+    aarch64:
+      - klevernotes
+      # plugin dependencies
+      - golang-github-alecthomas-chroma
+      - python3-pygments
+      - plantuml

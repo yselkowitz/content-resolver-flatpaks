@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: maui-mauikit-arca
+  description: Fedora org.kde.arca flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - maui-mauikit-arca
+    # missing QML dependencies
+    - maui-mauikit-archiver
+    - maui-mauikit-documents
+    - maui-mauikit-filebrowsing
+    - maui-mauikit-texteditor

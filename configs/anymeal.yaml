@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: anymeal
+  description: Fedora de.wedesoft.anymeal flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - anymeal
