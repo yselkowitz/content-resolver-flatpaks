@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qrca
+  description: Fedora org.kde.qrca flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - qrca
