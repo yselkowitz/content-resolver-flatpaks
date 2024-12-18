@@ -8,3 +8,6 @@ data:
     - flatpak
   packages:
     - marble
+    - phonon-qt6-backend-vlc
+    - vlc-plugins-base
+    - vlc-plugin-pulseaudio

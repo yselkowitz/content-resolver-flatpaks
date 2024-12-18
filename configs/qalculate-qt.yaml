@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - qalculate-qt
+    - gnuplot

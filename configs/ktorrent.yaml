@@ -6,9 +6,11 @@ data:
   maintainer: flatpak-sig
   labels:
     - flatpak
-  packages: []
-  arch_packages:
-    x86_64:
-      - ktorrent
-    aarch64:
-      - ktorrent
+  packages:
+    - ktorrent
+    - phonon-qt6-backend-vlc
+    - vlc-plugins-base
+    - vlc-plugins-video-out
+    - vlc-plugin-ffmpeg
+    - vlc-plugin-gstreamer
+    - vlc-plugin-pulseaudio

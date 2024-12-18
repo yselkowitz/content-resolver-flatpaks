@@ -11,27 +11,26 @@ data:
     - vlc-gui-qt
     - vlc-gui-skins2
     - vlc-plugins-base
+    - vlc-plugins-extra
     - vlc-plugins-video-out
     - vlc-plugin-ffmpeg
-    - vlc-plugin-lua
-    - vlc-plugin-pulseaudio
-    - vlc-plugin-visualization
-    # optional plugins
-
-    #    - vlc-plugin-crystalhd
     - vlc-plugin-fluidsynth
-    - fluid-soundfont-gm
     - vlc-plugin-gnome
     - vlc-plugin-gstreamer
     - vlc-plugin-ieee1394
     - vlc-plugin-jack
     - vlc-plugin-kde
+    - vlc-plugin-lua
     - vlc-plugin-notify
+    - vlc-plugin-pulseaudio
     - vlc-plugin-rdp
     - vlc-plugin-samba
     - vlc-plugin-svg
+    - vlc-plugin-visualization
     - vlc-plugin-vnc
-    # additional plugin packages
+    # external plugins
     - vlc-plugin-bittorrent
     - vlc-plugin-pause-click
     - vlc-plugin-pipewire
+    # weak dependencies
+    - fluid-soundfont-gm

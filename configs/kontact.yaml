@@ -17,16 +17,18 @@ data:
       - kalarm
       - kdepim-addons
       - kgpg
-      - kjots
       - kleopatra
       - kmail
-      - knotes
       - korganizer
       - mbox-importer
       - merkuro
       - pim-data-exporter
       - pim-sieve-editor
       - zanshin
+      # soft dependencies
+      - phonon-qt6-backend-vlc
+      - vlc-plugins-base
+      - vlc-plugin-pulseaudio
     aarch64:
       - kontact
       - akonadiconsole
@@ -36,13 +38,15 @@ data:
       - kalarm
       - kdepim-addons
       - kgpg
-      - kjots
       - kleopatra
       - kmail
-      - knotes
       - korganizer
       - mbox-importer
       - merkuro
       - pim-data-exporter
       - pim-sieve-editor
       - zanshin
+      # soft dependencies
+      - phonon-qt6-backend-vlc
+      - vlc-plugins-base
+      - vlc-plugin-pulseaudio

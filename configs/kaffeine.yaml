@@ -8,6 +8,7 @@ data:
     - flatpak
   packages:
     - kaffeine
+    - vlc-plugins-extra
     - vlc-plugin-ffmpeg
     - vlc-plugin-pulseaudio
     - vlc-plugin-gstreamer

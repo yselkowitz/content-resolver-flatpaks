@@ -8,3 +8,6 @@ data:
     - flatpak
   packages:
     - klettres
+    - phonon-qt6-backend-vlc
+    - vlc-plugins-base
+    - vlc-plugin-pulseaudio

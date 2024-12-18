@@ -8,3 +8,8 @@ data:
     - flatpak
   packages:
     - strawberry
+    - vlc-plugins-base
+    - vlc-plugin-ffmpeg
+    - vlc-plugin-gstreamer
+    - vlc-plugin-pipewire
+    - vlc-plugin-pulseaudio
