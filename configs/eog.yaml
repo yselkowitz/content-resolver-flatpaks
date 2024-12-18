@@ -10,5 +10,13 @@ data:
     - eog
     - eog-plugins
     # optional GdkPixbuf loaders
+    - gdk-pixbuf2-modules-extra
     - libopenraw-pixbuf-loader
     - libwmf
+    # runtime loaders, for cleanup-commands
+    - avif-pixbuf-loader
+    - gdk-pixbuf2-modules
+    - heif-pixbuf-loader
+    - jxl-pixbuf-loader
+    - rsvg-pixbuf-loader
+    - webp-pixbuf-loader

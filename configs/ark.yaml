@@ -9,7 +9,9 @@ data:
   packages:
     - ark
     # KParts (preview panes)
+    - gwenview-libs
     - markdownpart
+    - okular-part
     - svgpart
     # soft dependencies
     - arj
