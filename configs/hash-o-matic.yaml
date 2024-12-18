@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hash-o-matic
+  description: Fedora org.kde.hashomatic flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - hash-o-matic
