@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: showtime
+  description: Fedora org.gnome.Showtime flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - showtime
