@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: olive
+  description: Fedora org.olivevideoeditor.Olive flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - olive

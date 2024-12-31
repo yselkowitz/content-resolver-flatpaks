@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gencolormap
+  description: Fedora de.marlam.gencolormap flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - gencolormap
