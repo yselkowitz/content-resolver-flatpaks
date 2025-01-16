@@ -112,9 +112,9 @@ data:
     - fcitx5-gtk4
     - fdk-aac-free
     - fedora-gpg-keys
-    - fedora-release
     - fedora-release-common
-    - fedora-release-identity-basic
+    - fedora-release-flatpak
+    - fedora-release-identity-flatpak
     - fedora-repos
     - ffmpeg-free
     - fftw-libs-double
