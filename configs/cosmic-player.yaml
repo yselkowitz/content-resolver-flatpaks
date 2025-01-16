@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cosmic-player
+  description: Fedora com.system76.CosmicPlayer flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - cosmic-player

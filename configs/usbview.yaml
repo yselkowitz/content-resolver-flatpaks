@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: usbview
+  description: Fedora com.kroah.usbview flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - usbview
+    - gdk-pixbuf2-modules-extra
+    # runtime loaders, for cleanup-commands
+    - rsvg-pixbuf-loader

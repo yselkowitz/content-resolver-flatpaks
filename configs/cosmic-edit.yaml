@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cosmic-edit
+  description: Fedora com.system76.CosmicEdit flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - cosmic-edit
