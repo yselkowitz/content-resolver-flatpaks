@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: yt-dlp
+  description: Fedora org.fedoraproject.Platform.YtDlp flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - yt-dlp
+    - python3-ytmusicapi
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

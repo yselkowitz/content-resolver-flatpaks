@@ -8,5 +8,3 @@ data:
     - flatpak
   packages:
     - plasmatube
-    - kf6-kirigami-addons
-    - yt-dlp

@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - clinfo
+    - clinfo-flatpak-config

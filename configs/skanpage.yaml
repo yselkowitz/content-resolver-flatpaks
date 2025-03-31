@@ -18,3 +18,8 @@ data:
       - libsane-airscan
       - sane-backends-drivers-cameras
       - sane-backends-drivers-scanners
+    ppc64le:
+      - skanpage
+      - libsane-airscan
+      - sane-backends-drivers-cameras
+      - sane-backends-drivers-scanners

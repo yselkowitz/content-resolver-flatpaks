@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: homebank
-  description: Fedora fr.free.Homebank flatpak
+  description: Fedora fr.free.mdoyen.HomeBank flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak

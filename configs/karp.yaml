@@ -12,3 +12,5 @@ data:
       - karp
     aarch64:
       - karp
+    ppc64le:
+      - karp

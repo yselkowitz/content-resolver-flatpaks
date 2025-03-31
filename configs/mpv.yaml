@@ -8,4 +8,4 @@ data:
     - flatpak
   packages:
     - mpv
-    - yt-dlp
+    - mpv-mpris

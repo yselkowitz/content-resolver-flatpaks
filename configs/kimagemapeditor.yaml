@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kimagemapeditor
+  description: Fedora org.kde.kimagemapeditor flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kimagemapeditor

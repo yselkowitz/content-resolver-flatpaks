@@ -8,8 +8,3 @@ data:
     - flatpak
   packages:
     - easyeffects
-    # weak dependencies
-    - zam-plugins
-    - lv2-zam-plugins
-    - ladspa-zam-plugins
-    - rubberband

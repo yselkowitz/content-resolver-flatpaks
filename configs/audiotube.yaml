@@ -8,4 +8,3 @@ data:
     - flatpak
   packages:
     - audiotube
-    - kf6-kirigami-addons

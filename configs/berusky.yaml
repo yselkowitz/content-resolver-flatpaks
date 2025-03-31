@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - berusky
+    - gtk2-flatpak-config

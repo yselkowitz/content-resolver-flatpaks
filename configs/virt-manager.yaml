@@ -9,4 +9,5 @@ data:
   packages:
     - virt-manager
     # optional dependency
+    - gtksourceview4
     - libayatana-appindicator-gtk3

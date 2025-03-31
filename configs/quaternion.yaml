@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: quaternion
-  description: Fedora com.github.quaternion flatpak
+  description: Fedora io.github.quotient_im.Quaternion flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak

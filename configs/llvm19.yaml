@@ -1,0 +1,42 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: clang19
+  description: Fedora org.fedoraproject.Sdk.Extension.llvm19 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - clang19
+    - clang19-analyzer
+    - clang19-devel
+    - clang19-libs
+    - clang19-tools-extra
+    - clang19-tools-extra-devel
+    - compiler-rt19
+    - git-clang-format19
+    - libcxx
+    - libcxx-devel
+    - libcxxabi
+    - libcxxabi-devel
+    - libomp19
+    - libomp19-devel
+    - lld19
+    - lld19-devel
+    - lld19-libs
+    - lldb19
+    - lldb19-devel
+    - llvm19
+    - llvm19-cmake-utils
+    - llvm19-devel
+    - llvm19-googletest
+    - llvm19-libs
+    - llvm-libunwind
+    - llvm-libunwind-devel
+    - llvm19-test
+    - python3-clang
+    - python3-lit
+    - python3-lldb
+    - llvm19-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

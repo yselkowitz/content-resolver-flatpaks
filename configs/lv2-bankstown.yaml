@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lv2-bankstown
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.Bankstown flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - lv2-bankstown
+      # cleanup-commands (already in runtime)
+      - coreutils-single
+    aarch64:
+      - lv2-bankstown
+      # cleanup-commands (already in runtime)
+      - coreutils-single

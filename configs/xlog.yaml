@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - xlog
+    - gtk2-flatpak-config

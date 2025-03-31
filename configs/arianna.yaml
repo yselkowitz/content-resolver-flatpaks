@@ -12,3 +12,5 @@ data:
       - arianna
     aarch64:
       - arianna
+    ppc64le:
+      - arianna

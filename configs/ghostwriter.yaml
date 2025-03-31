@@ -13,10 +13,13 @@ data:
       # soft dependencies
       - cmark
       - multimarkdown
-      - pandoc
     x86_64:
       - ghostwriter
       # soft dependencies
       - cmark
       - multimarkdown
-      - pandoc
+    ppc64le:
+      - ghostwriter
+      # soft dependencies
+      - cmark
+      - multimarkdown

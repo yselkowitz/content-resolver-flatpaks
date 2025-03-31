@@ -12,3 +12,5 @@ data:
       - kaidan
     aarch64:
       - kaidan
+    ppc64le:
+      - kaidan

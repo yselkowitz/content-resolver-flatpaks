@@ -1,0 +1,31 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mesa
+  description: Fedora org.fedoraproject.Platform.GL.default flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - mesa-libd3d
+    - mesa-libEGL
+    - mesa-libGL
+    - mesa-libOpenCL
+    - mesa-libTeflon
+    - mesa-dri-drivers
+    - mesa-va-drivers
+    - mesa-vdpau-drivers
+    - mesa-vulkan-drivers
+    - mesa-flatpak-config
+    # basic dependencies
+    - libdrm
+    - lm_sensors-libs
+    # OpenCL dependencies
+    - clang-libs
+    - libclc
+    - llvm-libs
+    - spirv-llvm-translator
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
+    - findutils
+    - sed

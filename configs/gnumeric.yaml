@@ -9,3 +9,4 @@ data:
   packages:
     - gnumeric
     - gnumeric-plugins-extras
+    - gnome-chemistry-utils-gnumeric

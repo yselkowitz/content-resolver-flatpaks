@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ladspa-zam-plugins
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.ZamPlugins flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ladspa-zam-plugins
+    - lv2-zam-plugins
+    # cleanup-commands (already in runtime)
+    - coreutils-single

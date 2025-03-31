@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libva-nvidia-driver
+  description: Fedora org.fedoraproject.Platform.VAAPI.nvidia flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - libva-nvidia-driver
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

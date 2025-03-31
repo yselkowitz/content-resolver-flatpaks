@@ -12,3 +12,5 @@ data:
       - kalgebra
     aarch64:
       - kalgebra
+    ppc64le:
+      - kalgebra

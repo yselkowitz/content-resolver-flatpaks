@@ -8,5 +8,3 @@ data:
     - flatpak
   packages:
     - kmouth
-    #    - espeak
-    - espeak-ng

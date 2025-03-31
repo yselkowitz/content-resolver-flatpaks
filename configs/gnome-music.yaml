@@ -9,4 +9,4 @@ data:
   packages:
     - gnome-music
     - grilo-plugins
-    - tracker-miners
+    - localsearch

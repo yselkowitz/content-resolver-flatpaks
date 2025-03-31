@@ -9,3 +9,4 @@ data:
   packages:
     - vim-X11
     - perl-interpreter
+    - gdk-pixbuf2-modules-extra-flatpak-config

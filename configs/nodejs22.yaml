@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nodejs
+  description: Fedora org.fedoraproject.Sdk.Extension.node22 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - nodejs
+    - nodejs-devel
+    - nodejs-npm
+    - yarnpkg
+    - nodejs22-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

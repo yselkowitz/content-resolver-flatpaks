@@ -9,4 +9,4 @@ data:
   packages:
     - totem
     - grilo-plugins
-    - tracker-miners
+    - localsearch

@@ -12,3 +12,5 @@ data:
       - nextcloud-client
     aarch64:
       - nextcloud-client
+    ppc64le:
+      - nextcloud-client

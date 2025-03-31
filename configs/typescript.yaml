@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: typescript
+  description: Fedora org.fedoraproject.Sdk.Extension.typescript flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - typescript
+    - typescript-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

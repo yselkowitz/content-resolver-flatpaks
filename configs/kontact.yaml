@@ -26,9 +26,7 @@ data:
       - pim-sieve-editor
       - zanshin
       # soft dependencies
-      - phonon-qt6-backend-vlc
-      - vlc-plugins-base
-      - vlc-plugin-pulseaudio
+      - phonon-qt6-flatpak-config
     aarch64:
       - kontact
       - akonadiconsole
@@ -47,6 +45,23 @@ data:
       - pim-sieve-editor
       - zanshin
       # soft dependencies
-      - phonon-qt6-backend-vlc
-      - vlc-plugins-base
-      - vlc-plugin-pulseaudio
+      - phonon-qt6-flatpak-config
+    ppc64le:
+      - kontact
+      - akonadiconsole
+      - akonadi-import-wizard
+      - akregator
+      - kaddressbook
+      - kalarm
+      - kdepim-addons
+      - kgpg
+      - kleopatra
+      - kmail
+      - korganizer
+      - mbox-importer
+      - merkuro
+      - pim-data-exporter
+      - pim-sieve-editor
+      - zanshin
+      # soft dependencies
+      - phonon-qt6-flatpak-config

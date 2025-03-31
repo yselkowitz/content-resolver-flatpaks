@@ -8,4 +8,4 @@ data:
     - flatpak
   packages:
     - scribus
-    #- scribus-generator # requires tkinter, tcl/tk
+    - scribus-generator

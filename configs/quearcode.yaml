@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: quearcode
-  description: Fedora org.esrum.quearcode flatpak
+  description: Fedora org.esrum.Quearcode flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak

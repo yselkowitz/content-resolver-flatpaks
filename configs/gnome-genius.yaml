@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - gnome-genius
+    - gnome-genius-flatpak-config

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lv2-x42-plugins
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.x42Plugins flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - lv2-x42-plugins
+    # cleanup-commands (already in runtime)
+    - coreutils-single
+    - findutils
+    - rpm

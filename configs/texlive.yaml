@@ -1,0 +1,19 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: texlive-*
+  description: Fedora org.fedoraproject.Sdk.Extension.texlive flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - texlive-*
+    - asymptote
+    - biber
+    - texlive-flatpak-config
+    # additional TeX macros
+    - texinfo-tex
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
+    - rpm
+    - sed

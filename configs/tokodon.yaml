@@ -12,3 +12,5 @@ data:
       - tokodon
     aarch64:
       - tokodon
+    ppc64le:
+      - tokodon

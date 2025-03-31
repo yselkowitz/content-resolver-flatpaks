@@ -12,3 +12,4 @@ data:
     - hexchat-autoaway
     # for lua extension scripts
     - lua-lgi
+    - gtk2-flatpak-config

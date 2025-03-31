@@ -12,3 +12,5 @@ data:
       - angelfish
     aarch64:
       - angelfish
+    ppc64le:
+      - angelfish

@@ -1,0 +1,38 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: java-21-openjdk-demo
+  description: Fedora org.fedoraproject.Sdk.Extension.openjdk21 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - java-21-openjdk-demo
+    - java-21-openjdk-devel
+    - java-21-openjdk-headless
+    - java-21-openjdk-jmods
+    - ant
+    - ant-antlr
+    - ant-apache-bcel
+    - ant-apache-bsf
+    - ant-apache-oro
+    - ant-apache-regexp
+    - ant-apache-resolver
+    - ant-apache-xalan2
+    - ant-commons-logging
+    - ant-commons-net
+    - ant-imageio
+    - ant-jakartamail
+    - ant-jdepend
+    - ant-jmf
+    - ant-jsch
+    - ant-junit
+    - ant-junit5
+    - ant-swing
+    - ant-testutil
+    - ant-xz
+    - maven
+    - java-21-openjdk-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
+    - findutils

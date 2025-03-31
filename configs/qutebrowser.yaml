@@ -16,3 +16,7 @@ data:
       - qutebrowser
       # soft dependencies
       - python3-pygments
+    ppc64le:
+      - qutebrowser
+      # soft dependencies
+      - python3-pygments

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pandoc
+  description: Fedora org.fedoraproject.Sdk.Extension.pandoc flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - pandoc
+    - pandoc-common
+    - pandoc-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

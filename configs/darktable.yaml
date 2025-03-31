@@ -8,3 +8,6 @@ data:
     - flatpak
   packages:
     - darktable
+    - darktable-tools-basecurve
+    - darktable-tools-noise
+    - gnuplot-wx

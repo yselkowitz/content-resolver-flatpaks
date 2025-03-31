@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ladspa-rubberband-plugins
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.Rubberband flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ladspa-rubberband-plugins
+    - lv2-rubberband-plugins
+    - vamp-rubberband-plugins
+    # cleanup-commands (already in runtime)
+    - coreutils-single

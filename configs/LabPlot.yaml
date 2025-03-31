@@ -24,3 +24,11 @@ data:
       - python3-numpy
       - python3-plotly
       - qalculate
+    ppc64le:
+      - LabPlot
+      # cantor dependencies
+      - gnuplot
+      - maxima
+      - python3-numpy
+      - python3-plotly
+      - qalculate

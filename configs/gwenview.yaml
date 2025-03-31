@@ -8,9 +8,4 @@ data:
     - flatpak
   packages:
     - gwenview
-    - phonon-qt6-backend-vlc
-    - vlc-plugins-base
-    - vlc-plugins-video-out
-    - vlc-plugin-ffmpeg
-    - vlc-plugin-gstreamer
-    - vlc-plugin-pulseaudio
+    - phonon-qt6-flatpak-config

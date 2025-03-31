@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lsp-plugins-clap
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.LSP flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - lsp-plugins-clap
+    - lsp-plugins-ladspa
+    - lsp-plugins-lv2
+    - lsp-plugins-vst
+    - lsp-plugins-vst3
+    # cleanup-commands (already in runtime)
+    - coreutils-single
+    - findutils

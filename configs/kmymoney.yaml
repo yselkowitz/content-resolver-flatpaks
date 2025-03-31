@@ -6,5 +6,11 @@ data:
   maintainer: flatpak-sig
   labels:
     - flatpak
-  packages:
-    - kmymoney
+  packages: []
+  arch_packages:
+    x86_64:
+      - kmymoney
+      - perl-Finance-Quote
+    aarch64:
+      - kmymoney
+      - perl-Finance-Quote

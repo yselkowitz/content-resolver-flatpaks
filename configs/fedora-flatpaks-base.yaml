@@ -44,6 +44,8 @@ data:
     - adwaita-cursor-theme
     - adwaita-icon-theme
     - adwaita-icon-theme-legacy
+    - adwaita-mono-fonts
+    - adwaita-sans-fonts
     - alsa-lib
     - alsa-plugins-arcamav
     - alsa-plugins-oss
@@ -53,17 +55,25 @@ data:
     - alsa-plugins-vdownmix
     - alternatives
     - appstream
-    - appstream-data
+    - aribb24
     - at-spi2-atk
     - at-spi2-core
     - atk
     - attr
     - audit-libs
+    - authselect
+    - authselect-libs
     - avahi-glib
     - avahi-libs
+    - avif-pixbuf-loader
     - basesystem
     - bash
+    - bash-completion
     - bluez-libs
+    - bsdcat
+    - bsdcpio
+    - bsdtar
+    - bsdunzip
     - bubblewrap
     - bzip2
     - bzip2-libs
@@ -75,12 +85,12 @@ data:
     - cmake-filesystem
     - codec2
     - colord-libs
-    - coreutils
-    - coreutils-common
+    - coreutils-single
     - cracklib
     - cracklib-dicts
     - crypto-policies
     - cups-client
+    - cups-filesystem
     - cups-libs
     - curl
     - cyrus-sasl-gssapi
@@ -89,7 +99,6 @@ data:
     - cyrus-sasl-plain
     - cyrus-sasl-scram
     - dbus
-    - dbus-broker
     - dbus-common
     - dbus-libs
     - dbus-tools
@@ -99,6 +108,7 @@ data:
     - dejavu-serif-fonts
     - desktop-file-utils
     - diffutils
+    - double-conversion
     - duktape
     - e2fsprogs-libs
     - elfutils-debuginfod-client
@@ -110,6 +120,7 @@ data:
     - expat
     - fcitx5-gtk3
     - fcitx5-gtk4
+    - fcitx5-qt6
     - fdk-aac-free
     - fedora-gpg-keys
     - fedora-release-common
@@ -118,6 +129,7 @@ data:
     - fedora-repos
     - ffmpeg-free
     - fftw-libs-double
+    - fftw-libs-single
     - file
     - file-libs
     - filesystem
@@ -138,9 +150,7 @@ data:
     - game-music-emu
     - gavl
     - gawk
-    - gcr
     - gcr-libs
-    - gdbm
     - gdbm-libs
     - gdk-pixbuf2
     - gdk-pixbuf2-modules
@@ -154,15 +164,13 @@ data:
     - glib-networking
     - glib2
     - glibc
-    - glibc-all-langpacks
     - glibc-common
     - glibc-gconv-extra
+    - glibc-langpack-*
     - glibc-minimal-langpack
     - glx-utils
     - gmp
     - gmp-c++
-    - gnome-themes-extra
-    - gnome-user-docs
     - gnu-free-fonts-common
     - gnu-free-mono-fonts
     - gnu-free-sans-fonts
@@ -172,6 +180,7 @@ data:
     - gnutls
     - gnutls-c++
     - gnutls-dane
+    - gnutls-utils
     - gobject-introspection
     - google-carlito-fonts
     - google-crosextra-caladea-fonts
@@ -189,9 +198,16 @@ data:
     - gsm
     - gssdp
     - gstreamer1
+    - gstreamer1-plugin-dav1d
+    - gstreamer1-plugin-fallbackswitch
+    - gstreamer1-plugin-fmp4
     - gstreamer1-plugin-gif
     - gstreamer1-plugin-gtk4
+    - gstreamer1-plugin-hsv
+    - gstreamer1-plugin-json
     - gstreamer1-plugin-libav
+    - gstreamer1-plugin-livesync
+    - gstreamer1-plugin-mp4
     - gstreamer1-plugin-openh264
     - gstreamer1-plugin-reqwest
     - gstreamer1-plugins-bad-free
@@ -213,131 +229,27 @@ data:
     - gzip
     - harfbuzz
     - harfbuzz-icu
+    - heif-pixbuf-loader
     - hicolor-icon-theme
-    - highcontrast-icon-theme
+    - hidapi
     - highway
+    - hiredis
     - hostname
     - hunspell
-    - hunspell-af
-    - hunspell-ar
-    - hunspell-be
-    - hunspell-bg
-    - hunspell-bn
-    - hunspell-br
-    - hunspell-ca
-    - hunspell-cs
-    - hunspell-da
-    - hunspell-de
-    - hunspell-el
-    - hunspell-en
-    - hunspell-en-GB
+    - hunspell-??
+    - hunspell-??-*
+    - hunspell-???
     - hunspell-en-US
-    - hunspell-eo
-    - hunspell-es
-    - hunspell-es-AR
-    - hunspell-es-BO
-    - hunspell-es-CL
-    - hunspell-es-CO
-    - hunspell-es-CR
-    - hunspell-es-CU
-    - hunspell-es-DO
-    - hunspell-es-EC
-    - hunspell-es-ES
-    - hunspell-es-GQ
-    - hunspell-es-GT
-    - hunspell-es-HN
-    - hunspell-es-MX
-    - hunspell-es-NI
-    - hunspell-es-PA
-    - hunspell-es-PE
-    - hunspell-es-PR
-    - hunspell-es-PY
-    - hunspell-es-SV
-    - hunspell-es-US
-    - hunspell-es-UY
-    - hunspell-es-VE
-    - hunspell-et
-    - hunspell-fa
     - hunspell-filesystem
-    - hunspell-fr
-    - hunspell-gd
-    - hunspell-gl
-    - hunspell-gu
-    - hunspell-he
-    - hunspell-hi
-    - hunspell-hr
-    - hunspell-hu
-    - hunspell-id
-    - hunspell-is
-    - hunspell-it
-    - hunspell-ko
-    - hunspell-lt
-    - hunspell-lv
-    - hunspell-nb
-    - hunspell-ne
-    - hunspell-nl
-    - hunspell-nn
-    - hunspell-oc
-    - hunspell-pl
-    - hunspell-pt
-    - hunspell-pt-BR
-    - hunspell-ro
-    - hunspell-ru
-    - hunspell-si
-    - hunspell-sk
-    - hunspell-sl
-    - hunspell-sq
-    - hunspell-sr
-    - hunspell-sv
-    - hunspell-sw
-    - hunspell-te
-    - hunspell-th
-    - hunspell-tr
-    - hunspell-uk
-    - hunspell-vi
     - hwdata
     - hyphen
-    - hyphen-af
-    - hyphen-be
-    - hyphen-bg
-    - hyphen-ca
-    - hyphen-cs
-    - hyphen-da
-    - hyphen-de
-    - hyphen-el
-    - hyphen-en
-    - hyphen-eo
-    - hyphen-es
-    - hyphen-et
-    - hyphen-fr
-    - hyphen-gl
-    - hyphen-hr
-    - hyphen-hu
-    - hyphen-id
-    - hyphen-is
-    - hyphen-it
-    - hyphen-lt
-    - hyphen-lv
-    - hyphen-nb
-    - hyphen-nl
-    - hyphen-nn
-    - hyphen-pl
-    - hyphen-pt
-    - hyphen-pt-BR
-    - hyphen-ro
-    - hyphen-ru
-    - hyphen-sk
-    - hyphen-sl
-    - hyphen-sr
-    - hyphen-sv
-    - hyphen-te
-    - hyphen-uk
-    - hyphen-zu
+    - hyphen-??
+    - hyphen-??-*
+    - hyphen-???
     - ibus-gtk3
     - ibus-gtk4
     - ibus-libs
     - ilbc
-    - imath
     - iso-codes
     - jansson
     - javascriptcoregtk4.1
@@ -345,6 +257,7 @@ data:
     - jbigkit-libs
     - json-c
     - json-glib
+    - jxl-pixbuf-loader
     - keyutils-libs
     - krb5-libs
     - ladspa
@@ -359,6 +272,7 @@ data:
     - libaom
     - libappstream-glib
     - libarchive
+    - libaribcaption
     - libasan
     - libass
     - libassuan
@@ -393,13 +307,13 @@ data:
     - libdav1d
     - libdc1394
     - libdecor
-    - libdeflate
     - libdex
     - libdovi
     - libdrm
     - libdvbv5
     - libdvdnav
     - libdvdread
+    - libebur128
     - libeconf
     - libedit
     - libei
@@ -442,6 +356,7 @@ data:
     - libjpeg-turbo
     - libjpeg-turbo-utils
     - libjxl
+    - libkadm5
     - libksba
     - liblc3
     - libldac
@@ -456,10 +371,12 @@ data:
     - libnghttp2
     - libnice
     - libnice-gstreamer1
+    - libnotify
     - libnsl2
     - libobjc
     - liboeffis
     - libogg
+    - libopenjph
     - libopenmpt
     - libpciaccess
     - libpkgconf
@@ -468,7 +385,6 @@ data:
     - libpostproc-free
     - libproxy
     - libpsl
-    - libpwquality
     - librabbitmq
     - libraw1394
     - librist
@@ -500,17 +416,21 @@ data:
     - libtasn1
     - libtdb
     - libtevent
+    - libtextstyle
     - libthai
     - libtheora
     - libtiff
+    - libtinysparql
     - libtirpc
+    - libtommath
     - libtool-ltdl
-    - libtracker-sparql
     - libtsan
     - libubsan
     - libudfread
+    - libunibreak
     - libunistring
     - libunwind
+    - liburing
     - libusb1
     - libutempter
     - libuuid
@@ -560,35 +480,30 @@ data:
     - libXv
     - libXxf86vm
     - libyaml
+    - libyuv
     - libzstd
     - lilv-libs
-    - llvm-libs
-    - lm_sensors-libs
     - lmdb-libs
     - lpcnetfreedv
     - lua
     - lua-libs
-    - lv2
     - lz4
     - lz4-libs
     - lzip
+    - lzo
     - mailcap
     - mbedtls
-    - mesa-dri-drivers
     - mesa-filesystem
-    - mesa-libEGL
     - mesa-libgbm
-    - mesa-libGL
-    - mesa-libglapi
     - mesa-libGLU
-    - mesa-va-drivers
-    - mesa-vdpau-drivers
-    - mesa-vulkan-drivers
     - mozjs128
     - mpdecimal
     - mpfr
     - mpg123-libs
     - mtdev
+    - mythes
+    - mythes-??
+    - mythes-??-*
     - nano
     - ncompress
     - ncurses
@@ -606,16 +521,16 @@ data:
     - nss-util
     - nss_db
     - nss_hesiod
-    - ocl-icd
     - openal-soft
+    - OpenCL-ICD-Loader
     - opencore-amr
-    - openexr-libs
     - openjpeg
     - openjpeg-tools
     - openldap
     - openpgm
     - openssh
     - openssh-clients
+    - openssh-keysign
     - openssl-libs
     - opus
     - opusfile
@@ -623,7 +538,6 @@ data:
     - p11-kit
     - p11-kit-server
     - p11-kit-trust
-    - pam
     - pam-libs
     - pango
     - pciutils-libs
@@ -654,7 +568,6 @@ data:
     - python3
     - python3-brotli
     - python3-cairo
-    - python3-dbus
     - python3-gobject
     - python3-gobject-base
     - python3-gstreamer1
@@ -668,20 +581,31 @@ data:
     - python3-setuptools
     - python3-six
     - python3-tkinter
+    - qrencode-libs
+    - qt6-filesystem
+    - qt6-qtbase
+    - qt6-qtbase-common
+    - qt6-qtbase-gui
+    - qt6-qtdeclarative
+    - qt6-qtsvg
+    - qt6-qttranslations
+    - qt6-qtwayland
     - rav1e-libs
     - readline
     - rpm
     - rpm-libs
     - rpm-sequoia
-    - rubberband
+    - rsvg-pixbuf-loader
+    - rubberband-libs
     - samba-client-libs
     - samba-common
     - samba-common-libs
-    - SDL2
+    - sdl2-compat
     - SDL2_image
     - SDL2_mixer
     - SDL2_net
     - SDL2_ttf
+    - SDL3
     - sed
     - serd
     - setup
@@ -703,15 +627,17 @@ data:
     - srt-libs
     - svt-av1-libs
     - systemd-libs
+    - systemd-standalone-sysusers
     - systemd-standalone-tmpfiles
     - taglib
     - tar
     - tcl
-    - tesseract
-    - tesseract-langpack-eng
-    - tesseract-tessdata-doc
+    - tcl8
+    - tesseract-libs
     - tk
+    - tk8
     - tpm2-tss
+    - tslib
     - turbojpeg
     - twolame-libs
     - tzdata
@@ -720,14 +646,14 @@ data:
     - unzip
     - util-linux
     - util-linux-core
-    - vamp-plugin-sdk
-    - vapoursynth-libs
+    - util-linux-script
     - vid.stab
     - vo-amrwbenc
     - vulkan-loader
     - wavpack
     - webkit2gtk4.1
     - webkitgtk6.0
+    - webp-pixbuf-loader
     - webrtc-audio-processing
     - wget2
     - wget2-libs
@@ -752,18 +678,24 @@ data:
     - xz
     - xz-libs
     - xz-lzma-compat
+    - yelp
+    - yelp-libs
+    - yelp-xsl
     - zeromq
     - zimg
     - zip
+    - zix
     - zlib-ng-compat
     - zstd
     - zvbi
   arch_packages:
     aarch64:
+      - cpuinfo
       - libhwasan
     ppc64le:
       - libquadmath
     x86_64:
+      - cpuinfo
       - libhwasan
       - libquadmath
       - libvmaf

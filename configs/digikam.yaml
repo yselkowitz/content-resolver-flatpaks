@@ -18,3 +18,8 @@ data:
       # soft dependencies
       - hugin-base
       - perl-Image-ExifTool
+    ppc64le:
+      - digikam
+      # soft dependencies
+      - hugin-base
+      - perl-Image-ExifTool

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kbibtex
+  description: Fedora org.kde.kbibtex flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - kbibtex

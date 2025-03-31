@@ -13,8 +13,5 @@ data:
     - markdownpart
     - okular-part
     - svgpart
-    # soft dependencies
-    - arj
-    - p7zip-plugins
-    - unrar
-    - unar
+    # (de)compressor dependencies
+    - ark-flatpak-config

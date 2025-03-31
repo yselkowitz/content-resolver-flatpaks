@@ -6,11 +6,6 @@ data:
   maintainer: flatpak-sig
   labels:
     - flatpak
-  packages: []
-  arch_packages:
-    x86_64:
-      - wxMaxima
-      - gnuplot-wx
-    aarch64:
-      - wxMaxima
-      - gnuplot-wx
+  packages:
+    - wxMaxima
+    - gnuplot-wx

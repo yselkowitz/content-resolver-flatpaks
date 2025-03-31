@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: golang
+  description: Fedora org.fedoraproject.Sdk.Extension.golang flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - golang
+    - golang-bin
+    - golang-docs
+    - golang-misc
+    - golang-src
+    - golang-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

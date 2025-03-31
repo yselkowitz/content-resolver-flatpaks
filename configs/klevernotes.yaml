@@ -20,3 +20,9 @@ data:
       - golang-github-alecthomas-chroma
       - python3-pygments
       - plantuml
+    ppc64le:
+      - klevernotes
+      # plugin dependencies
+      - golang-github-alecthomas-chroma
+      - python3-pygments
+      - plantuml

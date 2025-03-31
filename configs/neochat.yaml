@@ -6,9 +6,5 @@ data:
   maintainer: flatpak-sig
   labels:
     - flatpak
-  packages: []
-  arch_packages:
-    x86_64:
-      - neochat
-    aarch64:
-      - neochat
+  packages:
+    - neochat

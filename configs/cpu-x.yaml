@@ -10,3 +10,5 @@ data:
   arch_packages:
     x86_64:
       - cpu-x
+    aarch64:
+      - cpu-x

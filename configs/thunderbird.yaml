@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: thunderbird
-  description: Fedora org.mozilla.Thunderbird flatpak
+  description: Fedora net.thunderbird.Thunderbird flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak

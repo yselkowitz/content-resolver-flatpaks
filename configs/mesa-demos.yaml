@@ -8,5 +8,7 @@ data:
     - flatpak
   packages:
     - mesa-demos
+    - mesa-demos-flatpak-config
     - glx-utils
     - egl-utils
+    - xdriinfo

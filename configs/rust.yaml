@@ -1,0 +1,39 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: rust
+  description: Fedora org.fedoraproject.Sdk.Extension.rust-stable flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - rust
+    - rust-analyzer
+    - rust-gdb
+    - rust-lldb
+    - rust-std-static
+    - rust-std-static-i686-pc-windows-gnu
+    - rust-std-static-wasm32-unknown-unknown
+    - rust-std-static-wasm32-wasip1
+    - rust-std-static-x86_64-pc-windows-gnu
+    - rustfmt
+    - cargo
+    - cargo-c
+    - cargo-vendor-filterer
+    - clippy
+    - mold
+    - name: rust-std-static-aarch64-unknown-none-softfloat
+      platforms:
+        only: [aarch64]
+    - name: rust-std-static-aarch64-unknown-uefi
+      platforms:
+        only: [aarch64]
+    - name: rust-std-static-x86_64-unknown-none
+      platforms:
+        only: [x86_64]
+    - name: rust-std-static-x86_64-unknown-uefi
+      platforms:
+        only: [x86_64]
+    - rust-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ladspa-tap-plugins
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.TAP flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ladspa-tap-plugins
+    # cleanup-commands (already in runtime)
+    - coreutils-single

@@ -9,3 +9,4 @@ data:
   packages:
     - emacs
     - emacs-gtk+x11
+    - gdk-pixbuf2-modules-extra-flatpak-config

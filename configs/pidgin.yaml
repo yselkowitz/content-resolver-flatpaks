@@ -17,3 +17,4 @@ data:
     - pidgin-window-merge
     - purple-facebook
     - purple-mm-sms
+    - gtk2-flatpak-config

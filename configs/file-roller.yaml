@@ -14,7 +14,7 @@ data:
     - p7zip-plugins
     - rzip
     - unar
-    - unrar
     # libraries in runtime, programs missing: brotli
     # programs in runtime: bzip2, cpio, gzip, lz4, lzip, lzma, ncompress, tar, unzip, xz, zip, zstd
-    # not availble in Fedora: lha, lrzip, rar, unace, unalz, unsquashfs, unstuff, zoo
+    # not available in Fedora: lha, lrzip, rar, unace, unalz, unsquashfs, unstuff, zoo
+    # not optimal in Fedora: unrar(-free) [limited support compared to proprietary unrar, other options handle RAR better]

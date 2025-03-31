@@ -8,6 +8,4 @@ data:
     - flatpak
   packages:
     - blinken
-    - phonon-qt6-backend-vlc
-    - vlc-plugins-base
-    - vlc-plugin-pulseaudio
+    - phonon-qt6-flatpak-config

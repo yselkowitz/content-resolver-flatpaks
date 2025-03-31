@@ -6,6 +6,11 @@ data:
   maintainer: flatpak-sig
   labels:
     - flatpak
-  packages:
-    - dolphin-emu
-    - dolphin-emu-tool
+  packages: []
+  arch_packages:
+    x86_64:
+      - dolphin-emu
+      - dolphin-emu-tool
+    aarch64:
+      - dolphin-emu
+      - dolphin-emu-tool

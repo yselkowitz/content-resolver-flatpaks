@@ -12,3 +12,5 @@ data:
       - falkon
     aarch64:
       - falkon
+    ppc64le:
+      - falkon

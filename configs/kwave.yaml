@@ -10,3 +10,5 @@ data:
     - kwave
     - lame
     - twolame
+    # cleanup-commands (already in runtime)
+    - gzip

@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libva-intel-media-driver
+  description: Fedora org.fedoraproject.Platform.VAAPI.Intel flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages: []
+  arch_packages:
+    x86_64:
+      - libva-intel-media-driver
+      # basic dependencies
+      - intel-gmmlib
+      # for cleanup-commands (part of runtime)
+      - coreutils-single
+      - sed

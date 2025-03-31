@@ -9,3 +9,5 @@ data:
   packages:
     - jpilot
     - jpilot-backup
+    - gtk2-flatpak-config
+    - gdk-pixbuf2-modules-extra-flatpak-config

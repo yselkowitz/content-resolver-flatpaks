@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - pinta
+    - gtk2-flatpak-config

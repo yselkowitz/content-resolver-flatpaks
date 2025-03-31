@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: glibc-langpack-*
+  description: Fedora org.fedoraproject.Platform.Locale flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - glibc-langpack-*
+    - hunspell-??
+    - hunspell-??-*
+    - hunspell-???
+    - hyphen-??
+    - hyphen-??-*
+    - hyphen-???
+    - mythes-??
+    - mythes-??-*
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
+    - sed

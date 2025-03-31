@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - bless
+    - gtk2-flatpak-config

@@ -8,8 +8,4 @@ data:
     - flatpak
   packages:
     - juk
-    - phonon-qt6-backend-vlc
-    - vlc-plugins-base
-    - vlc-plugin-gstreamer
-    - vlc-plugin-pipewire
-    - vlc-plugin-pulseaudio
+    - phonon-qt6-flatpak-config

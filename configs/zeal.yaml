@@ -12,3 +12,5 @@ data:
       - zeal
     aarch64:
       - zeal
+    ppc64le:
+      - zeal

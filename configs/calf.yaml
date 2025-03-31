@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: calf
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.Calf flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - dssi-calf-plugins
+    - lv2-calf-plugins
+    # cleanup-commands (already in runtime)
+    - coreutils-single
+    - findutils

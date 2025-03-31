@@ -8,7 +8,9 @@ data:
     - flatpak
   packages:
     - obs-studio
-    - obs-studio-plugin-vkcapture
-    - obs-studio-plugin-vlc-video
-    #- obs-studio-plugin-webkitgtk
-    - vlc-plugins-base
+    #        - obs-studio-plugin-vlc-video
+    #        - vlc-plugins-base
+    #        - vlc-plugins-extra
+    #        - vlc-plugins-video-out
+    #        - vlc-plugin-ffmpeg
+    #        - vlc-plugin-gstreamer

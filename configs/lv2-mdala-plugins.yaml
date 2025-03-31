@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lv2-mdala-plugins
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.MDA flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - lv2-mdala-plugins
+    # cleanup-commands (already in runtime)
+    - coreutils-single

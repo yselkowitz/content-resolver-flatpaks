@@ -9,3 +9,4 @@ data:
   packages:
     - xournalpp
     - xournalpp-plugins
+    - libgs

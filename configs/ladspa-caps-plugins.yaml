@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ladspa-caps-plugins
+  description: Fedora org.fedoraproject.LinuxAudio.Plugins.CAPS flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak
+  packages:
+    - ladspa-caps-plugins
+    # cleanup-commands (already in runtime)
+    - coreutils-single

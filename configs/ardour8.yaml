@@ -8,3 +8,4 @@ data:
     - flatpak
   packages:
     - ardour8
+    - gtk2-flatpak-config

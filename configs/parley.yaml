@@ -12,3 +12,5 @@ data:
       - parley
     aarch64:
       - parley
+    ppc64le:
+      - parley
