@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pspp
+  description: Fedora org.gnu.pspp flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-app
+  packages:
+    - pspp

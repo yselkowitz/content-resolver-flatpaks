@@ -5,7 +5,7 @@ data:
   description: Fedora org.DolphinEmu.dolphin-emu flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages: []
   arch_packages:
     x86_64:

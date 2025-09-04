@@ -5,7 +5,7 @@ data:
   description: Fedora org.libreoffice.LibreOffice flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - libreoffice
     - libreoffice-base
@@ -18,21 +18,14 @@ data:
     - libreoffice-emailmerge
     - libreoffice-filters
     - libreoffice-librelogo
-    #        - libreoffice-nlpsolver
+    - libreoffice-nlpsolver
     - libreoffice-ogltrans
     - libreoffice-postgresql
-    #        - libreoffice-wiki-publisher
+    - libreoffice-wiki-publisher
     # integration plugins
     - libreoffice-gtk3
-    - libreoffice-x11
     # for texlive extension
     - libgs
-    # third-party extensions
-
-    #        - libreoffice-gallery-vrt-network-equipment
-    #        - libreoffice-grammalecte
-    #        - libreoffice-TexMaths
-    #        - libreoffice-voikko
-    #        - openoffice.org-diafilter
     # langpacks
     - libreoffice-langpack-*
+    - libreoffice-voikko

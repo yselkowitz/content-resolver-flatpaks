@@ -5,7 +5,7 @@ data:
   description: Fedora org.gnome.eog flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - eog
     - eog-plugins

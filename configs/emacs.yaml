@@ -5,8 +5,9 @@ data:
   description: Fedora org.gnu.emacs flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk-app
   packages:
     - emacs
     - emacs-gtk+x11
+    - emacs-pgtk
     - gdk-pixbuf2-modules-extra-flatpak-config

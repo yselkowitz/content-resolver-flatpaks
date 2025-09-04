@@ -5,6 +5,6 @@ data:
   description: Fedora net.sourceforge.ExtremeTuxRacer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - extremetuxracer

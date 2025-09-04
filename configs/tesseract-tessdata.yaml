@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tesseract-tessdata
+  description: Fedora org.fedoraproject.Platform.tessdata flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - tesseract-*
+    # cleanup-commands (already in runtime)
+    - coreutils-single

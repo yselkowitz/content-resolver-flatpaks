@@ -5,7 +5,7 @@ data:
   description: Fedora org.gnome.dia flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - dia
     # additional shapes

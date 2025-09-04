@@ -5,6 +5,6 @@ data:
   description: Fedora net.redeclipse.RedEclipse flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - redeclipse

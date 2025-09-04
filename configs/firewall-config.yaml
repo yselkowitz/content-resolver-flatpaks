@@ -5,6 +5,6 @@ data:
   description: Fedora org.fedoraproject.FirewallConfig flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - firewall-config

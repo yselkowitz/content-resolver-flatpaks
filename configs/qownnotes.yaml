@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: qownnotes
+  description: Fedora org.qownnotes.QOwnNotes flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-kde6-app
+  packages:
+    - qownnotes
+    # missing optional dependencies
+    - git-core

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: anagramarama
+  description: Fedora com.identicalsoftware.anagramarama flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-app
+  packages:
+    - anagramarama

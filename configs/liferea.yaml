@@ -5,6 +5,10 @@ data:
   description: Fedora net.sourceforge.liferea flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - liferea
+    # optional plugin deps
+    - aria2
+    - git-core
+    - libayatana-appindicator-gtk3

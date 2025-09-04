@@ -5,6 +5,6 @@ data:
   description: Fedora org.gnome.glabels-3 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - glabels

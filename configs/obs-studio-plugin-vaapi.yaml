@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: obs-studio-plugin-vaapi
+  description: Fedora com.obsproject.Studio.Plugin.GStreamerVaapi flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - obs-studio-plugin-vaapi
+    - obs-studio-plugin-vaapi-flatpak-config
+    # cleanup-commands (already in runtime)
+    - coreutils-single

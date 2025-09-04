@@ -5,7 +5,7 @@ data:
   description: Fedora org.vim.Vim flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - vim-X11
     - perl-interpreter

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: aegisub
+  description: Fedora org.aegisub.Aegisub flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-app
+  packages: []
+  arch_packages:
+    x86_64:
+      - aegisub
+    aarch64:
+      - aegisub

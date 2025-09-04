@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libreoffice-langpacks
+  description: Fedora org.libreoffice.LibreOffice.Locale flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - libreoffice-langpack-*
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
+    - findutils

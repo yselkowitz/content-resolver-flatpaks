@@ -5,6 +5,6 @@ data:
   description: Fedora de.hohnstaedt.xca flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - xca

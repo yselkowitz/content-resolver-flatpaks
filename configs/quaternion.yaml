@@ -5,6 +5,6 @@ data:
   description: Fedora io.github.quotient_im.Quaternion flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - quaternion

@@ -5,7 +5,7 @@ data:
   description: Fedora org.atheme.audacious flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - audacious
     - audacious-plugins

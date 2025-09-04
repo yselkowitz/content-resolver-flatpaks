@@ -5,7 +5,7 @@ data:
   description: Fedora net.scribus.Scribus flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - scribus
     - scribus-generator

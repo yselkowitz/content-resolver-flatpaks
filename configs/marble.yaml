@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.marble flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - marble
     - phonon-qt6-flatpak-config

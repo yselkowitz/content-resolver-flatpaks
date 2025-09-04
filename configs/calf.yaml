@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.Calf flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - dssi-calf-plugins
     - lv2-calf-plugins

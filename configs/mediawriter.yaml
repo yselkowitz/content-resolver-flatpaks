@@ -5,6 +5,6 @@ data:
   description: Fedora org.fedoraproject.MediaWriter flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - mediawriter

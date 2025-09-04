@@ -5,6 +5,6 @@ data:
   description: Fedora com.github.neithern.g4music flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - g4music

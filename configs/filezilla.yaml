@@ -5,6 +5,6 @@ data:
   description: Fedora org.filezillaproject.Filezilla flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - filezilla

@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.lokalize flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - lokalize
     # soft dependencies

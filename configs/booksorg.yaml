@@ -5,6 +5,6 @@ data:
   description: Fedora org.elokab.books flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - booksorg

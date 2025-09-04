@@ -5,6 +5,10 @@ data:
   description: Fedora net.thunderbird.Thunderbird flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
-  packages:
-    - thunderbird
+    - flatpak-app
+  packages: []
+  arch_packages:
+    ppc64le:
+      - thunderbird
+    x86_64:
+      - thunderbird

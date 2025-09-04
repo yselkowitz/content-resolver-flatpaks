@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.calligra flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - calligra
     - calligra-l10n

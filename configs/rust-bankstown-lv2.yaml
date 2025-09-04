@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: lv2-bankstown
+  name: rust-bankstown-lv2
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.Bankstown flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages: []
   arch_packages:
     x86_64:

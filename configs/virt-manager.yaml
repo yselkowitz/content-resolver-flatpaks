@@ -5,9 +5,12 @@ data:
   description: Fedora org.virt_manager.virt-manager flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - virt-manager
     # optional dependency
     - gtksourceview4
     - libayatana-appindicator-gtk3
+    - libvirt-daemon-qemu
+    # avoid ambiguous dependency on ebtables
+    - iptables-nft

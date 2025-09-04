@@ -5,6 +5,6 @@ data:
   description: Fedora com.toolstack.Folio flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - folio

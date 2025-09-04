@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: obs-studio-plugin-vlc-video
+  description: Fedora com.obsproject.Studio.Plugin.VLCVideo flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - obs-studio-plugin-vlc-video
+    - obs-studio-plugin-vlc-video-flatpak-config
+    # cleanup-commands (already in runtime)
+    - coreutils-single

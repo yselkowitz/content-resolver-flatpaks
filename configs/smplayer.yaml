@@ -5,6 +5,6 @@ data:
   description: Fedora info.smplayer.SMPlayer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - smplayer

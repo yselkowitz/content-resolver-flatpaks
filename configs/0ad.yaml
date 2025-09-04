@@ -5,6 +5,10 @@ data:
   description: Fedora com.play0ad.zeroad flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
-  packages:
-    - 0ad
+    - flatpak-app
+  packages: []
+  arch_packages:
+    x86_64:
+      - 0ad
+    aarch64:
+      - 0ad

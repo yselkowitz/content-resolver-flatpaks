@@ -5,6 +5,6 @@ data:
   description: Fedora org.gabmus.hydrapaper flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - hydrapaper

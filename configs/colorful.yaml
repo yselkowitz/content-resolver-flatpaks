@@ -5,6 +5,6 @@ data:
   description: Fedora pl.suve.colorful flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - colorful

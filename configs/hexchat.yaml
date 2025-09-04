@@ -5,7 +5,7 @@ data:
   description: Fedora io.github.Hexchat flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - hexchat
     # optional plugins

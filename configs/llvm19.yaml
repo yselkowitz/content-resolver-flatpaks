@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: clang19
+  name: llvm19
   description: Fedora org.fedoraproject.Sdk.Extension.llvm19 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk
   packages:
     - clang19
     - clang19-analyzer

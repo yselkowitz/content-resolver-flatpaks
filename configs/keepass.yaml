@@ -5,7 +5,7 @@ data:
   description: Fedora info.keepass.keepass flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - keepass
     - libargon2

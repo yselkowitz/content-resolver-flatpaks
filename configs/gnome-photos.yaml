@@ -5,7 +5,7 @@ data:
   description: Fedora org.gnome.Photos flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gnome-photos
     - localsearch

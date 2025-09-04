@@ -5,7 +5,7 @@ data:
   description: Fedora org.anakreon.Berusky flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - berusky
     - gtk2-flatpak-config

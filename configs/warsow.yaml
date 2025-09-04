@@ -5,7 +5,7 @@ data:
   description: Fedora net.warsow.Warsow flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages: []
   arch_packages:
     x86_64:

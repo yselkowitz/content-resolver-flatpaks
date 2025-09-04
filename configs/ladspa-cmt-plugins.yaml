@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.CMT flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - ladspa-cmt-plugins
     # cleanup-commands (already in runtime)

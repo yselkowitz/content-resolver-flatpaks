@@ -5,6 +5,6 @@ data:
   description: Fedora com.github.artemanufrij.regextester flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - regextester

@@ -5,12 +5,6 @@ data:
   description: Fedora com.obsproject.Studio flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - obs-studio
-    #        - obs-studio-plugin-vlc-video
-    #        - vlc-plugins-base
-    #        - vlc-plugins-extra
-    #        - vlc-plugins-video-out
-    #        - vlc-plugin-ffmpeg
-    #        - vlc-plugin-gstreamer

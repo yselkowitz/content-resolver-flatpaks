@@ -5,7 +5,7 @@ data:
   description: Fedora org.blender.Blender flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - blender
     # external addons

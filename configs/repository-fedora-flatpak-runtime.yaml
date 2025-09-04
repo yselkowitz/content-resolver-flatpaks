@@ -1,0 +1,20 @@
+---
+document: feedback-pipeline-repository
+version: 2
+data:
+  name: Fedora Flatpak Runtimes
+  description: Fedora Flatpak Runtime Packages
+  maintainer: flatpak-sig
+  source:
+    repos:
+      flatpak-runtime:
+        baseurl: https://kojipkgs.fedoraproject.org/repos/f42-flatpak-runtime-packages/latest/$basearch/
+        koji_api_url: https://koji.fedoraproject.org/kojihub
+        koji_files_url: https://kojipkgs.fedoraproject.org
+        priority: 2
+    releasever: "42"
+    architectures:
+      - aarch64
+      - ppc64le
+      - x86_64
+    base_buildroot_override: ['bash', 'bzip2', 'coreutils', 'cpio', 'diffutils', 'findutils', 'flatpak-rpm-macros', 'flatpak-runtime-config', 'gawk', 'glibc-minimal-langpack', 'grep', 'gzip', 'info', 'make', 'patch', 'redhat-rpm-config', 'rpm-build', 'sed', 'shadow-utils', 'tar', 'unzip', 'util-linux', 'which', 'xz']

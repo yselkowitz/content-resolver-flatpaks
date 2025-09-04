@@ -5,7 +5,7 @@ data:
   description: Fedora net.sourceforge.Hugin flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - hugin
     # cleanup-commands (part of runtime)

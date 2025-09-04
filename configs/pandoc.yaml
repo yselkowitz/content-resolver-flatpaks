@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.Sdk.Extension.pandoc flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk
   packages:
     - pandoc
     - pandoc-common

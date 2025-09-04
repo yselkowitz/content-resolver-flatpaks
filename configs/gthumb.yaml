@@ -5,6 +5,6 @@ data:
   description: Fedora org.gnome.gThumb flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gthumb

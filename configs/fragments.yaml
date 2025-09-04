@@ -5,6 +5,6 @@ data:
   description: Fedora de.haeckerfelix.Fragments flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - fragments

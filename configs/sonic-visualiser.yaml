@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sonic-visualiser
+  description: Fedora org.sonicvisualiser.SonicVisualiser flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-kde6-app
+  packages:
+    - sonic-visualiser
+    - sonic-visualiser-flatpak-config
+    # plugin dependencies
+    - flexiblas

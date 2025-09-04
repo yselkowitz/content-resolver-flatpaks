@@ -5,10 +5,8 @@ data:
   description: Fedora org.kde.kwave flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - kwave
     - lame
     - twolame
-    # cleanup-commands (already in runtime)
-    - gzip

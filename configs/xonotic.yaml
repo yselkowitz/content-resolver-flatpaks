@@ -5,6 +5,6 @@ data:
   description: Fedora org.xonotic.Xonotic flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - xonotic

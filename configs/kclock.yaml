@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.kclock flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - kclock
     - kf6-kirigami-addons

@@ -2,9 +2,9 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: gnofract4d
-  description: Fedora com.github.fract4d.gnofract4d flatpak
+  description: Fedora io.github.fract4d flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk-app
   packages:
     - gnofract4d

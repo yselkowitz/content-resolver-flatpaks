@@ -5,8 +5,11 @@ data:
   description: Fedora org.gimp.GIMP flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gimp
     - mypaint-brushes
+    - gimp-data-extras
     - gimp-fourier-plugin
+    - gimp-high-pass-filter
+    - gimp-paint-studio

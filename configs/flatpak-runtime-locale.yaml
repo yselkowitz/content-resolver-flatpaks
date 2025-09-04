@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: glibc-langpack-*
+  name: flatpak-runtime-locale
   description: Fedora org.fedoraproject.Platform.Locale flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - glibc-langpack-*
     - hunspell-??

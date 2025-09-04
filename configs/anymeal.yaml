@@ -5,6 +5,6 @@ data:
   description: Fedora de.wedesoft.anymeal flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - anymeal

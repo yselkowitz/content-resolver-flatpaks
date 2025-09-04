@@ -5,6 +5,6 @@ data:
   description: Fedora com.raggesilver.BlackBox flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - blackbox-terminal

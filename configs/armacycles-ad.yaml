@@ -5,6 +5,6 @@ data:
   description: Fedora net.sourceforge.armacycles-ad flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - armacycles-ad

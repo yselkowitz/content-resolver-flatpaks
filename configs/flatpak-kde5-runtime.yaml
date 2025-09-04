@@ -1,51 +1,17 @@
----
-# This configuration file defines an "Environment" in Feedback Pipeline.
-# https://tiny.distro.builders
-#
-# Environments influence how a workload looks like when installed.
-# That's achieved by including specific packages — like coreutils-single — that
-# influence the result.
-# Environments can also act as base images when monitoring container sizes.
-
-document: feedback-pipeline-environment
+document: feedback-pipeline-workload
 version: 1
 data:
-  # id is the filename — that automatically prevents collisions for free!
-
-  ### MANDATORY FIELDS ###
-
-  # Name is an identifier for humans
-  #
-  # (mandatory field)
-  name: Fedora Flatpak Environment
-  # A short description, perhaps hinting the purpose
-  #
-  # (mandatory field)
-  description: A base environment on top of which all Fedora Flatpak workloads are analyzed.
-  # Who maintains it? This is just a freeform string
-  # for humans to read. In Fedora, a FAS nick is recommended.
-  #
-  # (mandatory field)
+  name: flatpak-kde5-runtime
+  description: Fedora org.fedoraproject.KDE5Platform flatpak
   maintainer: flatpak-sig
-  # Different instances of the environment, one per repository.
-  #
-  # (mandatory field)
-  repositories:
-    - repository-fedora-flatpaks
-  # Packages defining this environment.
-  # This list includes packages for all
-  # architectures — that's the one to use by default.
-  #
-  # (mandatory field)
+  labels:
+    - flatpak-kde5-runtime
   packages:
     - abattis-cantarell-vf-fonts
     - acl
-    - adobe-source-code-pro-fonts
     - adwaita-cursor-theme
     - adwaita-icon-theme
     - adwaita-icon-theme-legacy
-    - adwaita-mono-fonts
-    - adwaita-sans-fonts
     - alsa-lib
     - alsa-plugins-arcamav
     - alsa-plugins-oss
@@ -56,6 +22,7 @@ data:
     - alternatives
     - appstream
     - aribb24
+    - assimp
     - at-spi2-atk
     - at-spi2-core
     - atk
@@ -70,11 +37,12 @@ data:
     - bash
     - bash-completion
     - bluez-libs
+    - breeze-icon-theme
+    - breeze-icon-theme-rcc
     - bsdcat
     - bsdcpio
     - bsdtar
     - bsdunzip
-    - bubblewrap
     - bzip2
     - bzip2-libs
     - ca-certificates
@@ -102,27 +70,35 @@ data:
     - dbus-common
     - dbus-libs
     - dbus-tools
+    - dbusmenu-qt5
     - default-fonts-core-sans
     - dejavu-sans-fonts
     - dejavu-sans-mono-fonts
     - dejavu-serif-fonts
     - desktop-file-utils
     - diffutils
+    - docbook-dtds
+    - docbook-style-xsl
     - double-conversion
     - duktape
     - e2fsprogs-libs
+    - ebook-tools-libs
+    - editorconfig-libs
     - elfutils-debuginfod-client
     - elfutils-default-yama-scope
     - elfutils-libelf
     - elfutils-libs
     - emacs-filesystem
-    - enchant2
+    - exiv2-libs
     - expat
+    - faad2-libs
+    - fcitx5-gtk
     - fcitx5-gtk3
-    - fcitx5-gtk4
-    - fcitx5-qt6
+    - fcitx5-qt-libfcitx5qtdbus
+    - fcitx5-qt5
     - fdk-aac-free
     - fedora-gpg-keys
+    - fedora-logos
     - fedora-release-common
     - fedora-release-flatpak
     - fedora-release-identity-flatpak
@@ -150,7 +126,6 @@ data:
     - game-music-emu
     - gavl
     - gawk
-    - gcr-libs
     - gdbm-libs
     - gdk-pixbuf2
     - gdk-pixbuf2-modules
@@ -160,7 +135,6 @@ data:
     - gettext-libs
     - gettext-runtime
     - giflib
-    - gjs
     - glib-networking
     - glib2
     - glibc
@@ -202,7 +176,6 @@ data:
     - gstreamer1-plugin-fallbackswitch
     - gstreamer1-plugin-fmp4
     - gstreamer1-plugin-gif
-    - gstreamer1-plugin-gtk4
     - gstreamer1-plugin-hsv
     - gstreamer1-plugin-json
     - gstreamer1-plugin-libav
@@ -215,23 +188,20 @@ data:
     - gstreamer1-plugins-base
     - gstreamer1-plugins-good
     - gstreamer1-plugins-good-gtk
+    - gstreamer1-plugins-good-qt
     - gstreamer1-plugins-ugly-free
     - gtk-immodules-imsettings
     - gtk-update-icon-cache
     - gtk3
     - gtk3-immodule-xim
     - gtk3-immodules
-    - gtk4
-    - gtksourceview5
     - gupnp
     - gupnp-igd
-    - gvfs-client
     - gzip
     - harfbuzz
     - harfbuzz-icu
     - heif-pixbuf-loader
     - hicolor-icon-theme
-    - hidapi
     - highway
     - hiredis
     - hostname
@@ -247,19 +217,109 @@ data:
     - hyphen-??-*
     - hyphen-???
     - ibus-gtk3
-    - ibus-gtk4
     - ibus-libs
     - ilbc
+    - imath
+    - inih
+    - inih-cpp
     - iso-codes
     - jansson
-    - javascriptcoregtk4.1
-    - javascriptcoregtk6.0
+    - jasper-libs
     - jbigkit-libs
     - json-c
     - json-glib
     - jxl-pixbuf-loader
+    - kaccounts-integration-qt5
+    - kde-filesystem
+    - kde-settings
+    - kdsoap
     - keyutils-libs
+    - kf5-attica
+    - kf5-bluez-qt
+    - kf5-filesystem
+    - kf5-frameworkintegration
+    - kf5-frameworkintegration-libs
+    - kf5-kactivities
+    - kf5-kactivities-stats
+    - kf5-karchive
+    - kf5-kauth
+    - kf5-kbookmarks
+    - kf5-kcalendarcore
+    - kf5-kcmutils
+    - kf5-kcodecs
+    - kf5-kcompletion
+    - kf5-kconfig-core
+    - kf5-kconfig-gui
+    - kf5-kconfigwidgets
+    - kf5-kcontacts
+    - kf5-kcoreaddons
+    - kf5-kcrash
+    - kf5-kdav
+    - kf5-kdbusaddons
+    - kf5-kdeclarative
+    - kf5-kded
+    - kf5-kdesignerplugin
+    - kf5-kdnssd
+    - kf5-kdoctools
+    - kf5-kemoticons
+    - kf5-kfilemetadata
+    - kf5-kglobalaccel
+    - kf5-kglobalaccel-libs
+    - kf5-kguiaddons
+    - kf5-kholidays
+    - kf5-ki18n
+    - kf5-kiconthemes
+    - kf5-kidletime
+    - kf5-kimageformats
+    - kf5-kinit
+    - kf5-kio-core
+    - kf5-kio-core-libs
+    - kf5-kio-doc
+    - kf5-kio-file-widgets
+    - kf5-kio-gui
+    - kf5-kio-ntlm
+    - kf5-kio-widgets
+    - kf5-kio-widgets-libs
+    - kf5-kirigami2
+    - kf5-kirigami2-addons
+    - kf5-kitemmodels
+    - kf5-kitemviews
+    - kf5-kjobwidgets
+    - kf5-knewstuff
+    - kf5-knotifications
+    - kf5-knotifyconfig
+    - kf5-kpackage
+    - kf5-kparts
+    - kf5-kplotting
+    - kf5-kpty
+    - kf5-kquickcharts
+    - kf5-kservice
+    - kf5-ktexteditor
+    - kf5-ktextwidgets
+    - kf5-kunitconversion
+    - kf5-kwallet
+    - kf5-kwallet-libs
+    - kf5-kwayland
+    - kf5-kwidgetsaddons
+    - kf5-kwindowsystem
+    - kf5-kxmlgui
+    - kf5-kxmlrpcclient
+    - kf5-plasma
+    - kf5-prison
+    - kf5-purpose
+    - kf5-qqc2-breeze-style
+    - kf5-qqc2-desktop-style
+    - kf5-solid
+    - kf5-sonnet
+    - kf5-sonnet-core
+    - kf5-sonnet-hunspell
+    - kf5-sonnet-ui
+    - kf5-syndication
+    - kf5-syntax-highlighting
+    - kf5-threadweaver
+    - kio-extras-kf5
     - krb5-libs
+    - kwayland-integration
     - ladspa
     - lame
     - lame-libs
@@ -267,8 +327,9 @@ data:
     - leptonica
     - less
     - liba52
+    - libaccounts-glib
+    - libaccounts-qt5
     - libacl
-    - libadwaita
     - libaom
     - libappstream-glib
     - libarchive
@@ -293,7 +354,6 @@ data:
     - libbs2b
     - libcaca
     - libcanberra
-    - libcanberra-gtk3
     - libcap
     - libcap-ng
     - libcbor
@@ -307,7 +367,8 @@ data:
     - libdav1d
     - libdc1394
     - libdecor
-    - libdex
+    - libdeflate
+    - libdmtx
     - libdovi
     - libdrm
     - libdvbv5
@@ -316,8 +377,6 @@ data:
     - libebur128
     - libeconf
     - libedit
-    - libei
-    - libeis
     - libepoxy
     - liberation-mono-fonts
     - liberation-sans-fonts
@@ -333,7 +392,6 @@ data:
     - libgcc
     - libgcrypt
     - libgdither
-    - libgee
     - libgfortran
     - libglvnd
     - libglvnd-egl
@@ -344,29 +402,31 @@ data:
     - libgpg-error
     - libgudev
     - libgusb
-    - libhandy
     - libheif
-    - libheif-tools
+    - libical
     - libICE
     - libicu
     - libidn2
     - libiec61883
+    - libimobiledevice
+    - libimobiledevice-glue
     - libinput
     - libitm
     - libjpeg-turbo
     - libjpeg-turbo-utils
     - libjxl
-    - libkadm5
+    - libkexiv2-qt5
     - libksba
     - liblc3
     - libldac
     - libldb
     - liblerc
     - liblsan
-    - libmanette
+    - libmng
     - libmodplug
     - libmount
     - libmpeg2
+    - libmtp
     - libmysofa
     - libnghttp2
     - libnice
@@ -374,18 +434,19 @@ data:
     - libnotify
     - libnsl2
     - libobjc
-    - liboeffis
     - libogg
     - libopenjph
     - libopenmpt
     - libpciaccess
     - libpkgconf
     - libplacebo
+    - libplist
     - libpng
     - libpostproc-free
     - libproxy
     - libpsl
     - librabbitmq
+    - LibRaw
     - libraw1394
     - librist
     - librsvg2
@@ -430,8 +491,8 @@ data:
     - libunibreak
     - libunistring
     - libunwind
-    - liburing
     - libusb1
+    - libusbmuxd
     - libutempter
     - libuuid
     - libv4l
@@ -481,6 +542,7 @@ data:
     - libXxf86vm
     - libyaml
     - libyuv
+    - libzip
     - libzstd
     - lilv-libs
     - lmdb-libs
@@ -490,13 +552,11 @@ data:
     - lz4
     - lz4-libs
     - lzip
-    - lzo
     - mailcap
     - mbedtls
     - mesa-filesystem
     - mesa-libgbm
     - mesa-libGLU
-    - mozjs128
     - mpdecimal
     - mpfr
     - mpg123-libs
@@ -515,6 +575,7 @@ data:
     - npth
     - nspr
     - nss
+    - nss-mdns
     - nss-softokn
     - nss-softokn-freebl
     - nss-sysinit
@@ -524,13 +585,13 @@ data:
     - openal-soft
     - OpenCL-ICD-Loader
     - opencore-amr
+    - openexr-libs
     - openjpeg
     - openjpeg-tools
     - openldap
     - openpgm
     - openssh
     - openssh-clients
-    - openssh-keysign
     - openssl-libs
     - opus
     - opusfile
@@ -545,8 +606,9 @@ data:
     - pcre2-syntax
     - pcre2-utf16
     - pcre2-utf32
-    - pinentry
-    - pinentry-gnome3
+    - phonon-common
+    - phonon-qt5
+    - phonon-qt5-backend-gstreamer
     - pipewire-alsa
     - pipewire-gstreamer
     - pipewire-jack-audio-connection-kit
@@ -557,20 +619,33 @@ data:
     - pkgconf
     - pkgconf-m4
     - pkgconf-pkg-config
+    - plasma-breeze-common
+    - plasma-breeze-qt5
+    - plasma-integration-qt5
+    - polkit-libs
+    - polkit-qt5-1
+    - poly2tri
+    - poppler
+    - poppler-data
+    - poppler-glib
+    - poppler-qt5
     - popt
     - procps-ng
     - protobuf-c
     - publicsuffix-list-dafsa
+    - pugixml
     - pulseaudio-libs
     - pulseaudio-libs-glib2
     - python-pip-wheel
+    - python-qt5-rpm-macros
     - python-unversioned-command
     - python3
     - python3-brotli
     - python3-cairo
+    - python3-dbus
     - python3-gobject
     - python3-gobject-base
-    - python3-gstreamer1
+    - python3-gpg
     - python3-libs
     - python3-libxml2
     - python3-libxslt
@@ -578,20 +653,62 @@ data:
     - python3-markdown
     - python3-markupsafe
     - python3-packaging
+    - python3-pyqt5-sip
+    - python3-qt5
+    - python3-qt5-base
     - python3-setuptools
     - python3-six
     - python3-tkinter
+    - qadwaitadecorations-qt5
+    - qca-qt5
+    - qca-qt5-cyrus-sasl
+    - qca-qt5-gnupg
+    - qca-qt5-logger
+    - qca-qt5-nss
+    - qca-qt5-ossl
+    - qca-qt5-softstore
+    - qgpgme-qt5
     - qrencode-libs
-    - qt6-filesystem
-    - qt6-qtbase
-    - qt6-qtbase-common
-    - qt6-qtbase-gui
-    - qt6-qtdeclarative
-    - qt6-qtsvg
-    - qt6-qttranslations
-    - qt6-qtwayland
+    - qt-settings
+    - qt5-filesystem
+    - qt5-qt3d
+    - qt5-qtbase
+    - qt5-qtbase-common
+    - qt5-qtbase-gui
+    - qt5-qtcharts
+    - qt5-qtconnectivity
+    - qt5-qtdeclarative
+    - qt5-qtgamepad
+    - qt5-qtgraphicaleffects
+    - qt5-qtimageformats
+    - qt5-qtlocation
+    - qt5-qtmultimedia
+    - qt5-qtnetworkauth
+    - qt5-qtquickcontrols
+    - qt5-qtquickcontrols2
+    - qt5-qtremoteobjects
+    - qt5-qtscript
+    - qt5-qtsensors
+    - qt5-qtserialport
+    - qt5-qtspeech
+    - qt5-qtspeech-flite
+    - qt5-qtspeech-speechd
+    - qt5-qtsvg
+    - qt5-qttools
+    - qt5-qttools-common
+    - qt5-qttools-libs-designer
+    - qt5-qttools-libs-designercomponents
+    - qt5-qttools-libs-help
+    - qt5-qttranslations
+    - qt5-qtvirtualkeyboard
+    - qt5-qtwayland
+    - qt5-qtwebchannel
+    - qt5-qtwebsockets
+    - qt5-qtx11extras
+    - qt5-qtxmlpatterns
     - rav1e-libs
     - readline
+    - redhat-menus
     - rpm
     - rpm-libs
     - rpm-sequoia
@@ -612,6 +729,7 @@ data:
     - sgml-common
     - shadow-utils
     - shared-mime-info
+    - signon-qt5
     - slang
     - snappy
     - sord
@@ -633,11 +751,13 @@ data:
     - tar
     - tcl
     - tcl8
+    - tesseract-common
+    - tesseract-langpack-eng
     - tesseract-libs
+    - tesseract-tessdata-doc
     - tk
     - tk8
     - tpm2-tss
-    - tslib
     - turbojpeg
     - twolame-libs
     - tzdata
@@ -651,22 +771,18 @@ data:
     - vo-amrwbenc
     - vulkan-loader
     - wavpack
-    - webkit2gtk4.1
-    - webkitgtk6.0
     - webp-pixbuf-loader
     - webrtc-audio-processing
     - wget2
     - wget2-libs
     - wget2-wget
     - which
-    - woff2
     - xcb-util
     - xcb-util-cursor
     - xcb-util-image
     - xcb-util-keysyms
     - xcb-util-renderutil
     - xcb-util-wm
-    - xdg-dbus-proxy
     - xdg-user-dirs
     - xdg-utils
     - xkbcomp
@@ -678,9 +794,6 @@ data:
     - xz
     - xz-libs
     - xz-lzma-compat
-    - yelp
-    - yelp-libs
-    - yelp-xsl
     - zeromq
     - zimg
     - zip
@@ -688,42 +801,21 @@ data:
     - zlib-ng-compat
     - zstd
     - zvbi
+    - zxing-cpp
   arch_packages:
     aarch64:
       - cpuinfo
       - libhwasan
+      - python3-qt5-webengine
+      - qt5-qtwebengine
     ppc64le:
       - libquadmath
+      - librtas
     x86_64:
       - cpuinfo
       - libhwasan
       - libquadmath
       - libvmaf
       - libvpl
-
-  # Labels connect things together.
-  # Workloads get installed in environments with the same label.
-  # They also get included in views with the same label.
-  # 
-  # (mandatory field)
-  labels:
-    - flatpak
-
-  ### OPTIONAL FIELDS ###
-
-  # Architecture-specific packages.
-  #
-  # (optional field)
-  #arch_packages:
-  #  x86_64:
-  #  - arch-specific-package
-
-  # Extra installation options.
-  # The following are now supported:
-  # - "include-docs" - include documentation packages
-  # - "include-weak-deps" - automatically pull in "recommends" weak dependencies
-  #
-  # (optional field)
-  #options:
-  #- option
-
+      - python3-qt5-webengine
+      - qt5-qtwebengine

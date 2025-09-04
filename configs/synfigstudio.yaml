@@ -5,6 +5,6 @@ data:
   description: Fedora org.synfig.SynfigStudio flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - synfigstudio

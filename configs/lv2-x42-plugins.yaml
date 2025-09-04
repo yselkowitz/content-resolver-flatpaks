@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.x42Plugins flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - lv2-x42-plugins
     # cleanup-commands (already in runtime)

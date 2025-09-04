@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: openh264
+  description: Fedora org.fedoraproject.Platform.Codecs.openh264 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - openh264-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

@@ -5,7 +5,7 @@ data:
   description: Fedora org.gnome.Rhythmbox3 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - rhythmbox
     - rhythmbox-alternative-toolbar

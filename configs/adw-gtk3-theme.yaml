@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.Gtk3theme.adw-gtk3 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - adw-gtk3-theme
     - adw-gtk3-theme-flatpak-config

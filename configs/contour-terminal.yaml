@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: contour-terminal
+  description: Fedora org.contourterminal.Contour flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-kde6-app
+  packages: []
+  arch_packages:
+    x86_64:
+      - contour-terminal
+    aarch64:
+      - contour-terminal

@@ -5,11 +5,9 @@ data:
   description: Fedora org.sane_project.xsane flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - xsane
-    - libsane-airscan
-    - sane-backends-drivers-cameras
-    - sane-backends-drivers-scanners
+    - sane-backends-flatpak-config
     - gdk-pixbuf2-modules-extra-flatpak-config
     - gtk2-flatpak-config

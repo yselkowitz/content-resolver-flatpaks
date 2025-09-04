@@ -5,7 +5,7 @@ data:
   description: Fedora org.xnec2c.Xnec2c flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - xnec2c
     # soft dependencies

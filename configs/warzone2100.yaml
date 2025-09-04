@@ -5,7 +5,7 @@ data:
   description: Fedora net.wz2100.wz2100 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - warzone2100
     - warzone2100-sequences

@@ -5,6 +5,6 @@ data:
   description: Fedora org.clementine_player.Clementine flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - clementine

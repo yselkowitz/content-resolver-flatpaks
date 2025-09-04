@@ -5,6 +5,6 @@ data:
   description: Fedora com.tux4kids.tuxmath flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - tuxmath

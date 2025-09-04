@@ -5,7 +5,7 @@ data:
   description: Fedora com.psi_plus.Psi_plus flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - psi-plus
     - psi-plus-plugins

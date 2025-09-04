@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: lsp-plugins-clap
+  name: lsp-plugins
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.LSP flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - lsp-plugins-clap
     - lsp-plugins-ladspa

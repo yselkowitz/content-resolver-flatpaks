@@ -5,6 +5,6 @@ data:
   description: Fedora com.bellz.ConvertAll flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - convertall

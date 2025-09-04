@@ -5,7 +5,7 @@ data:
   description: Fedora com.github.micahflee.torbrowser-launcher flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages: []
   arch_packages:
     x86_64:

@@ -5,6 +5,7 @@ data:
   description: Fedora io.github.manisandro.gImageReader flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gimagereader-gtk
+    - sane-backends-flatpak-config

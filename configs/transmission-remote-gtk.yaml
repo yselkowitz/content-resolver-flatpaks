@@ -5,6 +5,6 @@ data:
   description: Fedora io.github.TransmissionRemoteGtk flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - transmission-remote-gtk

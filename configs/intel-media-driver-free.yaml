@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: libva-intel-media-driver
+  name: intel-media-driver-free
   description: Fedora org.fedoraproject.Platform.VAAPI.Intel flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages: []
   arch_packages:
     x86_64:

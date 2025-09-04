@@ -5,9 +5,8 @@ data:
   description: Fedora org.fedoraproject.Platform.GL.default flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
-    - mesa-libd3d
     - mesa-libEGL
     - mesa-libGL
     - mesa-libOpenCL

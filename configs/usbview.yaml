@@ -5,7 +5,7 @@ data:
   description: Fedora com.kroah.usbview flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - usbview
     - gdk-pixbuf2-modules-extra-flatpak-config

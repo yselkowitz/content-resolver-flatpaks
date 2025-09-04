@@ -5,6 +5,6 @@ data:
   description: Fedora nl.hjdskes.gcolor3 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gcolor3

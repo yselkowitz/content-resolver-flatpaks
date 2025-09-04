@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.dragonplayer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - dragon
     - phonon-qt6-flatpak-config

@@ -5,6 +5,6 @@ data:
   description: Fedora org.inkscape.Inkscape flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - inkscape

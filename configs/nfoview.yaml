@@ -5,6 +5,6 @@ data:
   description: Fedora io.otsaloma.nfoview flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - nfoview

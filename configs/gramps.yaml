@@ -5,6 +5,6 @@ data:
   description: Fedora org.gramps_project.Gramps flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gramps

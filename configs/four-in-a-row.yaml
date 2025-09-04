@@ -5,6 +5,6 @@ data:
   description: Fedora org.gnome.Four-in-a-row flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - four-in-a-row

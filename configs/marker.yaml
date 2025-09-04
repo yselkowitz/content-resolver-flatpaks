@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: marker
+  description: Fedora com.github.fabiocolacio.marker flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-app
+  packages:
+    - marker

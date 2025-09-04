@@ -5,7 +5,7 @@ data:
   description: Fedora org.gajim.Gajim flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gajim
     # soft dependencies

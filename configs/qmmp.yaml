@@ -5,7 +5,7 @@ data:
   description: Fedora com.ylsoftware.qmmp.Qmmp flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - qmmp
     # weak dependencies

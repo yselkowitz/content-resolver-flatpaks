@@ -5,30 +5,36 @@ data:
   description: Fedora org.kde.labplot flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages: []
   arch_packages:
     x86_64:
       - LabPlot
       # cantor dependencies
+      - cantor-R
       - gnuplot
       - maxima
+      - octave
       - python3-numpy
       - python3-plotly
       - qalculate
     aarch64:
       - LabPlot
       # cantor dependencies
+      - cantor-R
       - gnuplot
       - maxima
+      - octave
       - python3-numpy
       - python3-plotly
       - qalculate
     ppc64le:
       - LabPlot
       # cantor dependencies
+      - cantor-R
       - gnuplot
       - maxima
+      - octave
       - python3-numpy
       - python3-plotly
       - qalculate

@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kicad
+  description: Fedora org.kicad.kicad flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-app
+  packages:
+    - kicad
+    #    - kicad-doc
+    # ODBC connectors
+    - freetds-libs
+    - mariadb-connector-odbc
+    #    - postgresql-odbc
+    - sqliteodbc

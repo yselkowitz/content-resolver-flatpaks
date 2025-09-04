@@ -5,6 +5,6 @@ data:
   description: Fedora com.github.hugolabe.Wike flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - wike

@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.Sdk.Extension.rust-stable flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk
   packages:
     - rust
     - rust-analyzer
@@ -22,18 +22,13 @@ data:
     - cargo-vendor-filterer
     - clippy
     - mold
-    - name: rust-std-static-aarch64-unknown-none-softfloat
-      platforms:
-        only: [aarch64]
-    - name: rust-std-static-aarch64-unknown-uefi
-      platforms:
-        only: [aarch64]
-    - name: rust-std-static-x86_64-unknown-none
-      platforms:
-        only: [x86_64]
-    - name: rust-std-static-x86_64-unknown-uefi
-      platforms:
-        only: [x86_64]
     - rust-flatpak-config
     # for cleanup-commands (part of runtime)
     - coreutils-single
+  arch_packages:
+    aarch64:
+      - rust-std-static-aarch64-unknown-none-softfloat
+      - rust-std-static-aarch64-unknown-uefi
+    x86_64:
+      - rust-std-static-x86_64-unknown-none
+      - rust-std-static-x86_64-unknown-uefi

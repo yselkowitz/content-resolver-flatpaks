@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: ladspa-rubberband-plugins
+  name: rubberband
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.Rubberband flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - ladspa-rubberband-plugins
     - lv2-rubberband-plugins

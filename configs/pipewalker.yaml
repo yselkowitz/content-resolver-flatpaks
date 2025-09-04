@@ -5,6 +5,6 @@ data:
   description: Fedora io.sourceforge.pipewalker.PipeWalker flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - pipewalker

@@ -5,6 +5,6 @@ data:
   description: Fedora org.pipewire.Helvum flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - helvum

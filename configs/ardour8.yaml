@@ -5,7 +5,7 @@ data:
   description: Fedora org.ardour.Ardour flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - ardour8
     - gtk2-flatpak-config

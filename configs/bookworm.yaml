@@ -5,7 +5,7 @@ data:
   description: Fedora com.github.babluboy.bookworm flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - bookworm
     - poppler-utils

@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: avogadro2
+  description: Fedora org.openchemistry.Avogadro2 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-kde6-app
+  packages:
+    - avogadro2
+    - avogadro2-langpack-*
+    - chemical-mime-data

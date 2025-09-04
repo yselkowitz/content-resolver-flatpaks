@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: nodejs
+  name: nodejs22
   description: Fedora org.fedoraproject.Sdk.Extension.node22 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk
   packages:
     - nodejs
     - nodejs-devel

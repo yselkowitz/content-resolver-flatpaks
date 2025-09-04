@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.ktorrent flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - ktorrent
     - phonon-qt6-flatpak-config

@@ -5,6 +5,6 @@ data:
   description: Fedora org.virt_manager.virt-viewer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - virt-viewer

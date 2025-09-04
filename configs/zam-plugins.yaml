@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: ladspa-zam-plugins
+  name: zam-plugins
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.ZamPlugins flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - ladspa-zam-plugins
     - lv2-zam-plugins

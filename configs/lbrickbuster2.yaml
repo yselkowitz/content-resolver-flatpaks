@@ -5,6 +5,6 @@ data:
   description: Fedora net.sourceforge.lgames.LBrickBuster2 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - lbrickbuster2

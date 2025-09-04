@@ -5,7 +5,7 @@ data:
   description: Fedora io.otsaloma.gaupol flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gaupol
     # weak dependencies

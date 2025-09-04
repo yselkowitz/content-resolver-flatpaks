@@ -5,6 +5,6 @@ data:
   description: Fedora io.github.celluloid_player.Celluloid flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - celluloid

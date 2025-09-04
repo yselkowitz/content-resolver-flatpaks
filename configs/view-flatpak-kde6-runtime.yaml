@@ -2,14 +2,13 @@
 document: feedback-pipeline-compose-view
 version: 1
 data:
-  name: Fedora Flatpaks
-  description: Packages used to build Fedora Flatpaks. More info https://docs.fedoraproject.org/en-US/flatpak/
+  name: Fedora KDE Flatpak Runtime
+  description: Packages included in the Fedora KDE Flatpak runtime.
   maintainer: flatpak-sig
   labels:
-  - flatpak
-  repository: repository-fedora-flatpaks
-
-  buildroot_strategy: root_logs
+  - flatpak-kde6-runtime
+  repository: repository-fedora-flatpak-runtime
+  buildroot_strategy: none
 
   # Packages to be flagged as unwanted  on specific architectures
   #unwanted_arch_packages:

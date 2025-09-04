@@ -5,6 +5,6 @@ data:
   description: Fedora com.github.FeatherPad flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - featherpad

@@ -5,6 +5,6 @@ data:
   description: Fedora com.jumpnbump.JumpnBump flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - jumpnbump

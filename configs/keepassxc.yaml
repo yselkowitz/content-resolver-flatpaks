@@ -5,6 +5,6 @@ data:
   description: Fedora org.keepassxc.KeePassXC flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - keepassxc

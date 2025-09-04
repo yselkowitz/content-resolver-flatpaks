@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: java-21-openjdk-demo
+  name: java-21-openjdk
   description: Fedora org.fedoraproject.Sdk.Extension.openjdk21 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk
   packages:
     - java-21-openjdk-demo
     - java-21-openjdk-devel

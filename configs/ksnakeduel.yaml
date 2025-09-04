@@ -5,6 +5,6 @@ data:
   description: Fedora org.kde.ksnakeduel flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - ksnakeduel

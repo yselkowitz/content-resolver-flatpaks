@@ -5,6 +5,6 @@ data:
   description: Fedora org.rncbc.qjackctl flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - qjackctl

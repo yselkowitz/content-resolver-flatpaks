@@ -5,6 +5,6 @@ data:
   description: Fedora com.system76.CosmicPlayer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - cosmic-player

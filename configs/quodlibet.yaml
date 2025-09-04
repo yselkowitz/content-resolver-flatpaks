@@ -5,7 +5,7 @@ data:
   description: Fedora io.github.quodlibet.QuodLibet flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - quodlibet
     # soft dependencies

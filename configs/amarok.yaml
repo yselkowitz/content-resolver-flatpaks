@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.amarok flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - amarok
     #- kf5-audiocd-kio

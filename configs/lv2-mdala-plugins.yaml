@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.MDA flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - lv2-mdala-plugins
     # cleanup-commands (already in runtime)

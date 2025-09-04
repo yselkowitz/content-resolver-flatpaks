@@ -5,7 +5,7 @@ data:
   description: Fedora org.kde.qmlkonsole flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - qmlkonsole
     - host-spawn

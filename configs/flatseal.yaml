@@ -5,6 +5,6 @@ data:
   description: Fedora com.github.tchx84.Flatseal flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - flatseal

@@ -5,7 +5,7 @@ data:
   description: Fedora com.thomasokken.free42 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - free42
     # GdkPixbuf loaders, for cleanup-commands

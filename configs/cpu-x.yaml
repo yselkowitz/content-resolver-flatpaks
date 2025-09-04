@@ -5,7 +5,7 @@ data:
   description: Fedora io.github.thetumultuousunicornofdarkness.cpu-x flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages: []
   arch_packages:
     x86_64:

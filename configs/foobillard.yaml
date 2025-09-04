@@ -5,6 +5,6 @@ data:
   description: Fedora dk.sunsite.foobillard flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - foobillard

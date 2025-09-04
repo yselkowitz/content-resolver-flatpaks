@@ -5,7 +5,7 @@ data:
   description: Fedora net.sourceforge.dmidiplayer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - dmidiplayer
     - fluid-soundfont-gs

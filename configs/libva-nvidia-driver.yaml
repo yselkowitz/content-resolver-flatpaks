@@ -5,8 +5,14 @@ data:
   description: Fedora org.fedoraproject.Platform.VAAPI.nvidia flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
-  packages:
-    - libva-nvidia-driver
-    # for cleanup-commands (part of runtime)
-    - coreutils-single
+    - flatpak-runtime
+  packages: []
+  arch_packages:
+    x86_64:
+      - libva-nvidia-driver
+      # for cleanup-commands (part of runtime)
+      - coreutils-single
+    aarch64:
+      - libva-nvidia-driver
+      # for cleanup-commands (part of runtime)
+      - coreutils-single

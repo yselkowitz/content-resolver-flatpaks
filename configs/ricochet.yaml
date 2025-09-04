@@ -5,6 +5,6 @@ data:
   description: Fedora im.ricochet.Ricochet flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde5-app
   packages:
     - ricochet

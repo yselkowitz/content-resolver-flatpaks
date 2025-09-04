@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: photoqt
+  description: Fedora org.photoqt.PhotoQt flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-kde6-app
+  packages:
+    - photoqt
+    - phonon-qt6-flatpak-config

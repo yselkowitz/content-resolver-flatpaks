@@ -5,7 +5,7 @@ data:
   description: Fedora br.app.pw3270 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - pw3270
     - rbanffy-3270-fonts

@@ -5,6 +5,6 @@ data:
   description: Fedora org.wireshark.Wireshark flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - wireshark

@@ -5,7 +5,7 @@ data:
   description: Fedora org.gnome.gchemutils._3d flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gchem3d
     - gchempaint

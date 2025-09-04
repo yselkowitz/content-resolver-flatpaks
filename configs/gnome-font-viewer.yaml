@@ -5,6 +5,6 @@ data:
   description: Fedora org.gnome.font-viewer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gnome-font-viewer

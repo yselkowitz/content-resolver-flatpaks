@@ -5,6 +5,6 @@ data:
   description: Fedora org.freedesktop.GstDebugViewer flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - gst-debug-viewer

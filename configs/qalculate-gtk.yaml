@@ -5,7 +5,7 @@ data:
   description: Fedora io.github.Qalculate flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - qalculate-gtk
     - gnuplot-wx

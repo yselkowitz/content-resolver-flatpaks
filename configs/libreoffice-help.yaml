@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: libreoffice-help
+  description: Fedora org.libreoffice.LibreOffice.Help flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - libreoffice-help-*
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

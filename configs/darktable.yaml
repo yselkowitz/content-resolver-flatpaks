@@ -5,7 +5,7 @@ data:
   description: Fedora org.darktable.Darktable flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - darktable
     - darktable-tools-basecurve

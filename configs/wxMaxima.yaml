@@ -5,7 +5,7 @@ data:
   description: Fedora io.github.wxmaxima_developers.wxMaxima flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - wxMaxima
     - gnuplot-wx

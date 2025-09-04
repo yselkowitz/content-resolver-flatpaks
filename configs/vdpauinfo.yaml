@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.Platform.VdpauInfo flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - vdpauinfo
     - vdpauinfo-flatpak-config

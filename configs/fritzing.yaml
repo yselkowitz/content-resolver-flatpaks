@@ -5,6 +5,6 @@ data:
   description: Fedora org.fritzing.Fritzing flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - fritzing

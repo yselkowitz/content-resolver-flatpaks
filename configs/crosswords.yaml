@@ -5,7 +5,7 @@ data:
   description: Fedora org.gnome.Crosswords flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - crosswords
     - crosswords-puzzle-sets-cats-and-dogs
@@ -16,5 +16,4 @@ data:
     - crosswords-puzzle-sets-oedipus
     - crosswords-puzzle-sets-pzzl
     - crosswords-puzzle-sets-xword-dl
-    - crossword-editor
     - ipuz-convertor

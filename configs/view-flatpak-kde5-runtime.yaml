@@ -1,0 +1,21 @@
+---
+document: feedback-pipeline-compose-view
+version: 1
+data:
+  name: Fedora KDE 5 Flatpak Runtime
+  description: Packages included in the Fedora KDE Flatpak runtime.
+  maintainer: flatpak-sig
+  labels:
+  - flatpak-kde5-runtime
+  repository: repository-fedora-flatpak-runtime
+  buildroot_strategy: none
+
+  # Packages to be flagged as unwanted  on specific architectures
+  #unwanted_arch_packages:
+  #  x86_54:
+  #  - arch-specific-package
+  #  aarch54:
+  #  - another-one
+
+  # SRPMs (components) to be flagged as unwanted
+  unwanted_source_packages: []

@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: clang
+  name: llvm20
   description: Fedora org.fedoraproject.Sdk.Extension.llvm20 flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk
   packages:
     - clang
     - clang-analyzer
@@ -27,9 +27,6 @@ data:
     - lldb
     - lldb-devel
     - llvm
-    - name: llvm-bolt
-      platforms:
-        only: [aarch64, x86_64]
     - llvm-cmake-utils
     - llvm-devel
     - llvm-googletest
@@ -48,3 +45,10 @@ data:
     - llvm20-flatpak-config
     # for cleanup-commands (part of runtime)
     - coreutils-single
+    - rpm
+    - sed
+  arch_packages:
+    aarch64:
+      - llvm-bolt
+    x86_64:
+      - llvm-bolt

@@ -5,7 +5,7 @@ data:
   description: Fedora org.jpilot.JPilot flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - jpilot
     - jpilot-backup

@@ -5,9 +5,7 @@ data:
   description: Fedora org.gnome.SimpleScan flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - simple-scan
-    - sane-airscan
-    - sane-backends-drivers-cameras
-    - sane-backends-drivers-scanners
+    - sane-backends-flatpak-config

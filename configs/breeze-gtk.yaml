@@ -1,11 +1,11 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: breeze-gtk-gtk3
+  name: breeze-gtk
   description: Fedora org.fedoraproject.Gtk3theme.Breeze flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - breeze-gtk-gtk3
     - breeze-gtk-gtk3-flatpak-config

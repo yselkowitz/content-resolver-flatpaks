@@ -5,6 +5,6 @@ data:
   description: Fedora net.sourceforge.molsketch flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - molsketch

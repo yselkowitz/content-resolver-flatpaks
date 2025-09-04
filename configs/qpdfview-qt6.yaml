@@ -5,6 +5,6 @@ data:
   description: Fedora net.launchpad.qpdfview flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - qpdfview-qt6

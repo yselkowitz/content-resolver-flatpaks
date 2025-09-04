@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.Platform.YtDlp flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - yt-dlp
     - python3-ytmusicapi

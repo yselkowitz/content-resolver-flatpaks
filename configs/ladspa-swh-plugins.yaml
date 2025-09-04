@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.LinuxAudio.Plugins.swh flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-runtime
   packages:
     - ladspa-swh-plugins
     - lv2-swh-plugins

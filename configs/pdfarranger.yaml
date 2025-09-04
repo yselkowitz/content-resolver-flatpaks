@@ -5,6 +5,6 @@ data:
   description: Fedora com.github.jeromerobert.pdfarranger flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - pdfarranger

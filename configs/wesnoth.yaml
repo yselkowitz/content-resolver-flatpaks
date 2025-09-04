@@ -5,6 +5,6 @@ data:
   description: Fedora org.wesnoth.Wesnoth flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-app
   packages:
     - wesnoth

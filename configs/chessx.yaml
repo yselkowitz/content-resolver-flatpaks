@@ -5,6 +5,6 @@ data:
   description: Fedora io.sourceforge.ChessX flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages:
     - chessx

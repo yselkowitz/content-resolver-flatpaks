@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: octave
+  description: Fedora org.octave.Octave flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-kde6-sdk-app
+  packages:
+    - octave

@@ -5,21 +5,15 @@ data:
   description: Fedora org.kde.skanpage flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-kde6-app
   packages: []
   arch_packages:
     aarch64:
       - skanpage
-      - libsane-airscan
-      - sane-backends-drivers-cameras
-      - sane-backends-drivers-scanners
+      - sane-backends-flatpak-config
     x86_64:
       - skanpage
-      - libsane-airscan
-      - sane-backends-drivers-cameras
-      - sane-backends-drivers-scanners
+      - sane-backends-flatpak-config
     ppc64le:
       - skanpage
-      - libsane-airscan
-      - sane-backends-drivers-cameras
-      - sane-backends-drivers-scanners
+      - sane-backends-flatpak-config

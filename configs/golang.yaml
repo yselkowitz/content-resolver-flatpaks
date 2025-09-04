@@ -5,7 +5,7 @@ data:
   description: Fedora org.fedoraproject.Sdk.Extension.golang flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak
+    - flatpak-sdk
   packages:
     - golang
     - golang-bin
