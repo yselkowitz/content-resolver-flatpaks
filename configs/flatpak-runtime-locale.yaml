@@ -16,6 +16,8 @@ data:
     - hyphen-???
     - mythes-??
     - mythes-??-*
+    - qt6-qttranslations
+    - qt6-qtwebengine
     # for cleanup-commands (part of runtime)
     - coreutils-single
     - sed
