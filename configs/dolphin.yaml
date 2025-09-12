@@ -15,5 +15,3 @@ data:
     - markdownpart
     # ark dependencies
     - ark-flatpak-config
-    # Phonon dependencies
-    - phonon-qt6-flatpak-config

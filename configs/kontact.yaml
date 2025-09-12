@@ -25,8 +25,6 @@ data:
       - pim-data-exporter
       - pim-sieve-editor
       - zanshin
-      # soft dependencies
-      - phonon-qt6-flatpak-config
     aarch64:
       - kontact
       - akonadiconsole
@@ -44,8 +42,6 @@ data:
       - pim-data-exporter
       - pim-sieve-editor
       - zanshin
-      # soft dependencies
-      - phonon-qt6-flatpak-config
     ppc64le:
       - kontact
       - akonadiconsole
@@ -63,5 +59,3 @@ data:
       - pim-data-exporter
       - pim-sieve-editor
       - zanshin
-      # soft dependencies
-      - phonon-qt6-flatpak-config

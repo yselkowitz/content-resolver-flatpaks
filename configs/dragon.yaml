@@ -8,4 +8,3 @@ data:
     - flatpak-kde6-app
   packages:
     - dragon
-    - phonon-qt6-flatpak-config
