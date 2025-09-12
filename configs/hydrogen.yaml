@@ -5,6 +5,6 @@ data:
   description: Fedora org.hydrogenmusic.Hydrogen flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak-kde5-app
+    - flatpak-kde6-app
   packages:
     - hydrogen
