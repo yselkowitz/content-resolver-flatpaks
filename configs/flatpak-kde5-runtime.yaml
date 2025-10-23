@@ -32,8 +32,6 @@ data:
     - authselect-libs
     - avahi-glib
     - avahi-libs
-    - avif-pixbuf-loader
-    - basesystem
     - bash
     - bash-completion
     - bluez-libs
@@ -43,6 +41,7 @@ data:
     - bsdcpio
     - bsdtar
     - bsdunzip
+    - bubblewrap
     - bzip2
     - bzip2-libs
     - ca-certificates
@@ -128,7 +127,6 @@ data:
     - gawk
     - gdbm-libs
     - gdk-pixbuf2
-    - gdk-pixbuf2-modules
     - geoclue2-libs
     - gettext
     - gettext-envsubst
@@ -143,6 +141,8 @@ data:
     - glibc-langpack-*
     - glibc-minimal-langpack
     - glx-utils
+    - glycin-libs
+    - glycin-loaders
     - gmp
     - gmp-c++
     - gnu-free-fonts-common
@@ -150,7 +150,15 @@ data:
     - gnu-free-sans-fonts
     - gnu-free-serif-fonts
     - gnupg2
+    - gnupg2-dirmngr
+    - gnupg2-gpg-agent
+    - gnupg2-gpgconf
+    - gnupg2-keyboxd
+    - gnupg2-scdaemon
     - gnupg2-smime
+    - gnupg2-utils
+    - gnupg2-verify
+    - gnupg2-wks
     - gnutls
     - gnutls-c++
     - gnutls-dane
@@ -173,23 +181,14 @@ data:
     - gssdp
     - gstreamer1
     - gstreamer1-plugin-dav1d
-    - gstreamer1-plugin-fallbackswitch
-    - gstreamer1-plugin-fmp4
     - gstreamer1-plugin-gif
-    - gstreamer1-plugin-hsv
-    - gstreamer1-plugin-json
     - gstreamer1-plugin-libav
-    - gstreamer1-plugin-livesync
-    - gstreamer1-plugin-mp4
-    - gstreamer1-plugin-openh264
-    - gstreamer1-plugin-reqwest
     - gstreamer1-plugins-bad-free
     - gstreamer1-plugins-bad-free-libs
     - gstreamer1-plugins-base
     - gstreamer1-plugins-good
     - gstreamer1-plugins-good-gtk
     - gstreamer1-plugins-good-qt
-    - gstreamer1-plugins-ugly-free
     - gtk-immodules-imsettings
     - gtk-update-icon-cache
     - gtk3
@@ -200,7 +199,6 @@ data:
     - gzip
     - harfbuzz
     - harfbuzz-icu
-    - heif-pixbuf-loader
     - hicolor-icon-theme
     - highway
     - hiredis
@@ -228,7 +226,6 @@ data:
     - jbigkit-libs
     - json-c
     - json-glib
-    - jxl-pixbuf-loader
     - kaccounts-integration-qt5
     - kde-filesystem
     - kde-settings
@@ -326,7 +323,6 @@ data:
     - lcms2
     - leptonica
     - less
-    - liba52
     - libaccounts-glib
     - libaccounts-qt5
     - libacl
@@ -347,7 +343,6 @@ data:
     - libavformat-free
     - libavif
     - libavutil-free
-    - libb2
     - libblkid
     - libbluray
     - libbrotli
@@ -388,6 +383,8 @@ data:
     - libffi
     - libfido2
     - libfl2
+    - libfontenc
+    - libfyaml
     - libgcab1
     - libgcc
     - libgcrypt
@@ -417,6 +414,7 @@ data:
     - libjxl
     - libkexiv2-qt5
     - libksba
+    - liblastlog2
     - liblc3
     - libldac
     - libldb
@@ -425,7 +423,6 @@ data:
     - libmng
     - libmodplug
     - libmount
-    - libmpeg2
     - libmtp
     - libmysofa
     - libnghttp2
@@ -552,11 +549,13 @@ data:
     - lz4
     - lz4-libs
     - lzip
+    - lzo
     - mailcap
     - mbedtls
     - mesa-filesystem
     - mesa-libgbm
     - mesa-libGLU
+    - mkfontscale
     - mpdecimal
     - mpfr
     - mpg123-libs
@@ -571,6 +570,7 @@ data:
     - ncurses-libs
     - ncurses-term
     - nettle
+    - ngtcp2
     - noopenh264
     - npth
     - nspr
@@ -583,6 +583,7 @@ data:
     - nss_db
     - nss_hesiod
     - openal-soft
+    - opencl-filesystem
     - OpenCL-ICD-Loader
     - opencore-amr
     - openexr-libs
@@ -597,7 +598,7 @@ data:
     - opusfile
     - orc
     - p11-kit
-    - p11-kit-server
+    - p11-kit-client
     - p11-kit-trust
     - pam-libs
     - pango
@@ -712,7 +713,6 @@ data:
     - rpm
     - rpm-libs
     - rpm-sequoia
-    - rsvg-pixbuf-loader
     - rubberband-libs
     - samba-client-libs
     - samba-common
@@ -750,13 +750,11 @@ data:
     - taglib
     - tar
     - tcl
-    - tcl8
     - tesseract-common
     - tesseract-langpack-eng
     - tesseract-libs
     - tesseract-tessdata-doc
     - tk
-    - tk8
     - tpm2-tss
     - turbojpeg
     - twolame-libs
@@ -771,7 +769,6 @@ data:
     - vo-amrwbenc
     - vulkan-loader
     - wavpack
-    - webp-pixbuf-loader
     - webrtc-audio-processing
     - wget2
     - wget2-libs
@@ -785,6 +782,8 @@ data:
     - xcb-util-wm
     - xdg-user-dirs
     - xdg-utils
+    - xevd-libs
+    - xeve-libs
     - xkbcomp
     - xkeyboard-config
     - xml-common
@@ -798,13 +797,13 @@ data:
     - zimg
     - zip
     - zix
+    - zlib-ng
     - zlib-ng-compat
     - zstd
     - zvbi
     - zxing-cpp
   arch_packages:
     aarch64:
-      - cpuinfo
       - libhwasan
       - python3-qt5-webengine
       - qt5-qtwebengine
@@ -812,7 +811,6 @@ data:
       - libquadmath
       - librtas
     x86_64:
-      - cpuinfo
       - libhwasan
       - libquadmath
       - libvmaf

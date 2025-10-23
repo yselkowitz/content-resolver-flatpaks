@@ -8,4 +8,3 @@ data:
     - flatpak-kde6-app
   packages:
     - kclock
-    - kf6-kirigami-addons

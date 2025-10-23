@@ -7,48 +7,38 @@ data:
   labels:
     - flatpak-sdk
   packages:
-    - clang
-    - clang-analyzer
-    - clang-devel
-    - clang-libs
-    - clang-tools-extra
-    - clang-tools-extra-devel
-    - compiler-rt
-    - git-clang-format
+    - clang20
+    - clang20-analyzer
+    - clang20-devel
+    - clang20-libs
+    - clang20-tools-extra
+    - clang20-tools-extra-devel
+    - compiler-rt20
+    - git-clang-format20
     - libcxx
     - libcxx-devel
     - libcxxabi
     - libcxxabi-devel
-    - libomp
-    - libomp-devel
-    - lld
-    - lld-devel
-    - lld-libs
-    - lldb
-    - lldb-devel
-    - llvm
-    - llvm-cmake-utils
-    - llvm-devel
-    - llvm-googletest
-    - llvm-libs
+    - libomp20
+    - libomp20-devel
+    - lld20
+    - lld20-devel
+    - lld20-libs
+    - lldb20
+    - lldb20-devel
+    - llvm20
+    - llvm20-cmake-utils
+    - llvm20-devel
+    - llvm20-googletest
+    - llvm20-libs
     - llvm-libunwind
     - llvm-libunwind-devel
-    - llvm-test
-    - mlir
-    - mlir-devel
-    - polly
-    - polly-devel
+    - llvm20-test
     - python3-clang
     - python3-lit
     - python3-lldb
-    - python3-mlir
     - llvm20-flatpak-config
     # for cleanup-commands (part of runtime)
     - coreutils-single
     - rpm
     - sed
-  arch_packages:
-    aarch64:
-      - llvm-bolt
-    x86_64:
-      - llvm-bolt

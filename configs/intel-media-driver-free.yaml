@@ -10,8 +10,11 @@ data:
   arch_packages:
     x86_64:
       - libva-intel-media-driver
+      - intel-mediasdk
+      - intel-vpl-gpu-rt
       # basic dependencies
       - intel-gmmlib
+      - libigfxcmrt
       # for cleanup-commands (part of runtime)
       - coreutils-single
       - sed

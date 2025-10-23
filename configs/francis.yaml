@@ -8,5 +8,3 @@ data:
     - flatpak-kde6-app
   packages:
     - francis
-    # missing dependencies
-    - kf6-kirigami-addons

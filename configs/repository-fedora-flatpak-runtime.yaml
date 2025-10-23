@@ -8,11 +8,11 @@ data:
   source:
     repos:
       flatpak-runtime:
-        baseurl: https://kojipkgs.fedoraproject.org/repos/f42-flatpak-runtime-packages/latest/$basearch/
+        baseurl: https://kojipkgs.fedoraproject.org/repos/f43-flatpak-runtime-packages/latest/$basearch/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         priority: 2
-    releasever: "42"
+    releasever: "43"
     architectures:
       - aarch64
       - ppc64le

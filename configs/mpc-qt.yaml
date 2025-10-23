@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: mpc-qt
-  description: Fedora io.github.mpc_qt.Mpc-Qt flatpak
+  description: Fedora io.github.mpc_qt.mpc-qt flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak-kde6-app

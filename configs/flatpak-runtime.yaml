@@ -9,7 +9,6 @@ data:
   packages:
     - abattis-cantarell-vf-fonts
     - acl
-    - adobe-source-code-pro-fonts
     - adwaita-cursor-theme
     - adwaita-icon-theme
     - adwaita-icon-theme-legacy
@@ -34,8 +33,6 @@ data:
     - authselect-libs
     - avahi-glib
     - avahi-libs
-    - avif-pixbuf-loader
-    - basesystem
     - bash
     - bash-completion
     - bluez-libs
@@ -124,7 +121,6 @@ data:
     - gcr-libs
     - gdbm-libs
     - gdk-pixbuf2
-    - gdk-pixbuf2-modules
     - geoclue2-libs
     - gettext
     - gettext-envsubst
@@ -140,6 +136,10 @@ data:
     - glibc-langpack-*
     - glibc-minimal-langpack
     - glx-utils
+    - glycin-gtk4-libs
+    - glycin-libs
+    - glycin-loaders
+    - glycin-thumbnailer
     - gmp
     - gmp-c++
     - gnu-free-fonts-common
@@ -147,7 +147,15 @@ data:
     - gnu-free-sans-fonts
     - gnu-free-serif-fonts
     - gnupg2
+    - gnupg2-dirmngr
+    - gnupg2-gpg-agent
+    - gnupg2-gpgconf
+    - gnupg2-keyboxd
+    - gnupg2-scdaemon
     - gnupg2-smime
+    - gnupg2-utils
+    - gnupg2-verify
+    - gnupg2-wks
     - gnutls
     - gnutls-c++
     - gnutls-dane
@@ -170,23 +178,14 @@ data:
     - gssdp
     - gstreamer1
     - gstreamer1-plugin-dav1d
-    - gstreamer1-plugin-fallbackswitch
-    - gstreamer1-plugin-fmp4
     - gstreamer1-plugin-gif
     - gstreamer1-plugin-gtk4
-    - gstreamer1-plugin-hsv
-    - gstreamer1-plugin-json
     - gstreamer1-plugin-libav
-    - gstreamer1-plugin-livesync
-    - gstreamer1-plugin-mp4
-    - gstreamer1-plugin-openh264
-    - gstreamer1-plugin-reqwest
     - gstreamer1-plugins-bad-free
     - gstreamer1-plugins-bad-free-libs
     - gstreamer1-plugins-base
     - gstreamer1-plugins-good
     - gstreamer1-plugins-good-gtk
-    - gstreamer1-plugins-ugly-free
     - gtk-immodules-imsettings
     - gtk-update-icon-cache
     - gtk3
@@ -200,7 +199,6 @@ data:
     - gzip
     - harfbuzz
     - harfbuzz-icu
-    - heif-pixbuf-loader
     - hicolor-icon-theme
     - hidapi
     - highway
@@ -228,7 +226,6 @@ data:
     - jbigkit-libs
     - json-c
     - json-glib
-    - jxl-pixbuf-loader
     - keyutils-libs
     - krb5-libs
     - ladspa
@@ -237,7 +234,6 @@ data:
     - lcms2
     - leptonica
     - less
-    - liba52
     - libacl
     - libadwaita
     - libaom
@@ -300,6 +296,8 @@ data:
     - libffi
     - libfido2
     - libfl2
+    - libfontenc
+    - libfyaml
     - libgcab1
     - libgcc
     - libgcrypt
@@ -329,6 +327,7 @@ data:
     - libjxl
     - libkadm5
     - libksba
+    - liblastlog2
     - liblc3
     - libldac
     - libldb
@@ -337,7 +336,6 @@ data:
     - libmanette
     - libmodplug
     - libmount
-    - libmpeg2
     - libmysofa
     - libnghttp2
     - libnice
@@ -467,7 +465,8 @@ data:
     - mesa-filesystem
     - mesa-libgbm
     - mesa-libGLU
-    - mozjs128
+    - mkfontscale
+    - mozjs140
     - mpdecimal
     - mpfr
     - mpg123-libs
@@ -482,6 +481,7 @@ data:
     - ncurses-libs
     - ncurses-term
     - nettle
+    - ngtcp2
     - noopenh264
     - npth
     - nspr
@@ -493,6 +493,7 @@ data:
     - nss_db
     - nss_hesiod
     - openal-soft
+    - opencl-filesystem
     - OpenCL-ICD-Loader
     - opencore-amr
     - openjpeg
@@ -506,7 +507,7 @@ data:
     - opusfile
     - orc
     - p11-kit
-    - p11-kit-server
+    - p11-kit-client
     - p11-kit-trust
     - pam-libs
     - pango
@@ -527,6 +528,8 @@ data:
     - pkgconf
     - pkgconf-m4
     - pkgconf-pkg-config
+    - plutosvg
+    - plutovg
     - popt
     - procps-ng
     - protobuf-c
@@ -549,7 +552,6 @@ data:
     - python3-markupsafe
     - python3-packaging
     - python3-setuptools
-    - python3-six
     - python3-tkinter
     - qrencode-libs
     - qt6-filesystem
@@ -565,7 +567,6 @@ data:
     - rpm
     - rpm-libs
     - rpm-sequoia
-    - rsvg-pixbuf-loader
     - rubberband-libs
     - samba-client-libs
     - samba-common
@@ -576,6 +577,8 @@ data:
     - SDL2_net
     - SDL2_ttf
     - SDL3
+    - SDL3_image
+    - SDL3_ttf
     - sed
     - serd
     - setup
@@ -602,13 +605,11 @@ data:
     - taglib
     - tar
     - tcl
-    - tcl8
     - tesseract-common
     - tesseract-langpack-eng
     - tesseract-libs
     - tesseract-tessdata-doc
     - tk
-    - tk8
     - tpm2-tss
     - tslib
     - turbojpeg
@@ -624,10 +625,8 @@ data:
     - vo-amrwbenc
     - vulkan-loader
     - wavpack
-    - wcurl
     - webkit2gtk4.1
     - webkitgtk6.0
-    - webp-pixbuf-loader
     - webrtc-audio-processing
     - wget2
     - wget2-libs
@@ -643,12 +642,13 @@ data:
     - xdg-dbus-proxy
     - xdg-user-dirs
     - xdg-utils
+    - xevd-libs
+    - xeve-libs
     - xkbcomp
     - xkeyboard-config
     - xml-common
     - xprop
     - xvidcore
-    - xxhash-libs
     - xz
     - xz-libs
     - xz-lzma-compat
@@ -665,13 +665,11 @@ data:
     - zvbi
   arch_packages:
     aarch64:
-      - cpuinfo
       - libhwasan
     ppc64le:
       - libquadmath
       - librtas
     x86_64:
-      - cpuinfo
       - libhwasan
       - libquadmath
       - libvmaf

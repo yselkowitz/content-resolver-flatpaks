@@ -11,6 +11,3 @@ data:
     # optional dependency
     - gtksourceview4
     - libayatana-appindicator-gtk3
-    - libvirt-daemon-qemu
-    # avoid ambiguous dependency on ebtables
-    - iptables-nft

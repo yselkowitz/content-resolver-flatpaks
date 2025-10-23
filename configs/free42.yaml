@@ -8,5 +8,3 @@ data:
     - flatpak-app
   packages:
     - free42
-    # GdkPixbuf loaders, for cleanup-commands
-    - gdk-pixbuf2-modules-extra-flatpak-config

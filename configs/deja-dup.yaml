@@ -8,3 +8,5 @@ data:
     - flatpak-app
   packages:
     - deja-dup
+    # optional dependencies
+    - restic

@@ -54,8 +54,6 @@ data:
     - avahi-devel
     - avahi-glib
     - avahi-libs
-    - avif-pixbuf-loader
-    - basesystem
     - bash
     - bash-completion
     - bash-completion-devel
@@ -76,6 +74,7 @@ data:
     - bsdcpio
     - bsdtar
     - bsdunzip
+    - bubblewrap
     - build-reproducibility-srpm-macros
     - byacc
     - bzip2
@@ -93,8 +92,8 @@ data:
     - check-devel
     - check-static
     - cjson
-    - clang-libs
-    - clang-resource-filesystem
+    - clang20-libs
+    - clang20-resource-filesystem
     - cmake
     - cmake-data
     - cmake-filesystem
@@ -218,6 +217,7 @@ data:
     - fribidi
     - fribidi-devel
     - game-music-emu
+    - gap-srpm-macros
     - gavl
     - gawk
     - gawk-devel
@@ -236,7 +236,6 @@ data:
     - gdbm-libs
     - gdk-pixbuf2
     - gdk-pixbuf2-devel
-    - gdk-pixbuf2-modules
     - geoclue2-devel
     - geoclue2-libs
     - gettext
@@ -267,6 +266,9 @@ data:
     - glslang-devel
     - glslc
     - glx-utils
+    - glycin-devel
+    - glycin-libs
+    - glycin-loaders
     - gmock
     - gmp
     - gmp-c++
@@ -277,7 +279,15 @@ data:
     - gnu-free-sans-fonts
     - gnu-free-serif-fonts
     - gnupg2
+    - gnupg2-dirmngr
+    - gnupg2-gpg-agent
+    - gnupg2-gpgconf
+    - gnupg2-keyboxd
+    - gnupg2-scdaemon
     - gnupg2-smime
+    - gnupg2-utils
+    - gnupg2-verify
+    - gnupg2-wks
     - gnutls
     - gnutls-c++
     - gnutls-dane
@@ -299,6 +309,7 @@ data:
     - gpgme-devel
     - gpgmepp
     - gpgmepp-devel
+    - gpgverify
     - graphene
     - graphene-devel
     - graphite2
@@ -317,16 +328,8 @@ data:
     - gstreamer1
     - gstreamer1-devel
     - gstreamer1-plugin-dav1d
-    - gstreamer1-plugin-fallbackswitch
-    - gstreamer1-plugin-fmp4
     - gstreamer1-plugin-gif
-    - gstreamer1-plugin-hsv
-    - gstreamer1-plugin-json
     - gstreamer1-plugin-libav
-    - gstreamer1-plugin-livesync
-    - gstreamer1-plugin-mp4
-    - gstreamer1-plugin-openh264
-    - gstreamer1-plugin-reqwest
     - gstreamer1-plugins-bad-free
     - gstreamer1-plugins-bad-free-devel
     - gstreamer1-plugins-bad-free-libs
@@ -335,7 +338,6 @@ data:
     - gstreamer1-plugins-good
     - gstreamer1-plugins-good-gtk
     - gstreamer1-plugins-good-qt
-    - gstreamer1-plugins-ugly-free
     - gtest
     - gtest-devel
     - gtk-doc
@@ -355,7 +357,6 @@ data:
     - harfbuzz-cairo
     - harfbuzz-devel
     - harfbuzz-icu
-    - heif-pixbuf-loader
     - help2man
     - hicolor-icon-theme
     - highway
@@ -389,6 +390,7 @@ data:
     - itstool
     - jansson
     - jasper-libs
+    - java-srpm-macros
     - jbig2dec-libs
     - jbigkit-libs
     - jq
@@ -398,7 +400,6 @@ data:
     - json-glib
     - json-glib-devel
     - jsoncpp
-    - jxl-pixbuf-loader
     - kaccounts-integration-qt5
     - kde-filesystem
     - kde-settings
@@ -568,7 +569,6 @@ data:
     - lcms2-devel
     - leptonica
     - less
-    - liba52
     - libaccounts-glib
     - libaccounts-qt5
     - libacl
@@ -600,12 +600,10 @@ data:
     - libavif-devel
     - libavutil-free
     - libavutil-free-devel
-    - libb2
     - libbabeltrace
     - libblkid
     - libblkid-devel
     - libbluray
-    - libbpf
     - libbrotli
     - libbs2b
     - libcaca
@@ -663,6 +661,8 @@ data:
     - libfido2
     - libfl-devel
     - libfl2
+    - libfontenc
+    - libfyaml
     - libgcab1
     - libgcab1-devel
     - libgcc
@@ -712,6 +712,8 @@ data:
     - libkexiv2-qt5
     - libksba
     - libksba-devel
+    - liblastlog2
+    - liblastlog2-devel
     - liblc3
     - libldac
     - libldb
@@ -725,7 +727,6 @@ data:
     - libmount
     - libmount-devel
     - libmpc
-    - libmpeg2
     - libmtp
     - libmysofa
     - libnghttp2
@@ -931,6 +932,8 @@ data:
     - lilv-libs
     - llvm-filesystem
     - llvm-libs
+    - llvm20-filesystem
+    - llvm20-libs
     - lmdb-libs
     - lpcnetfreedv
     - lua
@@ -942,6 +945,9 @@ data:
     - lz4-devel
     - lz4-libs
     - lzip
+    - lzo
+    - lzo-devel
+    - lzo-minilzo
     - m4
     - mailcap
     - make
@@ -955,6 +961,7 @@ data:
     - mesa-libGLU
     - mesa-libGLU-devel
     - meson
+    - mkfontscale
     - mpdecimal
     - mpfr
     - mpfr-devel
@@ -977,6 +984,7 @@ data:
     - netpbm
     - nettle
     - nettle-devel
+    - ngtcp2
     - ninja-build
     - noopenh264
     - noopenh264-devel
@@ -1005,6 +1013,7 @@ data:
     - openal-soft
     - openal-soft-devel
     - openblas-srpm-macros
+    - opencl-filesystem
     - opencl-headers
     - OpenCL-ICD-Loader
     - OpenCL-ICD-Loader-devel
@@ -1032,8 +1041,8 @@ data:
     - orc-compiler
     - orc-devel
     - p11-kit
+    - p11-kit-client
     - p11-kit-devel
-    - p11-kit-server
     - p11-kit-trust
     - package-notes-srpm-macros
     - pam-libs
@@ -1468,7 +1477,6 @@ data:
     - rpm
     - rpm-libs
     - rpm-sequoia
-    - rsvg-pixbuf-loader
     - rubberband-libs
     - ruby
     - ruby-bundled-gems
@@ -1547,7 +1555,6 @@ data:
     - tar
     - tcl
     - tcl-devel
-    - tcl8
     - tesseract-common
     - tesseract-langpack-eng
     - tesseract-libs
@@ -1555,7 +1562,6 @@ data:
     - texinfo
     - tk
     - tk-devel
-    - tk8
     - tpm2-tss
     - tree-sitter-srpm-macros
     - turbojpeg
@@ -1599,7 +1605,6 @@ data:
     - wayland-devel
     - wayland-protocols-devel
     - web-assets-filesystem
-    - webp-pixbuf-loader
     - webrtc-audio-processing
     - webrtc-audio-processing-devel
     - wget2
@@ -1623,6 +1628,8 @@ data:
     - xcb-util-wm-devel
     - xdg-user-dirs
     - xdg-utils
+    - xevd-libs
+    - xeve-libs
     - xkbcomp
     - xkbcomp-devel
     - xkeyboard-config
@@ -1644,15 +1651,16 @@ data:
     - zimg
     - zip
     - zix
+    - zlib-ng
     - zlib-ng-compat
     - zlib-ng-compat-devel
+    - zlib-ng-devel
     - zstd
     - zvbi
     - zxing-cpp
   arch_packages:
     aarch64:
       - binutils-gprofng
-      - cpuinfo
       - libhwasan
       - opencsd
       - python3-qt5-webengine
@@ -1665,7 +1673,6 @@ data:
       - librtas
     x86_64:
       - binutils-gprofng
-      - cpuinfo
       - fftw-libs-quad
       - libhwasan
       - libipt

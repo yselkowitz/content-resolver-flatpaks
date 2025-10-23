@@ -40,3 +40,5 @@ data:
     - llvm19-flatpak-config
     # for cleanup-commands (part of runtime)
     - coreutils-single
+    - rpm
+    - sed

@@ -2,10 +2,10 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: torbrowser-launcher
-  description: Fedora com.github.micahflee.torbrowser-launcher flatpak
+  description: Fedora org.torproject.torbrowser-launcher flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak-kde5-app
+    - flatpak-kde6-app
   packages: []
   arch_packages:
     x86_64:

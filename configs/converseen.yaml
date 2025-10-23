@@ -5,6 +5,6 @@ data:
   description: Fedora net.fasterland.converseen flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak-kde6-app
+    - flatpak-kde5-app
   packages:
     - converseen

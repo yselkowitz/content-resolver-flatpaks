@@ -15,6 +15,5 @@ data:
     - pidgin-otr
     #- pidgin-sipe
     - pidgin-window-merge
-    - purple-facebook
     - purple-mm-sms
     - gtk2-flatpak-config

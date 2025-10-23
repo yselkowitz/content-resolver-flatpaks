@@ -9,8 +9,6 @@ data:
   packages:
     - mesa-libEGL
     - mesa-libGL
-    - mesa-libOpenCL
-    - mesa-libTeflon
     - mesa-dri-drivers
     - mesa-va-drivers
     - mesa-vdpau-drivers
@@ -19,12 +17,6 @@ data:
     # basic dependencies
     - libdrm
     - lm_sensors-libs
-    # OpenCL dependencies
-    - clang-libs
-    - libclc
-    - llvm-libs
-    - spirv-llvm-translator
     # for cleanup-commands (part of runtime)
     - coreutils-single
-    - findutils
     - sed

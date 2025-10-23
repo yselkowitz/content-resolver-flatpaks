@@ -1,0 +1,38 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: java-25-openjdk
+  description: Fedora org.fedoraproject.Sdk.Extension.openjdk25 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-sdk
+  packages:
+    - java-25-openjdk-demo
+    - java-25-openjdk-devel
+    - java-25-openjdk-headless
+    - java-25-openjdk-jmods
+    - ant
+    - ant-antlr
+    - ant-apache-bcel
+    - ant-apache-bsf
+    - ant-apache-oro
+    - ant-apache-regexp
+    - ant-apache-resolver
+    - ant-apache-xalan2
+    - ant-commons-logging
+    - ant-commons-net
+    - ant-imageio
+    - ant-jakartamail
+    - ant-jdepend
+    - ant-jmf
+    - ant-jsch
+    - ant-junit
+    - ant-junit5
+    - ant-swing
+    - ant-testutil
+    - ant-xz
+    - maven
+    - java-25-openjdk-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
+    - findutils

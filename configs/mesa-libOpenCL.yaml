@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mesa-libOpenCL
+  description: Fedora org.fedoraproject.Platform.CL.default flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - mesa-libOpenCL
+    - mesa-libOpenCL-flatpak-config
+    # OpenCL dependencies
+    - clang-libs
+    - libclc
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
