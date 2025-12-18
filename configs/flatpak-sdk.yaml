@@ -95,8 +95,8 @@ data:
     - check-devel
     - check-static
     - cjson
-    - clang20-libs
-    - clang20-resource-filesystem
+    - clang-libs
+    - clang-resource-filesystem
     - cmake
     - cmake-data
     - cmake-filesystem
@@ -136,6 +136,7 @@ data:
     - dejavu-serif-fonts
     - desktop-file-utils
     - diffutils
+    - dns-root-data
     - docbook-dtds
     - docbook-style-dsssl
     - docbook-style-xsl
@@ -812,8 +813,6 @@ data:
     - lilv-libs
     - llvm-filesystem
     - llvm-libs
-    - llvm20-filesystem
-    - llvm20-libs
     - lmdb-libs
     - lpcnetfreedv
     - lua
@@ -868,6 +867,8 @@ data:
     - nettle
     - nettle-devel
     - ngtcp2
+    - ngtcp2-crypto-gnutls
+    - ngtcp2-crypto-ossl
     - ninja-build
     - noopenh264
     - noopenh264-devel
@@ -1270,7 +1271,6 @@ data:
     - qt6-qtdeclarative
     - qt6-qtsvg
     - qt6-qttranslations
-    - qt6-qtwayland
     - qt6-srpm-macros
     - rav1e-devel
     - rav1e-libs
@@ -1374,6 +1374,7 @@ data:
     - tinysparql-devel
     - tk
     - tk-devel
+    - tmux
     - tpm2-tss
     - tree-sitter-srpm-macros
     - tslib
@@ -1417,6 +1418,7 @@ data:
     - wavpack-devel
     - wayland-devel
     - wayland-protocols-devel
+    - wcurl
     - web-assets-filesystem
     - webkit2gtk4.1
     - webkit2gtk4.1-devel

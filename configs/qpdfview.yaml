@@ -1,10 +1,10 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: obs-studio
-  description: Fedora com.obsproject.Studio flatpak
+  name: qpdfview
+  description: Fedora net.launchpad.qpdfview flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak-kde6-app
   packages:
-    - obs-studio
+    - qpdfview

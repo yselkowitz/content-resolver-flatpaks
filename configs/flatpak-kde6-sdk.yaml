@@ -62,7 +62,6 @@ data:
     - bash-devel
     - binutils
     - binutils-devel
-    - binutils-gold
     - bison
     - bluez-libs
     - bluez-libs-devel
@@ -96,8 +95,6 @@ data:
     - cjson
     - clang-libs
     - clang-resource-filesystem
-    - clang20-libs
-    - clang20-resource-filesystem
     - cmake
     - cmake-data
     - cmake-filesystem
@@ -137,10 +134,9 @@ data:
     - dejavu-serif-fonts
     - desktop-file-utils
     - diffutils
+    - dns-root-data
     - docbook-dtds
-    - docbook-style-dsssl
     - docbook-style-xsl
-    - docbook-utils
     - double-conversion
     - doxygen
     - duktape
@@ -175,7 +171,6 @@ data:
     - fcitx5-libs
     - fcitx5-qt6
     - fdk-aac-free
-    - fdk-aac-free-devel
     - fedora-gpg-keys
     - fedora-logos
     - fedora-release-common
@@ -343,7 +338,6 @@ data:
     - gstreamer1-plugins-good-qt6
     - gtest
     - gtest-devel
-    - gtk-doc
     - gtk-immodules-imsettings
     - gtk-update-icon-cache
     - gtk2
@@ -724,13 +718,12 @@ data:
     - liblastlog2
     - liblastlog2-devel
     - liblc3
+    - liblc3-devel
     - libldac
     - libldb
     - liblerc
     - liblerc-devel
     - liblsan
-    - libmicrohttpd
-    - libmicrohttpd-devel
     - libmng
     - libmodplug
     - libmount
@@ -738,6 +731,7 @@ data:
     - libmpc
     - libmtp
     - libmysofa
+    - libmysofa-devel
     - libnghttp2
     - libnghttp2-devel
     - libnice
@@ -848,6 +842,7 @@ data:
     - libunwind
     - libunwind-devel
     - libusb1
+    - libusb1-devel
     - libusbmuxd
     - libutempter
     - libuuid
@@ -943,15 +938,12 @@ data:
     - lilv-libs
     - llvm-filesystem
     - llvm-libs
-    - llvm20-filesystem
-    - llvm20-libs
     - lmdb-libs
     - lpcnetfreedv
     - lua
     - lua-devel
     - lua-libs
     - lua-srpm-macros
-    - lynx
     - lz4
     - lz4-devel
     - lz4-libs
@@ -999,6 +991,8 @@ data:
     - nettle
     - nettle-devel
     - ngtcp2
+    - ngtcp2-crypto-gnutls
+    - ngtcp2-crypto-ossl
     - ninja-build
     - noopenh264
     - noopenh264-devel
@@ -1021,6 +1015,7 @@ data:
     - nss_db
     - nss_hesiod
     - numactl-libs
+    - nv-codec-headers
     - ocaml-srpm-macros
     - oniguruma
     - oniguruma-devel
@@ -1033,13 +1028,11 @@ data:
     - OpenCL-ICD-Loader-devel
     - opencore-amr
     - openexr-libs
-    - openjade
     - openjpeg
     - openjpeg-devel
     - openjpeg-tools
     - openldap
     - openpgm
-    - opensp
     - openssh
     - openssh-clients
     - openssh-keysign
@@ -1268,7 +1261,6 @@ data:
     - perl-Search-Dict
     - perl-SelectSaver
     - perl-SelfLoader
-    - perl-SGMLSpm
     - perl-sigtrap
     - perl-Socket
     - perl-Software-License
@@ -1352,6 +1344,10 @@ data:
     - plasma-breeze-common
     - plasma-breeze-qt6
     - plasma-integration
+    - plutosvg
+    - plutosvg-devel
+    - plutovg
+    - plutovg-devel
     - polkit-libs
     - polkit-qt6-1
     - poly2tri
@@ -1370,7 +1366,6 @@ data:
     - pulseaudio-libs-devel
     - pulseaudio-libs-glib2
     - pyproject-srpm-macros
-    - pyside6-tools
     - python-pip-wheel
     - python-pyqt6-rpm-macros
     - python-setuptools-wheel
@@ -1379,35 +1374,27 @@ data:
     - python3
     - python3-brotli
     - python3-cairo
-    - python3-cairo-devel
     - python3-cython
     - python3-dbus
     - python3-devel
     - python3-gobject
     - python3-gobject-base
-    - python3-gobject-devel
     - python3-gpg
     - python3-libs
     - python3-libxml2
     - python3-libxslt
-    - python3-lxml
     - python3-mako
     - python3-markdown
     - python3-markupsafe
     - python3-packaging
     - python3-pip
-    - python3-pygments
     - python3-pyparsing
     - python3-pyqt6
     - python3-pyqt6-base
     - python3-pyqt6-charts
     - python3-pyqt6-devel
     - python3-pyqt6-sip
-    - python3-pyside6
-    - python3-pyside6-devel
     - python3-setuptools
-    - python3-shiboken6
-    - python3-shiboken6-devel
     - python3-six
     - python3-test
     - python3-tkinter
@@ -1454,11 +1441,9 @@ data:
     - qt6-qtcharts-devel
     - qt6-qtconnectivity
     - qt6-qtconnectivity-devel
-    - qt6-qtdatavis3d
     - qt6-qtdeclarative
     - qt6-qtdeclarative-devel
     - qt6-qtdeclarative-static
-    - qt6-qtgraphs
     - qt6-qthttpserver
     - qt6-qthttpserver-devel
     - qt6-qtimageformats
@@ -1482,7 +1467,6 @@ data:
     - qt6-qtscxml-devel
     - qt6-qtsensors
     - qt6-qtsensors-devel
-    - qt6-qtserialbus
     - qt6-qtserialport
     - qt6-qtserialport-devel
     - qt6-qtshadertools
@@ -1507,7 +1491,6 @@ data:
     - qt6-qtwebchannel-devel
     - qt6-qtwebsockets
     - qt6-qtwebsockets-devel
-    - qt6-qtwebview
     - qt6-rpm-macros
     - qt6-srpm-macros
     - rav1e-devel
@@ -1522,23 +1505,6 @@ data:
     - rpm-libs
     - rpm-sequoia
     - rubberband-libs
-    - ruby
-    - ruby-bundled-gems
-    - ruby-default-gems
-    - ruby-devel
-    - ruby-libs
-    - rubygem-bundler
-    - rubygem-io-console
-    - rubygem-irb
-    - rubygem-json
-    - rubygem-psych
-    - rubygem-racc
-    - rubygem-rake
-    - rubygem-rbs
-    - rubygem-rdoc
-    - rubygem-typeprof
-    - rubygems
-    - rubypick
     - rust-srpm-macros
     - samba-client-libs
     - samba-common
@@ -1554,13 +1520,17 @@ data:
     - SDL2_ttf
     - SDL2_ttf-devel
     - SDL3
+    - SDL3-devel
+    - SDL3_image
+    - SDL3_image-devel
+    - SDL3_ttf
+    - SDL3_ttf-devel
     - sed
     - serd
     - setup
     - sgml-common
     - shadow-utils
     - shared-mime-info
-    - shiboken6
     - signon-qt6
     - slang
     - slang-devel
@@ -1647,7 +1617,6 @@ data:
     - vulkan-headers
     - vulkan-loader
     - vulkan-loader-devel
-    - vulkan-validation-layers
     - wavpack
     - wavpack-devel
     - wayland-devel

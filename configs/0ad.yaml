@@ -12,3 +12,5 @@ data:
       - 0ad
     aarch64:
       - 0ad
+    ppc64le:
+      - 0ad

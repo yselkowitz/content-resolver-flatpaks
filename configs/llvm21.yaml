@@ -14,6 +14,7 @@ data:
     - clang-tools-extra
     - clang-tools-extra-devel
     - compiler-rt
+    - flang
     - git-clang-format
     - libcxx
     - libcxx-devel

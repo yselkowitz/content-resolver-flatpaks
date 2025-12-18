@@ -1,10 +1,10 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: qpdfview-qt6
-  description: Fedora net.launchpad.qpdfview flatpak
+  name: Pencil2D
+  description: Fedora org.pencil2d.Pencil2D flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak-kde6-app
   packages:
-    - qpdfview-qt6
+    - Pencil2D

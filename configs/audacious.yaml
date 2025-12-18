@@ -8,7 +8,9 @@ data:
     - flatpak-kde6-app
   packages:
     - audacious
+    - audacious-plugin-fc
     - audacious-plugins
+    - audacious-plugins-amidi
     - audacious-plugins-exotic
     - audacious-plugins-ffaudio
     - audacious-plugins-jack

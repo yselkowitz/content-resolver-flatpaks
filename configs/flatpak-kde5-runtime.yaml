@@ -76,6 +76,7 @@ data:
     - dejavu-serif-fonts
     - desktop-file-utils
     - diffutils
+    - dns-root-data
     - docbook-dtds
     - docbook-style-xsl
     - double-conversion
@@ -571,6 +572,8 @@ data:
     - ncurses-term
     - nettle
     - ngtcp2
+    - ngtcp2-crypto-gnutls
+    - ngtcp2-crypto-ossl
     - noopenh264
     - npth
     - nspr
@@ -623,6 +626,8 @@ data:
     - plasma-breeze-common
     - plasma-breeze-qt5
     - plasma-integration-qt5
+    - plutosvg
+    - plutovg
     - polkit-libs
     - polkit-qt5-1
     - poly2tri
@@ -723,6 +728,8 @@ data:
     - SDL2_net
     - SDL2_ttf
     - SDL3
+    - SDL3_image
+    - SDL3_ttf
     - sed
     - serd
     - setup
@@ -769,6 +776,7 @@ data:
     - vo-amrwbenc
     - vulkan-loader
     - wavpack
+    - wcurl
     - webrtc-audio-processing
     - wget2
     - wget2-libs

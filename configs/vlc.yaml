@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: vlc
-  description: Fedora org.videolan.VLC flatpak
+  description: Fedora org.videolan.vlc flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak-kde5-app

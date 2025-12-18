@@ -1,11 +1,10 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: totem
-  description: Fedora org.gnome.Totem flatpak
+  name: agenda
+  description: Fedora com.github.dahenson.agenda flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak-app
   packages:
-    - totem
-    - grilo-plugins
+    - agenda
