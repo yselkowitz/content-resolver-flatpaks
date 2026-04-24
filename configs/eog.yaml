@@ -9,7 +9,3 @@ data:
   packages:
     - eog
     - eog-plugins
-    # optional GdkPixbuf loaders
-    - gdk-pixbuf2-modules-extra-flatpak-config
-    - libopenraw-pixbuf-loader
-    - libwmf

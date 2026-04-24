@@ -128,7 +128,6 @@ data:
     - game-music-emu
     - gavl
     - gawk
-    - gcr-libs
     - gdbm-libs
     - gdk-pixbuf2
     - geoclue2-libs
@@ -301,7 +300,6 @@ data:
     - kf6-ktexttemplate
     - kf6-ktextwidgets
     - kf6-kunitconversion
-    - kf6-kwallet
     - kf6-kwallet-libs
     - kf6-kwidgetsaddons
     - kf6-kwindowsystem
@@ -429,6 +427,7 @@ data:
     - libmtp
     - libmysofa
     - libnghttp2
+    - libnghttp3
     - libnice
     - libnice-gstreamer1
     - libnotify
@@ -442,7 +441,6 @@ data:
     - libplacebo
     - libplist
     - libpng
-    - libpostproc-free
     - libproxy
     - libpsl
     - librabbitmq
@@ -554,7 +552,6 @@ data:
     - lzip
     - lzo
     - mailcap
-    - mbedtls
     - mesa-filesystem
     - mesa-libgbm
     - mesa-libGLU
@@ -589,6 +586,7 @@ data:
     - nss_db
     - nss_hesiod
     - openal-soft
+    - openapv-libs
     - opencl-filesystem
     - OpenCL-ICD-Loader
     - opencore-amr
@@ -616,10 +614,7 @@ data:
     - pcre2-syntax
     - pcre2-utf16
     - pcre2-utf32
-    - phonon-common
-    - phonon-qt6
     - pinentry
-    - pinentry-gnome3
     - pinentry-qt
     - pipewire-alsa
     - pipewire-gstreamer
@@ -654,12 +649,10 @@ data:
     - pulseaudio-libs
     - pulseaudio-libs-glib2
     - python-pip-wheel
-    - python-pyqt6-rpm-macros
     - python-unversioned-command
     - python3
     - python3-brotli
     - python3-cairo
-    - python3-dbus
     - python3-gobject
     - python3-gobject-base
     - python3-gpg
@@ -670,20 +663,8 @@ data:
     - python3-markdown
     - python3-markupsafe
     - python3-packaging
-    - python3-pyqt6
-    - python3-pyqt6-base
-    - python3-pyqt6-charts
-    - python3-pyqt6-sip
     - python3-setuptools
-    - python3-six
     - python3-tkinter
-    - qca-qt6
-    - qca-qt6-cyrus-sasl
-    - qca-qt6-gnupg
-    - qca-qt6-logger
-    - qca-qt6-nss
-    - qca-qt6-ossl
-    - qca-qt6-softstore
     - qgpgme-qt6
     - qqc2-breeze-style
     - qrencode-libs
@@ -696,6 +677,8 @@ data:
     - qt6-qtcharts
     - qt6-qtconnectivity
     - qt6-qtdeclarative
+    - qt6-qtgraphs
+    - qt6-qtgrpc
     - qt6-qthttpserver
     - qt6-qtimageformats
     - qt6-qtlocation
@@ -721,6 +704,7 @@ data:
     - qt6-qttranslations
     - qt6-qtvirtualkeyboard
     - qt6-qtwayland
+    - qt6-qtwayland-adwaita-decoration
     - qt6-qtwebchannel
     - qt6-qtwebsockets
     - rav1e-libs
@@ -733,7 +717,8 @@ data:
     - rubberband-libs
     - samba-client-libs
     - samba-common
-    - samba-common-libs
+    - samba-core-libs
+    - samba-ndr-libs
     - sdl2-compat
     - SDL2_image
     - SDL2_mixer
@@ -755,6 +740,7 @@ data:
     - sound-theme-freedesktop
     - soundtouch
     - soxr
+    - spandsp
     - speech-dispatcher-libs
     - speex
     - speexdsp
@@ -789,6 +775,7 @@ data:
     - vo-amrwbenc
     - vulkan-loader
     - wavpack
+    - wcurl
     - webrtc-audio-processing
     - wget2
     - wget2-libs
@@ -825,14 +812,12 @@ data:
   arch_packages:
     aarch64:
       - libhwasan
-      - python3-pyqt6-webengine
       - qt6-qtpdf
       - qt6-qtquick3dphysics
       - qt6-qtwebengine
     ppc64le:
       - libquadmath
       - librtas
-      - python3-pyqt6-webengine
       - qt6-qtpdf
       - qt6-qtwebengine
     x86_64:
@@ -840,7 +825,6 @@ data:
       - libquadmath
       - libvmaf
       - libvpl
-      - python3-pyqt6-webengine
       - qt6-qtpdf
       - qt6-qtquick3dphysics
       - qt6-qtwebengine

@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: obs-studio-plugin-browser
+  description: Fedora com.obsproject.Studio.Plugin.Browser flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages: []
+  arch_packages:
+    aarch64:
+      - obs-studio-plugin-browser
+      - obs-studio-plugin-browser-flatpak-config
+      # cleanup-commands (already in runtime)
+      - coreutils-single
+    x86_64:
+      - obs-studio-plugin-browser
+      - obs-studio-plugin-browser-flatpak-config
+      # cleanup-commands (already in runtime)
+      - coreutils-single

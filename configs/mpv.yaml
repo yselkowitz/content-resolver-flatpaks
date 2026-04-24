@@ -8,4 +8,5 @@ data:
     - flatpak-app
   packages:
     - mpv
+    - mpv_inhibit_gnome
     - mpv-mpris

@@ -8,6 +8,7 @@ data:
     - flatpak-kde5-runtime
   packages:
     - abattis-cantarell-vf-fonts
+    - abseil-cpp
     - acl
     - adwaita-cursor-theme
     - adwaita-icon-theme
@@ -22,7 +23,6 @@ data:
     - alternatives
     - appstream
     - aribb24
-    - assimp
     - at-spi2-atk
     - at-spi2-core
     - atk
@@ -82,7 +82,6 @@ data:
     - double-conversion
     - duktape
     - e2fsprogs-libs
-    - ebook-tools-libs
     - editorconfig-libs
     - elfutils-debuginfod-client
     - elfutils-default-yama-scope
@@ -227,13 +226,11 @@ data:
     - jbigkit-libs
     - json-c
     - json-glib
-    - kaccounts-integration-qt5
     - kde-filesystem
     - kde-settings
     - kdsoap
     - keyutils-libs
     - kf5-attica
-    - kf5-bluez-qt
     - kf5-filesystem
     - kf5-frameworkintegration
     - kf5-frameworkintegration-libs
@@ -242,32 +239,22 @@ data:
     - kf5-karchive
     - kf5-kauth
     - kf5-kbookmarks
-    - kf5-kcalendarcore
-    - kf5-kcmutils
     - kf5-kcodecs
     - kf5-kcompletion
     - kf5-kconfig-core
     - kf5-kconfig-gui
     - kf5-kconfigwidgets
-    - kf5-kcontacts
     - kf5-kcoreaddons
     - kf5-kcrash
-    - kf5-kdav
     - kf5-kdbusaddons
-    - kf5-kdeclarative
     - kf5-kded
-    - kf5-kdesignerplugin
     - kf5-kdnssd
     - kf5-kdoctools
-    - kf5-kemoticons
-    - kf5-kfilemetadata
     - kf5-kglobalaccel
     - kf5-kglobalaccel-libs
     - kf5-kguiaddons
-    - kf5-kholidays
     - kf5-ki18n
     - kf5-kiconthemes
-    - kf5-kidletime
     - kf5-kimageformats
     - kf5-kinit
     - kf5-kio-core
@@ -279,8 +266,6 @@ data:
     - kf5-kio-widgets
     - kf5-kio-widgets-libs
     - kf5-kirigami2
-    - kf5-kirigami2-addons
-    - kf5-kitemmodels
     - kf5-kitemviews
     - kf5-kjobwidgets
     - kf5-knewstuff
@@ -288,23 +273,15 @@ data:
     - kf5-knotifyconfig
     - kf5-kpackage
     - kf5-kparts
-    - kf5-kplotting
-    - kf5-kpty
-    - kf5-kquickcharts
     - kf5-kservice
     - kf5-ktexteditor
     - kf5-ktextwidgets
-    - kf5-kunitconversion
     - kf5-kwallet
     - kf5-kwallet-libs
     - kf5-kwayland
     - kf5-kwidgetsaddons
     - kf5-kwindowsystem
     - kf5-kxmlgui
-    - kf5-kxmlrpcclient
-    - kf5-plasma
-    - kf5-prison
-    - kf5-purpose
     - kf5-qqc2-breeze-style
     - kf5-qqc2-desktop-style
     - kf5-solid
@@ -314,7 +291,6 @@ data:
     - kf5-sonnet-ui
     - kf5-syndication
     - kf5-syntax-highlighting
-    - kf5-threadweaver
     - kio-extras-kf5
     - krb5-libs
     - kwayland-integration
@@ -324,8 +300,6 @@ data:
     - lcms2
     - leptonica
     - less
-    - libaccounts-glib
-    - libaccounts-qt5
     - libacl
     - libaom
     - libappstream-glib
@@ -427,11 +401,11 @@ data:
     - libmtp
     - libmysofa
     - libnghttp2
+    - libnghttp3
     - libnice
     - libnice-gstreamer1
     - libnotify
     - libnsl2
-    - libobjc
     - libogg
     - libopenjph
     - libopenmpt
@@ -440,7 +414,6 @@ data:
     - libplacebo
     - libplist
     - libpng
-    - libpostproc-free
     - libproxy
     - libpsl
     - librabbitmq
@@ -540,7 +513,6 @@ data:
     - libXxf86vm
     - libyaml
     - libyuv
-    - libzip
     - libzstd
     - lilv-libs
     - lmdb-libs
@@ -552,7 +524,6 @@ data:
     - lzip
     - lzo
     - mailcap
-    - mbedtls
     - mesa-filesystem
     - mesa-libgbm
     - mesa-libGLU
@@ -586,6 +557,7 @@ data:
     - nss_db
     - nss_hesiod
     - openal-soft
+    - openapv-libs
     - opencl-filesystem
     - OpenCL-ICD-Loader
     - opencore-amr
@@ -630,27 +602,16 @@ data:
     - plutovg
     - polkit-libs
     - polkit-qt5-1
-    - poly2tri
-    - poppler
-    - poppler-data
-    - poppler-glib
-    - poppler-qt5
     - popt
     - procps-ng
     - protobuf-c
     - publicsuffix-list-dafsa
-    - pugixml
     - pulseaudio-libs
     - pulseaudio-libs-glib2
     - python-pip-wheel
-    - python-qt5-rpm-macros
     - python-unversioned-command
     - python3
     - python3-brotli
-    - python3-cairo
-    - python3-dbus
-    - python3-gobject
-    - python3-gobject-base
     - python3-gpg
     - python3-libs
     - python3-libxml2
@@ -659,40 +620,24 @@ data:
     - python3-markdown
     - python3-markupsafe
     - python3-packaging
-    - python3-pyqt5-sip
-    - python3-qt5
-    - python3-qt5-base
     - python3-setuptools
-    - python3-six
     - python3-tkinter
     - qadwaitadecorations-qt5
-    - qca-qt5
-    - qca-qt5-cyrus-sasl
-    - qca-qt5-gnupg
-    - qca-qt5-logger
-    - qca-qt5-nss
-    - qca-qt5-ossl
-    - qca-qt5-softstore
     - qgpgme-qt5
     - qrencode-libs
     - qt-settings
     - qt5-filesystem
-    - qt5-qt3d
     - qt5-qtbase
     - qt5-qtbase-common
     - qt5-qtbase-gui
-    - qt5-qtcharts
     - qt5-qtconnectivity
     - qt5-qtdeclarative
-    - qt5-qtgamepad
     - qt5-qtgraphicaleffects
     - qt5-qtimageformats
     - qt5-qtlocation
     - qt5-qtmultimedia
-    - qt5-qtnetworkauth
     - qt5-qtquickcontrols
     - qt5-qtquickcontrols2
-    - qt5-qtremoteobjects
     - qt5-qtscript
     - qt5-qtsensors
     - qt5-qtserialport
@@ -706,7 +651,6 @@ data:
     - qt5-qttools-libs-designercomponents
     - qt5-qttools-libs-help
     - qt5-qttranslations
-    - qt5-qtvirtualkeyboard
     - qt5-qtwayland
     - qt5-qtwebchannel
     - qt5-qtwebsockets
@@ -721,7 +665,8 @@ data:
     - rubberband-libs
     - samba-client-libs
     - samba-common
-    - samba-common-libs
+    - samba-core-libs
+    - samba-ndr-libs
     - sdl2-compat
     - SDL2_image
     - SDL2_mixer
@@ -736,13 +681,13 @@ data:
     - sgml-common
     - shadow-utils
     - shared-mime-info
-    - signon-qt5
     - slang
     - snappy
     - sord
     - sound-theme-freedesktop
     - soundtouch
     - soxr
+    - spandsp
     - speech-dispatcher-libs
     - speex
     - speexdsp
@@ -780,7 +725,6 @@ data:
     - webrtc-audio-processing
     - wget2
     - wget2-libs
-    - wget2-wget
     - which
     - xcb-util
     - xcb-util-cursor
@@ -805,7 +749,6 @@ data:
     - zimg
     - zip
     - zix
-    - zlib-ng
     - zlib-ng-compat
     - zstd
     - zvbi
@@ -813,8 +756,6 @@ data:
   arch_packages:
     aarch64:
       - libhwasan
-      - python3-qt5-webengine
-      - qt5-qtwebengine
     ppc64le:
       - libquadmath
       - librtas
@@ -823,5 +764,3 @@ data:
       - libquadmath
       - libvmaf
       - libvpl
-      - python3-qt5-webengine
-      - qt5-qtwebengine

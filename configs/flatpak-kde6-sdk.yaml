@@ -32,6 +32,7 @@ data:
     - annobin-docs
     - annobin-plugin-gcc
     - ansible-srpm-macros
+    - aom
     - appstream
     - appstream-compose
     - appstream-compose-devel
@@ -81,12 +82,15 @@ data:
     - bzip2
     - bzip2-devel
     - bzip2-libs
+    - c-ares
+    - c-ares-devel
     - ca-certificates
     - cairo
     - cairo-devel
     - cairo-gobject
     - cairo-gobject-devel
     - cairo-tools
+    - capstone
     - ccache
     - cdparanoia-libs
     - check
@@ -98,6 +102,7 @@ data:
     - cmake
     - cmake-data
     - cmake-filesystem
+    - cmake-srpm-macros
     - codec2
     - colord-libs
     - coreutils-single
@@ -224,7 +229,6 @@ data:
     - gcc-gfortran
     - gcc-objc
     - gcc-plugin-annobin
-    - gcr-libs
     - gd
     - gdb
     - gdb-gdbserver
@@ -268,6 +272,7 @@ data:
     - glycin-libs
     - glycin-loaders
     - gmock
+    - gmock-devel
     - gmp
     - gmp-c++
     - gmp-devel
@@ -318,6 +323,11 @@ data:
     - groff
     - groff-base
     - groff-perl
+    - grpc
+    - grpc-cpp
+    - grpc-data
+    - grpc-devel
+    - grpc-plugins
     - gsettings-desktop-schemas
     - gsettings-desktop-schemas-devel
     - gsm
@@ -524,7 +534,6 @@ data:
     - kf6-ktextwidgets-devel
     - kf6-kunitconversion
     - kf6-kunitconversion-devel
-    - kf6-kwallet
     - kf6-kwallet-devel
     - kf6-kwallet-libs
     - kf6-kwidgetsaddons
@@ -734,6 +743,8 @@ data:
     - libmysofa-devel
     - libnghttp2
     - libnghttp2-devel
+    - libnghttp3
+    - libnghttp3-devel
     - libnice
     - libnice-devel
     - libnice-gstreamer1
@@ -749,6 +760,7 @@ data:
     - libpaper
     - libpciaccess
     - libpciaccess-devel
+    - libpfm
     - libpipeline
     - libpipeline-devel
     - libpkgconf
@@ -757,8 +769,6 @@ data:
     - libplist
     - libpng
     - libpng-devel
-    - libpostproc-free
-    - libpostproc-free-devel
     - libpq
     - libproxy
     - libproxy-devel
@@ -780,6 +790,7 @@ data:
     - libsecret-devel
     - libselinux
     - libselinux-devel
+    - libselinux-utils
     - libsemanage
     - libsepol
     - libsepol-devel
@@ -936,6 +947,7 @@ data:
     - libzstd
     - libzstd-devel
     - lilv-libs
+    - linkdupes
     - llvm-filesystem
     - llvm-libs
     - lmdb-libs
@@ -957,7 +969,6 @@ data:
     - man-db
     - mariadb-connector-c
     - mariadb-connector-c-config
-    - mbedtls
     - mesa-filesystem
     - mesa-libEGL-devel
     - mesa-libgbm
@@ -993,6 +1004,8 @@ data:
     - ngtcp2
     - ngtcp2-crypto-gnutls
     - ngtcp2-crypto-ossl
+    - ngtcp2-crypto-ossl-devel
+    - ngtcp2-devel
     - ninja-build
     - noopenh264
     - noopenh264-devel
@@ -1021,6 +1034,7 @@ data:
     - oniguruma-devel
     - openal-soft
     - openal-soft-devel
+    - openapv-libs
     - openblas-srpm-macros
     - opencl-filesystem
     - opencl-headers
@@ -1085,6 +1099,7 @@ data:
     - perl-bignum
     - perl-blib
     - perl-Carp
+    - perl-Class-Inspector
     - perl-Class-Struct
     - perl-Clone
     - perl-Compress-Bzip2
@@ -1155,6 +1170,7 @@ data:
     - perl-File-HomeDir
     - perl-File-Listing
     - perl-File-Path
+    - perl-File-ShareDir
     - perl-File-stat
     - perl-File-Temp
     - perl-File-Which
@@ -1317,11 +1333,7 @@ data:
     - perl-vmsish
     - perl-WWW-RobotRules
     - perl-XML-Parser
-    - phonon-common
-    - phonon-qt6
-    - phonon-qt6-devel
     - pinentry
-    - pinentry-gnome3
     - pinentry-qt
     - pipewire-alsa
     - pipewire-devel
@@ -1348,6 +1360,7 @@ data:
     - plutosvg-devel
     - plutovg
     - plutovg-devel
+    - policycoreutils
     - polkit-libs
     - polkit-qt6-1
     - poly2tri
@@ -1358,7 +1371,10 @@ data:
     - popt
     - procps-ng
     - procps-ng-devel
+    - protobuf
     - protobuf-c
+    - protobuf-compiler
+    - protobuf-devel
     - publicsuffix-list
     - publicsuffix-list-dafsa
     - pugixml
@@ -1367,7 +1383,6 @@ data:
     - pulseaudio-libs-glib2
     - pyproject-srpm-macros
     - python-pip-wheel
-    - python-pyqt6-rpm-macros
     - python-setuptools-wheel
     - python-srpm-macros
     - python-unversioned-command
@@ -1375,7 +1390,6 @@ data:
     - python3-brotli
     - python3-cairo
     - python3-cython
-    - python3-dbus
     - python3-devel
     - python3-gobject
     - python3-gobject-base
@@ -1389,26 +1403,10 @@ data:
     - python3-packaging
     - python3-pip
     - python3-pyparsing
-    - python3-pyqt6
-    - python3-pyqt6-base
-    - python3-pyqt6-charts
-    - python3-pyqt6-devel
-    - python3-pyqt6-sip
     - python3-setuptools
-    - python3-six
     - python3-test
     - python3-tkinter
     - python3-wheel
-    - qca-qt6
-    - qca-qt6-cyrus-sasl
-    - qca-qt6-devel
-    - qca-qt6-gnupg
-    - qca-qt6-logger
-    - qca-qt6-nss
-    - qca-qt6-ossl
-    - qca-qt6-softstore
-    - qcoro-qt6
-    - qcoro-qt6-devel
     - qgpgme-common-devel
     - qgpgme-qt6
     - qgpgme-qt6-devel
@@ -1444,6 +1442,10 @@ data:
     - qt6-qtdeclarative
     - qt6-qtdeclarative-devel
     - qt6-qtdeclarative-static
+    - qt6-qtgraphs
+    - qt6-qtgraphs-devel
+    - qt6-qtgrpc
+    - qt6-qtgrpc-devel
     - qt6-qthttpserver
     - qt6-qthttpserver-devel
     - qt6-qtimageformats
@@ -1486,6 +1488,7 @@ data:
     - qt6-qttranslations
     - qt6-qtvirtualkeyboard
     - qt6-qtwayland
+    - qt6-qtwayland-adwaita-decoration
     - qt6-qtwayland-devel
     - qt6-qtwebchannel
     - qt6-qtwebchannel-devel
@@ -1493,9 +1496,11 @@ data:
     - qt6-qtwebsockets-devel
     - qt6-rpm-macros
     - qt6-srpm-macros
+    - R-srpm-macros
     - rav1e-devel
     - rav1e-libs
     - re2
+    - re2-devel
     - readline
     - readline-devel
     - redhat-menus
@@ -1503,12 +1508,14 @@ data:
     - rhash
     - rpm
     - rpm-libs
+    - rpm-plugin-selinux
     - rpm-sequoia
     - rubberband-libs
     - rust-srpm-macros
     - samba-client-libs
     - samba-common
-    - samba-common-libs
+    - samba-core-libs
+    - samba-ndr-libs
     - sdl2-compat
     - sdl2-compat-devel
     - SDL2_image
@@ -1526,6 +1533,8 @@ data:
     - SDL3_ttf
     - SDL3_ttf-devel
     - sed
+    - selinux-policy
+    - selinux-policy-targeted
     - serd
     - setup
     - sgml-common
@@ -1541,6 +1550,7 @@ data:
     - soundtouch
     - source-highlight
     - soxr
+    - spandsp
     - spdlog
     - speech-dispatcher-libs
     - speex
@@ -1621,6 +1631,7 @@ data:
     - wavpack-devel
     - wayland-devel
     - wayland-protocols-devel
+    - wcurl
     - web-assets-filesystem
     - webrtc-audio-processing
     - webrtc-audio-processing-devel
@@ -1680,7 +1691,6 @@ data:
       - binutils-gprofng
       - libhwasan
       - opencsd
-      - python3-pyqt6-webengine
       - qt6-qtpdf
       - qt6-qtpdf-devel
       - qt6-qtquick3dphysics
@@ -1692,7 +1702,6 @@ data:
       - libquadmath
       - libquadmath-devel
       - librtas
-      - python3-pyqt6-webengine
       - qt6-qtpdf
       - qt6-qtpdf-devel
       - qt6-qtwebengine
@@ -1708,7 +1717,6 @@ data:
       - libvmaf
       - libvmaf-devel
       - libvpl
-      - python3-pyqt6-webengine
       - qt6-qtpdf
       - qt6-qtpdf-devel
       - qt6-qtquick3dphysics

@@ -5,8 +5,6 @@ data:
   description: Fedora org.kde.krita flatpak
   maintainer: flatpak-sig
   labels:
-    - flatpak-kde5-app
+    - flatpak-kde6-app
   packages:
     - krita
-    # optional dependencies
-    - gmic

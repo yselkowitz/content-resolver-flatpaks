@@ -36,6 +36,7 @@ data:
     - annobin-docs
     - annobin-plugin-gcc
     - ansible-srpm-macros
+    - aom
     - appstream
     - appstream-compose
     - appstream-compose-devel
@@ -89,6 +90,7 @@ data:
     - cairo-gobject
     - cairo-gobject-devel
     - cairo-tools
+    - capstone
     - ccache
     - cdparanoia-libs
     - check
@@ -100,6 +102,7 @@ data:
     - cmake
     - cmake-data
     - cmake-filesystem
+    - cmake-srpm-macros
     - codec2
     - colord-libs
     - coreutils-single
@@ -607,6 +610,8 @@ data:
     - libmysofa-devel
     - libnghttp2
     - libnghttp2-devel
+    - libnghttp3
+    - libnghttp3-devel
     - libnice
     - libnice-devel
     - libnice-gstreamer1
@@ -624,6 +629,7 @@ data:
     - libpaper
     - libpciaccess
     - libpciaccess-devel
+    - libpfm
     - libpipeline
     - libpipeline-devel
     - libpkgconf
@@ -631,8 +637,6 @@ data:
     - libplacebo
     - libpng
     - libpng-devel
-    - libpostproc-free
-    - libpostproc-free-devel
     - libproxy
     - libproxy-devel
     - libpsl
@@ -652,6 +656,7 @@ data:
     - libsecret-devel
     - libselinux
     - libselinux-devel
+    - libselinux-utils
     - libsemanage
     - libsepol
     - libsepol-devel
@@ -811,6 +816,7 @@ data:
     - libzstd
     - libzstd-devel
     - lilv-libs
+    - linkdupes
     - llvm-filesystem
     - llvm-libs
     - lmdb-libs
@@ -832,7 +838,6 @@ data:
     - make
     - mallard-rng
     - man-db
-    - mbedtls
     - mesa-filesystem
     - mesa-libEGL-devel
     - mesa-libgbm
@@ -869,6 +874,8 @@ data:
     - ngtcp2
     - ngtcp2-crypto-gnutls
     - ngtcp2-crypto-ossl
+    - ngtcp2-crypto-ossl-devel
+    - ngtcp2-devel
     - ninja-build
     - noopenh264
     - noopenh264-devel
@@ -896,6 +903,7 @@ data:
     - oniguruma-devel
     - openal-soft
     - openal-soft-devel
+    - openapv-libs
     - openblas-srpm-macros
     - opencl-filesystem
     - opencl-headers
@@ -1209,6 +1217,7 @@ data:
     - plutosvg-devel
     - plutovg
     - plutovg-devel
+    - policycoreutils
     - polkit-devel
     - polkit-docs
     - polkit-libs
@@ -1271,7 +1280,10 @@ data:
     - qt6-qtdeclarative
     - qt6-qtsvg
     - qt6-qttranslations
+    - qt6-qtwayland
+    - qt6-qtwayland-adwaita-decoration
     - qt6-srpm-macros
+    - R-srpm-macros
     - rav1e-devel
     - rav1e-libs
     - readline
@@ -1282,6 +1294,7 @@ data:
     - rhash
     - rpm
     - rpm-libs
+    - rpm-plugin-selinux
     - rpm-sequoia
     - rubberband-libs
     - ruby
@@ -1304,7 +1317,8 @@ data:
     - rust-srpm-macros
     - samba-client-libs
     - samba-common
-    - samba-common-libs
+    - samba-core-libs
+    - samba-ndr-libs
     - sdl2-compat
     - sdl2-compat-devel
     - SDL2_image
@@ -1322,6 +1336,8 @@ data:
     - SDL3_ttf
     - SDL3_ttf-devel
     - sed
+    - selinux-policy
+    - selinux-policy-targeted
     - serd
     - setup
     - sgml-common
@@ -1336,6 +1352,7 @@ data:
     - soundtouch
     - source-highlight
     - soxr
+    - spandsp
     - spdlog
     - speech-dispatcher-libs
     - speex
@@ -1374,7 +1391,6 @@ data:
     - tinysparql-devel
     - tk
     - tk-devel
-    - tmux
     - tpm2-tss
     - tree-sitter-srpm-macros
     - tslib

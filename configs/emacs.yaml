@@ -10,4 +10,3 @@ data:
     - emacs
     - emacs-gtk+x11
     - emacs-pgtk
-    - gdk-pixbuf2-modules-extra-flatpak-config

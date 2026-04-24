@@ -8,6 +8,7 @@ data:
     - flatpak-runtime
   packages:
     - abattis-cantarell-vf-fonts
+    - abseil-cpp
     - acl
     - adwaita-cursor-theme
     - adwaita-icon-theme
@@ -339,6 +340,7 @@ data:
     - libmount
     - libmysofa
     - libnghttp2
+    - libnghttp3
     - libnice
     - libnice-gstreamer1
     - libnotify
@@ -352,7 +354,6 @@ data:
     - libpkgconf
     - libplacebo
     - libpng
-    - libpostproc-free
     - libproxy
     - libpsl
     - librabbitmq
@@ -462,7 +463,6 @@ data:
     - lzip
     - lzo
     - mailcap
-    - mbedtls
     - mesa-filesystem
     - mesa-libgbm
     - mesa-libGLU
@@ -496,6 +496,7 @@ data:
     - nss_db
     - nss_hesiod
     - openal-soft
+    - openapv-libs
     - opencl-filesystem
     - OpenCL-ICD-Loader
     - opencore-amr
@@ -547,6 +548,7 @@ data:
     - python3-gobject
     - python3-gobject-base
     - python3-gstreamer1
+    - python3-libdex
     - python3-libs
     - python3-libxml2
     - python3-libxslt
@@ -564,6 +566,8 @@ data:
     - qt6-qtdeclarative
     - qt6-qtsvg
     - qt6-qttranslations
+    - qt6-qtwayland
+    - qt6-qtwayland-adwaita-decoration
     - rav1e-libs
     - readline
     - rpm
@@ -572,7 +576,8 @@ data:
     - rubberband-libs
     - samba-client-libs
     - samba-common
-    - samba-common-libs
+    - samba-core-libs
+    - samba-ndr-libs
     - sdl2-compat
     - SDL2_image
     - SDL2_mixer
@@ -593,6 +598,7 @@ data:
     - sound-theme-freedesktop
     - soundtouch
     - soxr
+    - spandsp
     - speech-dispatcher-libs
     - speex
     - speexdsp
@@ -635,7 +641,6 @@ data:
     - wget2-libs
     - wget2-wget
     - which
-    - woff2
     - xcb-util
     - xcb-util-cursor
     - xcb-util-image
@@ -652,6 +657,7 @@ data:
     - xml-common
     - xprop
     - xvidcore
+    - xxhash-libs
     - xz
     - xz-libs
     - xz-lzma-compat

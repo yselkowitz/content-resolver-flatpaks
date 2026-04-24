@@ -1,0 +1,53 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: llvm22
+  description: Fedora org.fedoraproject.Sdk.Extension.llvm22 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-sdk
+  packages:
+    - clang
+    - clang-analyzer
+    - clang-devel
+    - clang-libs
+    - clang-tools-extra
+    - clang-tools-extra-devel
+    - compiler-rt
+    - flang
+    - git-clang-format
+    - libcxx
+    - libcxx-devel
+    - libcxxabi
+    - libcxxabi-devel
+    - libomp
+    - libomp-devel
+    - lld
+    - lld-devel
+    - lld-libs
+    - lldb
+    - lldb-devel
+    - llvm
+    - name: llvm-bolt
+      platforms:
+        only: [aarch64, x86_64]
+    - llvm-cmake-utils
+    - llvm-devel
+    - llvm-googletest
+    - llvm-libs
+    - llvm-libunwind
+    - llvm-libunwind-devel
+    - llvm-test
+    - mlir
+    - mlir-devel
+    - polly
+    - polly-devel
+    - python3-clang
+    - python3-lit
+    - python3-lldb
+    - python3-mlir
+    - llvm22-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single
+    - rpm
+    - sed

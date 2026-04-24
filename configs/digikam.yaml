@@ -10,18 +10,24 @@ data:
   arch_packages:
     x86_64:
       - digikam
+      # additional plugins
+      - digikam-gmic-qt
       # soft dependencies
       - hugin-base
       - perl-Image-ExifTool
       - sane-backends-flatpak-config
     aarch64:
       - digikam
+      # additional plugins
+      - digikam-gmic-qt
       # soft dependencies
       - hugin-base
       - perl-Image-ExifTool
       - sane-backends-flatpak-config
     ppc64le:
       - digikam
+      # additional plugins
+      - digikam-gmic-qt
       # soft dependencies
       - hugin-base
       - perl-Image-ExifTool

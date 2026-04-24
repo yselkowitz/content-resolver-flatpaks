@@ -16,7 +16,6 @@ data:
       - maxima
       - octave
       - python3-numpy
-      - python3-plotly
       - qalculate
     aarch64:
       - LabPlot
@@ -26,7 +25,6 @@ data:
       - maxima
       - octave
       - python3-numpy
-      - python3-plotly
       - qalculate
     ppc64le:
       - LabPlot
@@ -36,5 +34,4 @@ data:
       - maxima
       - octave
       - python3-numpy
-      - python3-plotly
       - qalculate

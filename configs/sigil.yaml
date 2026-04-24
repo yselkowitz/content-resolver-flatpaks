@@ -10,7 +10,5 @@ data:
   arch_packages:
     x86_64:
       - sigil
-      - FlightCrew-sigil-plugin
     aarch64:
       - sigil
-      - FlightCrew-sigil-plugin

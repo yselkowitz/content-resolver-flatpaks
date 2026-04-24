@@ -11,7 +11,7 @@ data:
     - arj
     - genisoimage
     - lzop
-    - p7zip-plugins
+    - 7zip
     - rzip
     - unar
     # libraries in runtime, programs missing: brotli

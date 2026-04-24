@@ -8,4 +8,3 @@ data:
     - flatpak-app
   packages:
     - aqualung
-    - gtk2-flatpak-config

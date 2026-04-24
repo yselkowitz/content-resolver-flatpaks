@@ -11,18 +11,15 @@ data:
     x86_64:
       - klevernotes
       # plugin dependencies
-      - golang-github-alecthomas-chroma
       - python3-pygments
       - plantuml
     aarch64:
       - klevernotes
       # plugin dependencies
-      - golang-github-alecthomas-chroma
       - python3-pygments
       - plantuml
     ppc64le:
       - klevernotes
       # plugin dependencies
-      - golang-github-alecthomas-chroma
       - python3-pygments
       - plantuml

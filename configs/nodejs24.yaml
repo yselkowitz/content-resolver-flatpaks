@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nodejs24
+  description: Fedora org.fedoraproject.Sdk.Extension.node24 flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-sdk
+  packages:
+    - nodejs24
+    - nodejs24-bin
+    - nodejs24-devel
+    - nodejs24-npm
+    - nodejs24-npm-bin
+    - yarnpkg
+    - nodejs24-flatpak-config
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

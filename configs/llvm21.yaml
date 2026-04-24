@@ -7,49 +7,38 @@ data:
   labels:
     - flatpak-sdk
   packages:
-    - clang
-    - clang-analyzer
-    - clang-devel
-    - clang-libs
-    - clang-tools-extra
-    - clang-tools-extra-devel
-    - compiler-rt
-    - flang
-    - git-clang-format
+    - clang21
+    - clang21-analyzer
+    - clang21-devel
+    - clang21-libs
+    - clang21-tools-extra
+    - clang21-tools-extra-devel
+    - compiler-rt21
+    - git-clang-format21
     - libcxx
     - libcxx-devel
     - libcxxabi
     - libcxxabi-devel
-    - libomp
-    - libomp-devel
-    - lld
-    - lld-devel
-    - lld-libs
-    - lldb
-    - lldb-devel
-    - llvm
-    - llvm-cmake-utils
-    - llvm-devel
-    - llvm-googletest
-    - llvm-libs
+    - libomp21
+    - libomp21-devel
+    - lld21
+    - lld21-devel
+    - lld21-libs
+    - lldb21
+    - lldb21-devel
+    - llvm21
+    - llvm21-cmake-utils
+    - llvm21-devel
+    - llvm21-googletest
+    - llvm21-libs
     - llvm-libunwind
     - llvm-libunwind-devel
-    - llvm-test
-    - mlir
-    - mlir-devel
-    - polly
-    - polly-devel
-    - python3-clang
+    - llvm21-test
+    - python3-clang21
     - python3-lit
     - python3-lldb
-    - python3-mlir
     - llvm21-flatpak-config
     # for cleanup-commands (part of runtime)
     - coreutils-single
     - rpm
     - sed
-  arch_packages:
-    aarch64:
-      - llvm-bolt
-    x86_64:
-      - llvm-bolt

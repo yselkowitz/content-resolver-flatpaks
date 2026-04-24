@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: firefox-langpacks
+  description: Fedora org.mozilla.firefox.Locale flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - firefox-langpacks
+    # for cleanup-commands (part of runtime)
+    - coreutils-single

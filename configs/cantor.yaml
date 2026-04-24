@@ -16,7 +16,6 @@ data:
       - maxima
       - octave
       - python3-numpy
-      - python3-plotly
       - qalculate
     aarch64:
       - cantor
@@ -26,7 +25,6 @@ data:
       - maxima
       - octave
       - python3-numpy
-      - python3-plotly
       - qalculate
     ppc64le:
       - cantor
@@ -36,5 +34,4 @@ data:
       - maxima
       - octave
       - python3-numpy
-      - python3-plotly
       - qalculate

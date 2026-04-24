@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kicad-library
+  description: Fedora org.kicad.kicad.Library flatpak
+  maintainer: flatpak-sig
+  labels:
+    - flatpak-runtime
+  packages:
+    - kicad
+    - kicad-packages3d
+    # cleanup-commands (already in runtime)
+    - coreutils-single

@@ -1,10 +1,10 @@
 document: feedback-pipeline-workload
 version: 1
 data:
-  name: easyeffects
-  description: Fedora com.github.wwmm.easyeffects flatpak
+  name: cantata
+  description: Fedora dog.unix.cantata.Cantata flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak-kde6-app
   packages:
-    - easyeffects
+    - cantata

@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: jumpnbump
-  description: Fedora com.jumpnbump.JumpnBump flatpak
+  description: Fedora io.gitlab.LibreGames.jumpnbump flatpak
   maintainer: flatpak-sig
   labels:
     - flatpak-app

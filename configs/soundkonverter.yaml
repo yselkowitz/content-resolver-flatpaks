@@ -13,7 +13,6 @@ data:
     - lame
     - mac
     - mp3gain
-    - mppenc
     - opus-tools
     - sox
     - twolame

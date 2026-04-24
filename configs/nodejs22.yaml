@@ -7,9 +7,11 @@ data:
   labels:
     - flatpak-sdk
   packages:
-    - nodejs
-    - nodejs-devel
-    - nodejs-npm
+    - nodejs22
+    - nodejs22-bin
+    - nodejs22-devel
+    - nodejs22-npm
+    - nodejs22-npm-bin
     - yarnpkg
     - nodejs22-flatpak-config
     # for cleanup-commands (part of runtime)

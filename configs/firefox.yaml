@@ -8,3 +8,4 @@ data:
     - flatpak-app
   packages:
     - firefox
+    - firefox-langpacks

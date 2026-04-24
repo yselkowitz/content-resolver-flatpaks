@@ -10,11 +10,10 @@ data:
     - mesa-libEGL
     - mesa-libGL
     - mesa-dri-drivers
-    - mesa-va-drivers
-    - mesa-vdpau-drivers
     - mesa-vulkan-drivers
     - mesa-flatpak-config
     # basic dependencies
+    - libdisplay-info
     - libdrm
     - lm_sensors-libs
     # for cleanup-commands (part of runtime)

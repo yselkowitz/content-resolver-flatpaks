@@ -8,4 +8,3 @@ data:
     - flatpak-app
   packages:
     - prusa-slicer
-    - gdk-pixbuf2-modules-extra-flatpak-config
